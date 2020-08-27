@@ -1,16 +1,25 @@
-# NomedoProjeto
+<p align="center">
+    <img src="logo.jpg" alt="Logo RecipeBuk" />
+</p>
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+# RecipeBük
+
+
+**Número da Lista**: 03<br>
+**Conteúdo da Disciplina**: FGA0208 - T01<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 17/0031438  |  Dâmaso Júnio Pereira Brasileo |
+| 17/102343  |  Eduardo Vieira Lima |
+| 16/0130883 | Larissa Siqueira Sales |
+| 15/0135939 | Letícia Karla Soares Rodrigues de Araújo |
+| 17/0109208 | Luís Henrique Pereira Taira |
+| 17/0114040 | Samuel de Souza Buters Pereira |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+O **RecipeBük** como o nome sugere é uma aplicação de armazenamento, busca e compartilhamento de receitas culinárias. A ideia é que seja possível a todos cadastrar as suas próprias receitas e mantê-las a salvo. 
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
