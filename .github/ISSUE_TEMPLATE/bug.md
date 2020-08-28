@@ -1,6 +1,6 @@
 ---
 name: Bug
-about: Indicação de Bug existente no projeto.
+about: Indicação de Bugs existentes no projeto.
 title: ''
 labels: bug
 assignees: ''
@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ## Descrição
-A clear and concise description of what the bug is.
+
 
 ## Como Reproduzir
 Etapas para chegar ao problema
