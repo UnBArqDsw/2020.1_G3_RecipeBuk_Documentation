@@ -1,6 +1,7 @@
 | Data | Versão | Autor | Descrição |
 |------|--------|-------|-----------|
 | 2020/08/30 | 0.1 | Larissa Sales | Criação do Documento |
+|2020/09/01 | 0.2 | Letícia Araújo | Adição de Informações |
 
 # 1 Papéis
 
@@ -65,10 +66,26 @@ O Desenvolvedor tem como responsabilidade:
 # 2 Rituais
 
 ## 2.1 Sprints
+A Sprint Scrum representa um ciclo de trabalho e é um time-boxed, ou seja, uma sprint inicia imediatamente após a conclusão da sprint anterior. E tem o objetivo de entregar um incremento potencialmente utilizável do produto onde algum valor é acrescentado a um produto em desenvolvimento.
 
-## 2.2 Planejamento da Sprint
+## 2.2 Revisão da Sprint
+Uma reunião formal para validar o incremento do produto produzido na sprint atual e adaptar o backlog do produto se necessário. No caso deste processo de desenvolvimento nem todos os stakeholders estarão presentes na revisão do incremento do produto, pois a parte interessada analisará o produto em outro momento. 
 
-## 2.3 Identificação de riscos
+A Revisão da Sprint terá as seguintes características:
+
+- Duração de 1 hora;
+- Presença de toda a equipe.
+
+## 2.3 Planejamento da Sprint
+O objetivo do planejamento do sprint é definir o que pode ser entregue no sprint e como esse trabalho vai ser alcançado. Além disso o backlog do produto deve ser atualizado e refinado para fins de esclarecimento. O planejamento do sprint deve ter no máximo de duas horas.
+
+- Duração: 7 dias.
+- Início: Segunda-feira, 10 horas da manhã.
+- Final: Domingo, 12 horas.
+
+## 2.4 Identificação de riscos
+
+A etapa de identificação de riscos se encontra tanto no início do projeto quanto durante todo o desenvolvimento. Listar os riscos externos e internos em tabelas ou planilhas é o indicado para uma boa identificação de riscos. Nesse projeto, a equipe identifica e lista os riscos internos e externos da sprint.
 
 # 3 Ferramentas de planejamento
 
@@ -155,3 +172,5 @@ As principais ferramentas de comunicação da equipe serão:
     - O GitHub será a principal ferramenta para documentar as tarefas (em forma de _issues_) e os responsáveis por elas;
     
     - Será utilizada também para adicionar comentários, dentro de cada _issue_, para tirar dúvidas ou fazer considerações;
+
+# 7 Referências 
