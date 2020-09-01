@@ -174,3 +174,9 @@ As principais ferramentas de comunicação da equipe serão:
     - Será utilizada também para adicionar comentários, dentro de cada _issue_, para tirar dúvidas ou fazer considerações;
 
 # 7 Referências 
+
+[1] GONÇALVES, Thiago. Sprint Scrum: o que é e como funciona? 2018. Disponível em: https://www.voitto.com.br/blog/artigo/sprint-scrum. Acesso em: 01 set. 2020.
+
+[2] JUNCKES, Gabriel Dias; MORGADO, Paulo. Gerência de riscos em desenvolvimento de software. 2013. Universidade do Sul de Santa Catarina. Disponível em: https://www.devmedia.com.br/gerencia-de-riscos-em-desenvolvimento-de-software/28506. Acesso em: 01 set. 2020.
+
+[3] SCHWABER, Ken; SUTHERLAND, Jeff. Um guia definitivo para o Scrum: As regras do jogo. Scrum Inc, 2013. 19 p.
