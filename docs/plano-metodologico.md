@@ -1,7 +1,8 @@
 | Data | Versão | Autor | Descrição |
 |------|--------|-------|-----------|
 | 2020/08/30 | 0.1 | Larissa Sales | Criação do Documento |
-|2020/09/01 | 0.2 | Letícia Araújo | Adição de Informações |
+| 2020/09/01 | 0.2 | Letícia Araújo | Adição de Informações |
+| 2020/09/01 | 0.3 | Larissa Sales | Adição de Informações |
 
 # 1 Papéis
 
@@ -29,7 +30,7 @@ O PO tem as seguintes responsabilidades:
 
 - Definir e analisar métricas para garantir a entrega de valor do produto aos stakeholders.
 
-## 1.3 Arquiteto
+## 1.3 Arquiteto ???? VAI TER?
 
 O Arquiteto tem as seguintes responsabilidades:
 
@@ -37,7 +38,7 @@ O Arquiteto tem as seguintes responsabilidades:
 
 - Acompanhar o desenvolvimento do produto para garantir que a arquitetura está sendo seguida.
 
-## 1.4 DevOps
+## 1.4 DevOps ???? VAI TER?
 
 O DevOps tem as seguintes responsabilidades:
 
@@ -66,26 +67,23 @@ O Desenvolvedor tem como responsabilidade:
 # 2 Rituais
 
 ## 2.1 Sprints
-A Sprint Scrum representa um ciclo de trabalho e é um time-boxed, ou seja, uma sprint inicia imediatamente após a conclusão da sprint anterior. E tem o objetivo de entregar um incremento potencialmente utilizável do produto onde algum valor é acrescentado a um produto em desenvolvimento.
+
+A Sprint representa um ciclo de trabalho e é realizada com o conceito de time boxing, ou seja, uma sprint inicia imediatamente após a conclusão da sprint anterior. Tem como objetivo a entrega de um incremento potencialmente utilizável, agregando valor ao produto.
+
+- Início: ????
+- Fim: ????
 
 ## 2.2 Revisão da Sprint
-Uma reunião formal para validar o incremento do produto produzido na sprint atual e adaptar o backlog do produto se necessário. No caso deste processo de desenvolvimento nem todos os stakeholders estarão presentes na revisão do incremento do produto, pois a parte interessada analisará o produto em outro momento. 
 
-A Revisão da Sprint terá as seguintes características:
-
-- Duração de 1 hora;
-- Presença de toda a equipe.
+A Revisão da Sprint consiste numa reunião formal para validar o incremento do produto produzido na sprint atual e adaptar o backlog do produto se necessário. No caso deste processo de desenvolvimento nem todos os stakeholders estarão presentes na revisão do incremento do produto, pois a parte interessada analisará o produto em outro momento. 
 
 ## 2.3 Planejamento da Sprint
-O objetivo do planejamento do sprint é definir o que pode ser entregue no sprint e como esse trabalho vai ser alcançado. Além disso o backlog do produto deve ser atualizado e refinado para fins de esclarecimento. O planejamento do sprint deve ter no máximo de duas horas.
 
-- Duração: 7 dias.
-- Início: Segunda-feira, 10 horas da manhã.
-- Final: Domingo, 12 horas.
+O objetivo do planejamento da sprint é definir o que pode ser entregue no sprint e como esse trabalho vai ser alcançado. Além disso, o backlog do produto deve ser atualizado e refinado para fins de esclarecimento. O planejamento da sprint deve ter no máximo duas horas.
 
 ## 2.4 Identificação de riscos
 
-A etapa de identificação de riscos se encontra tanto no início do projeto quanto durante todo o desenvolvimento. Listar os riscos externos e internos em tabelas ou planilhas é o indicado para uma boa identificação de riscos. Nesse projeto, a equipe identifica e lista os riscos internos e externos da sprint.
+A etapa de identificação de riscos se encontra tanto no início do projeto quanto durante todo o desenvolvimento. Listar os riscos externos e internos em tabelas ou planilhas é o indicado para uma boa identificação de riscos. 
 
 # 3 Ferramentas de planejamento
 
@@ -125,6 +123,7 @@ As USs são descrições de alto nível de funcionalidades que definem funcional
 - Critérios de aceitação: Lista de requisitos para a aceitação dessa US.
 
 ## 3.6 Kanban
+
 Para monitorar o trabalho da equipe será utilizado dois quadros de Kanban na seção "Projects" do GitHub:
 
 ### 3.6.1 Roadmap da Wiki 
@@ -137,26 +136,26 @@ Quadro de desenvolvimento para manter o controle da produção das USs. Este qua
 
 # 4 Métricas de gerenciamento
 
-## 4.1 Velocity ????
+## 4.1 _Velocity_ 
 
-O velocity é uma medida de story points concluídos em um determinado período de tempo, no caso desse projeto o tempo seria as sprints semanais. Essa medida apresenta a taxa de entrega de trabalho pela equipe e isso possibilita estimativas mais acuradas de story points que podem ser atribuídos ao time por sprint.
+O velocity é uma métrica utilizada para mensurar a capacidade de entrega do time. Essa métrica é baseada em _Story Points_ concluídos em um determinado período de tempo, no caso, as sprints. Essa medida apresenta a taxa de entrega de trabalho pela equipe e isso possibilita estimativas mais precisas de quantos _story points_ podem ser atribuídos ao time a cada sprint.
 
-Inicialmente a estimativa feita pode não ser tão acurada, mas com o passar das sprits essa acurácia tende a aumentar.
+Inicialmente, a estimativa feita tende a não ter uma boa precisão, mas com o passar das sprints essa acurácia tende a aumentar.
 
-## 4.2 Burndown
-O burndown mostra o trabalho que está completo relacionado com o velocity do projeto. O gráfico de burndown mostra como as projeto está andando, o que apresenta uma boa noção de quantos story points podem ser realizados em uma determinada sprint [4].
+## 4.2 _Burndown_
+
+O _burndown_ é uma ferramenta utilizada para acompanhar o _pipeline_ de desenvolvimento. Ele mostra o trabalho completo em relação ao _velocity_ do projeto. Este gráfico também é utilizado no planejamento da sprint para determinar quantos _story points_ podem ser concluídos nas sprints seguintes.
 
 # 5 Técnica de programação
 
 ## 5.1 Programação em pares
 
-A programação em pares (_pair programing_) é uma prática extraída da metodologia _Extreme Programing_ (XP), na qual um par de desenvolvedores se torna responsável por produzir uma funcionalidade. 
+A programação em pares (_pair programing_) é uma prática utilizada na metodologia _Extreme Programing_ (XP), na qual um par de desenvolvedores se torna responsável por produzir uma funcionalidade (entregar uma _issue_). 
 
 Existem dois papeis: o do piloto, que codifica; e o do co-piloto, que acompanha e auxilia o piloto. Ambos os desenvolvedores devem trabalhar ao mesmo tempo e no mesmo computador, sendo obrigatória a inversão periódica dos papeis durante o desenvolvimento de cada funcionalidade.
 
-Ao decorrer do projeto, o Scrum Master será responsável por redefinir os pares do Time de Desenvolvimento a cada sprint para garantir a homogeneidade da equipe.
-
 # 6 Comunicação
+
 As principais ferramentas de comunicação da equipe serão:
 
 - Telegram
