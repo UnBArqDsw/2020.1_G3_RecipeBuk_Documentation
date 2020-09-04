@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="images/logo.png" alt="Logo RecipeBuk" />
+    <img src="images/logo.svg" alt="Logo RecipeBuk" width='50%'/>
 </p>
 
 # RecipeBük
