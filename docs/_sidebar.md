@@ -1,5 +1,5 @@
 <a href="/">
-    <img src="assets/assets/logo.jpg" class="sidebar-recipebuk-logo">
+    <img src="assets/assets/logo.svg" class="sidebar-recipebuk-logo">
 </a>
 
 * [Home](README.md)
