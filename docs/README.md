@@ -1,7 +1,3 @@
-<p align="center">
-    <img src="docs/assets/assets/logo.jpg" alt="Logo RecipeBuk" width='50%'/>
-</p>
-
 # RecipeBük
 
 
