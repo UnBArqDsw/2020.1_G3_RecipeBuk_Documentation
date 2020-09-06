@@ -1,14 +1,13 @@
 # RecipeBük
 
-
 **Número da Lista**: 03<br>
 **Conteúdo da Disciplina**: FGA0208 - T01<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| 17/0031438  |  Dâmaso Júnio Pereira Brasileo |
-| 17/102343  |  Eduardo Vieira Lima |
+| 17/0031438 |  Dâmaso Júnio Pereira Brasileo |
+| 17/0102343 |  Eduardo Vieira Lima |
 | 16/0130883 | Larissa Siqueira Sales |
 | 15/0135939 | Letícia Karla Soares Rodrigues de Araújo |
 | 17/0109208 | Luís Henrique Pereira Taira |
