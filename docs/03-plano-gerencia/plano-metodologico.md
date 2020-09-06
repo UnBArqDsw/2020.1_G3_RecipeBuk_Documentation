@@ -7,7 +7,7 @@
 
 # Modelagem BPMN
 
-![](../assets/plano_de_gerencia/20200905-metodologia-larissa.png)
+![](../assets/03-plano-gerencia/20200905-metodologia-larissa.png)
 
 # 1 Papéis
 

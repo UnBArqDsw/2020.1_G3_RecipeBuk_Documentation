@@ -13,31 +13,31 @@
 
 ## Mapear fluxo de usuários v2
 
-![](../assets/design_sprint/2-sketch/20200828-damaso(1).jpg)
+![](../assets/01-design-sprint/2-sketch/20200828-damaso(1).jpg)
 
 <p> Foi repensado a forma como estava sendo imaginada o fluxo de usuários dentro da aplicação, e refeito o diagrama de fluxo </p>
 
 ## Lightning Demos
 
-![](../assets/design_sprint/2-sketch/20200828-damaso.jpg)
+![](../assets/01-design-sprint/2-sketch/20200828-damaso.jpg)
 - Autor: Dâmaso Júnio
 
-![](../assets/design_sprint/2-sketch/20200829-Luis.jpg)
+![](../assets/01-design-sprint/2-sketch/20200829-Luis.jpg)
 - Autor: Luís Taíra
 
-![](../assets/design_sprint/2-sketch/20200830-eduardo.jpg)
+![](../assets/01-design-sprint/2-sketch/20200830-eduardo.jpg)
 - Autor: Eduardo Lima
 
-![](../assets/design_sprint/2-sketch/20200831-samuel.png)
+![](../assets/01-design-sprint/2-sketch/20200831-samuel.png)
 - Autor: Samuel Buters
 
-![](../assets/design_sprint/2-sketch/20200832-leticia.png)
+![](../assets/01-design-sprint/2-sketch/20200832-leticia.png)
 - Autora: Letícia Karla
 
-![](../assets/design_sprint/2-sketch/20200902-larissa.jpg)
+![](../assets/01-design-sprint/2-sketch/20200902-larissa.jpg)
 - Autora: Larissa Sales
 
-![](../assets/design_sprint/2-sketch/20200903-larissa-v2.jpg)
+![](../assets/01-design-sprint/2-sketch/20200903-larissa-v2.jpg)
 - Autora: Larissa Sales
 
 

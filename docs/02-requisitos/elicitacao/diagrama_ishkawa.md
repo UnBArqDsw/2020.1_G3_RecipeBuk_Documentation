@@ -6,7 +6,7 @@
 
 <p> Foi desenvolvido a primeira versão que visava avaliar o problema "Lembrar receitas" que foi uma das premissas para a escolha do tema do projeto </p>
 
-![](../../assets/requisitos/elicitacao/diagrama-ishkawa/20200830-damaso.jpg)
+![](../../assets/02-requisitos/elicitacao/diagrama-ishkawa/20200830-damaso.jpg)
 
 
 ## Referências
