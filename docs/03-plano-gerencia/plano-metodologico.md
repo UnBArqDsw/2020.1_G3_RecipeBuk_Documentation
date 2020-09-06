@@ -74,6 +74,12 @@ O Desenvolvedor tem como responsabilidade:
 
 A _Sprint_ representa um ciclo de trabalho e é realizada com o conceito de time boxing, ou seja, uma _sprint_ inicia imediatamente após a conclusão da _sprint_ anterior. Tem como objetivo a entrega de um incremento potencialmente utilizável, agregando valor ao produto.
 
+Foi levantado em uma planilha, os horários em que os membros do time estariam disponíveis, para então especificar o cronograma das _sprints_. De acordo com esta planilha, o valor representa quantos membros estão livres em determinado horário. 
+
+<p align="center">
+    <img src="../assets/03-plano-gerencia/grade-livre.png"/>
+</p>
+
 O time utilizará um cronograma de _sprints_ semanais, com duração de 7 dias, sendo:
 
 - Início: Segunda-feira
