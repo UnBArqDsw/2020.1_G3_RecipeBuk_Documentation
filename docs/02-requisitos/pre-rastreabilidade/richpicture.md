@@ -8,16 +8,16 @@
 | 2020/09/05 | 1.3 | Dâmaso | Confecção individual do Rich Picture |
 
 ![](../../assets/02-requisitos/pre-rastreabilidade/richpictures/20200828-samuel.png)
-- Autor: Samuel Buters
+Autor: Samuel Buters
 
 ![](../../assets/02-requisitos/pre-rastreabilidade/richpictures/20200829-larissa.jpg)
-- Autor: Larissa Sales
+Autor: Larissa Sales
 
 ![](../../assets/02-requisitos/pre-rastreabilidade/richpictures/20200830-leticia.png)
-- Autor: Letícia Karla
+Autor: Letícia Karla
 
 ![](../../assets/02-requisitos/pre-rastreabilidade/richpictures/20200905-damaso.jpg)
-- Autor: Dâmaso Júnio
+Autor: Dâmaso Júnio
 
 ## Referências
 

@@ -8,6 +8,7 @@
 # Modelagem BPMN
 
 ![](../assets/03-plano-gerencia/20200905-metodologia-larissa.png)
+Autor: Larissa Sales
 
 # 1 Papéis
 
@@ -120,37 +121,38 @@ A etapa de identificação de riscos se encontra tanto no início do projeto qua
 
 As _issues_ no Github serão utilizadas para representar todas as tarefas que a equipe realizará durante o desenvolvimento do projeto. Para a melhor entendimento dessas atividades, as _issues_ devem conter:
 
-- Título 
+- **Título** 
+
     - Descrição breve e clara, com verbos no particípio, do que deverá ser feito;
     - Se cabível, seguir o padrão de Épicos e Histórias de Usuário descritos em [3.2](#_32-Épicos) e [3.3](#_33-histórias-de-usuário-us).
 
-- Descrição
+- **Descrição**
 
-- _Label_
+- **_Label_**
 
-- Responsáveis
+- **Responsáveis**
 
 ## 3.2 Épicos
 
 Os Épicos definem um tema que agrupa tarefas que serão realizadas e se comporta como grandes US. No desenvolvimento do projeto, os Épicos terão o objetivo de agrupar US e deverão conter:
 
-- Título: [EP##] Nome;
+- **Título:** [EP##] Nome;
 
-- Descrição: Eu, como [nome do ator], gostaria de [descrição sucinta];
+- **Descrição:** Eu, como [nome do ator], gostaria de [descrição sucinta];
 
-- USs: Lista de USs atreladas ao Épico.
+- **USs:** Lista de USs atreladas ao Épico.
 
 ## 3.3 Histórias de Usuário (US)
 
 As USs (_user stories_) são descrições de alto nível de funcionalidades que definem funcionalidades do produto vista pela perspectiva dos _stakeholders_. As USs serão documentadas no GitHub como _issues_ (que obrigatoriamente deverão estar atreladas a Épicos) e seguirão um template definido:
 
-- Código/Nome: [US##] Nome;
+- **Código/Nome:** [US##] Nome;
 
-- Descrição: Eu, como [nome do ator], gostaria de [descrição sucinta];
+- **Descrição:** Eu, como [nome do ator], gostaria de [descrição sucinta];
 
-- Tarefas: Lista de atividades que levam a produção da funcionalidade;
+- **Tarefas:** Lista de atividades que levam a produção da funcionalidade;
 
-- Critérios de aceitação: Lista de requisitos para a aceitação dessa US.
+- **Critérios de aceitação:** Lista de requisitos para a aceitação dessa US.
 
 ## 3.6 Kanban
 

@@ -66,7 +66,7 @@ O conjunto de atributos direcionadores do custo são agrupados em quatro categor
 
 Cada um desses atributos deve ser classificado de acordo com uma escala que varia de “muito baixo” a “extremamente elevado” (em importância e valor). A partir desta classificação determina-se o Multiplicador de Esforço (considerando a Tabela publicada por Boehm (1981)). O produto de todos os resultados de Multiplicadores de Esforços é chamado de Fator de Ajustamento de Esforço.
 
-    #### Inserir Imagem da Tabela pra ficar mais bonitinho
+    #### Inserir Imagem da Tabela
     
 #### Calculo da Estimativa do Esforço
 O resultado do esforço representa o valor de Pessoas/Mês O modelo COCOMO Intermediário usa a seguinte equação para a estimativa do esforço:
