@@ -3,11 +3,11 @@
 | 2020/08/30 | 0.1 | Larissa Sales | Criação do Documento |
 | 2020/09/01 | 0.2 | Letícia Araújo | Adição de Informações |
 | 2020/09/01 | 0.3 | Larissa Sales | Adição de Informações |
-| 2020/09/05 | 0.4 | Larissa Sales | Refinamento do Documento |
+| 2020/09/05 | 0.4 | Larissa Sales | Refinamento do Documento e inclusão da Modelagem BPMN |
 
+# Modelagem BPMN
 
-![Modelagem BPMN](./docs/assets/assets/20200905-metodologia-larissa.png)
-
+![](../assets/plano_de_gerencia/20200905-metodologia-larissa.png)
 
 # 1 Papéis
 
@@ -116,7 +116,7 @@ As _issues_ no Github serão utilizadas para representar todas as tarefas que a 
 
 - Título 
     - Descrição breve e clara, com verbos no particípio, do que deverá ser feito;
-    - Se cabível, seguir o padrão de Épicos e Histórias de Usuário descritos em [3.2](#32-epicos) e [3.3](#33-historias-de-usuario-us).
+    - Se cabível, seguir o padrão de Épicos e Histórias de Usuário descritos em [3.2](#_32-Épicos) e [3.3](#_33-histórias-de-usuário-us).
 
 - Descrição
 
