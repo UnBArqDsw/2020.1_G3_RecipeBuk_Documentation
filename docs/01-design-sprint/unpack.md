@@ -9,13 +9,13 @@
 
 ## Definição do tema
 
-![](../assets/design_sprint/1-unpack/20200825-todos.jpg)
+![](../assets/01-design-sprint/1-unpack/20200825-todos.jpg)
 
 <p> Primeiramente, foi feito um brainstorm virtualmente para ser decidido o tema do projeto no qual iriamos trabalhar. Dessa forma todos apresentaram algumas e ideias, tendo pontos negativos e positivos, representados no mapa mental acima. Percebemos então que grande parte dos temas propostos tinham mais pontos negativos em relação a escopo e carga de trabalho do que positivos. Acabamos optando então pela opção que teríamos menos riscos e mais conforto ao desenvolver </p>
 
 ## Definir objetivos a longo prazo
 
-![](../assets/design_sprint/1-unpack/20200825-damaso.png)
+![](../assets/01-design-sprint/1-unpack/20200825-damaso.png)
 
 <p> Foi definido então o objetivos a longo prazo baseado em algumas perguntas de expectativas, seguindo o modelo da <strong>GV</strong> de Design Sprint.
 
@@ -31,7 +31,7 @@
 
 ## Mapear fluxo de usuários
 
-![](../assets/design_sprint/1-unpack/20200825-damaso.jpg)
+![](../assets/01-design-sprint/1-unpack/20200825-damaso.jpg)
 
 ## Referências
 

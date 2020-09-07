@@ -1,3 +1,3 @@
 * [Home](README.md)
-* [Dinamica 1](DS/dinamica1.md)
+* [Dinamica 1](dinamicas/dinamica1.md)
 
