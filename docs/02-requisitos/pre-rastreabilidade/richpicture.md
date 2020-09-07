@@ -21,8 +21,8 @@ Autor: Dâmaso Júnio
 
 ## Referências
 
-[1] Habitica. **Rich Picture**, 2019. Disponível em: <<https://02-requisitos-habitica.netlify.app/RichPictures>>. Acesso em: 05, Setembro, 2020.
+[1] HABITICA, Requisitos. **Rich Picture**, 2019. Disponível em: <<https://02-requisitos-habitica.netlify.app/RichPictures>>. Acesso em: 05, Setembro, 2020.
 
-[2] Yellow. **Rich Picture**, 2019. Disponível em: <<https://yellow.netlify.app/pre_rastreabilidade/rich_picture/>>. Acesso em: 05, Setembro, 2020.
+[2] YELLOW, Requisitos. **Rich Picture**, 2019. Disponível em: <<https://yellow.netlify.app/pre_rastreabilidade/rich_picture/>>. Acesso em: 05, Setembro, 2020.
 
 
