@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="images/logo.jpg" alt="Logo RecipeBuk" width='50%'/>
+    <img src="images/logo.svg" alt="Logo RecipeBuk" width='50%'/>
 </p>
 
 # RecipeBük
@@ -67,7 +67,8 @@ Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 As _branchs_ são baseadas no modelo de GitFlow e são dividas em:
 
 - `master`: aplicação em sua versão estável;
-- `dev`: versão de desenvolvimento que servirá como base para as demais _branches_.
+- `dev`: versão de desenvolvimento que servirá como base para as demais _branches_;
+- `docs`: documentação do projeto.
 
 
 Para a criação de uma nova _branch_, deve-se criá-la a partir da `dev` e manter o seguinte padrão:
