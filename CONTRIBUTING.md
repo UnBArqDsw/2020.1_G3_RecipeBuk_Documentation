@@ -42,7 +42,6 @@ Para a criação de uma nova _branch_, deve-se criá-la a partir da `dev` e mant
         20-criacao-da-tela-de-cadastro-de-receitas
 ```
 
-
 ## Pull Requests
 
 - Os PRs devem ser criados a partir do **template** do repositório;
