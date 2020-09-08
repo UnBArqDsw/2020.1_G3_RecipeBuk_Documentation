@@ -1,0 +1,14 @@
+# Diagrama de Ishkawa
+
+| Data |Versão| Autor | Descrição |
+| ---- | ---- | ----- | --------- |
+| 2020/08/30 | 1.0 | Dâmaso | Criação do diagrama de ishkawa |
+
+<p> Foi desenvolvido a primeira versão que visava avaliar o problema "Lembrar receitas" que foi uma das premissas para a escolha do tema do projeto </p>
+
+![](../../assets/02-requisitos/elicitacao/diagrama-ishkawa/20200830-damaso.jpg)
+Autor: Dâmaso Júnio
+
+## Referências
+
+[1] ANDRADE, Luiza. **Diagrama de Ishkawa: O que é e como fazer**, 2017. Disponível em: <<www.siteware.com.br/metodologias/diagrama-de-ishkawa>>. Acesso em: 30, Agosto, 2020.
