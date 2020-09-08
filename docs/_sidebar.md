@@ -21,3 +21,4 @@
     * Plano de Gerencia
         * [Plano Metodologico](03-plano-gerencia/plano-metodologico.md)
         * [Plano de Custos](03-plano-gerencia/plano-custos.md)
+        * [Plano de Riscos](03-plano-gerencia/plano-riscos.md)
