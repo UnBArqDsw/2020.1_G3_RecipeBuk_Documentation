@@ -104,9 +104,13 @@ Com a matriz Probabilidade X Impacto é possível determinar o nível de priorid
 ## Status dos Riscos
 *Data: 07/09/2020*
 ### Superados
-[ESCREVE AQUI DÂMASO]
+
+* Foi escolhido uma tecnologia que todos tivessem uma experiência previa, com o objetivo de reduzir o tempo de estudos e aumentando a produtividade do projeto.
+* Foi definido que teríamos um quorúm de 4 pessoas para tomar certas decisões, de forma que não seria necessário a presença de todos visto que imprevistos podem acontecer durante a pandemia.
+
 ### Não Superados
-[ESCREVE AQUI DÂMASO]
+* Nenhum membro tem ou teve contato com pessoas que contrairam CoVID-19, porém esse quadro está sempre aberto para mudanças
+* O escopo ainda está sendo definido, porém sendo trabalhado para que não ultrapasse as expectativas de esforço e trabalho para o semestre.
 
 ## Referências
 

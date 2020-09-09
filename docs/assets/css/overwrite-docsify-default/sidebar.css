@@ -1,0 +1,7 @@
+.sidebar ul li.active>a {
+    color: #E2725B;
+}
+
+.sidebar-toggle span {
+    background-color: #E2725B;
+}
