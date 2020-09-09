@@ -5,6 +5,7 @@
 | 2020/09/07 | 0.1 | Larissa | Criação do documento |
 | 2020/09/08 | 0.2 | Larissa | Inclusão da primeira entrevista |
 | 2020/09/08 | 0.3 | Larissa | Inclusão da segunda entrevista |
+| 2020/09/08 | 0.4 | Larissa | Inclusão da terceira entrevista |
 
 Alguns questionamentos foram levantados pelos integrantes desse grupo para que a entrevista pudesse ser mais objetiva e ajudasse na elicitação dos requisitos do sistema a ser desenvolvido.
 
