@@ -1,19 +1,5 @@
 # Dinâmica 1
 
-## Sprints
-
-1. [Sprint 0](../00-sprints/planning/sprint0.md)
-2. [Sprint 1](../00-sprints/planning/sprint1.md)
-3. [Sprint 2](../00-sprints/planning/sprint2.md)
-
-## Resultado das Sprints
-
-1. [Sprint 0](../00-sprints/planning/sprint0.md)
-2. [Sprint 1](../00-sprints/planning/sprint1.md)
-3. [Sprint 2](../00-sprints/planning/sprint2.md)
-
-
-
 ## Design Sprint
 
 1. [Unpack](../01-design-sprint/unpack.md)

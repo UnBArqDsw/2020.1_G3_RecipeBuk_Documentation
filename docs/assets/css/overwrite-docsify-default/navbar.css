@@ -16,6 +16,8 @@
     transition: all .25s;
     border: 1.2px solid rgba(226, 114, 91, .3);
     border-radius: .2rem;
+    font-family: Montserrat;
+    font-weight: 600;
   }
   
   .app-nav ul li a:hover, .app-nav ul li a.active {
