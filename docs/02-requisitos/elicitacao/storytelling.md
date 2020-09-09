@@ -2,7 +2,8 @@
 
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
-| 2020/09/07 | 1.0 | Dâmaso | Criação de storytelling |
+| 2020/09/07 | 0.1 | Dâmaso | Criação de storytelling |
+| 2020/09/09 | 1.0 | Samuel | Modificação do versionamento e adequação à tabela de requisitos elicitados |
 
 ## Story #1
 
@@ -25,8 +26,8 @@
 
 | Código |Descrição|
 |-- | --- |
-| RF01 | O usuário deve ser capaz de cadastrar receitas |
-| RF02 | O usuário deve ser capaz de deixar suas receitas privadas |
+| RF02 | O usuário deve ser capaz de cadastrar receitas |
+| RF03 | O usuário deve ser capaz de deixar suas receitas privadas |
 
 ## Story #3
 
@@ -37,10 +38,10 @@
 | Código |Descrição|
 |-- | --- |
 | RF01 | O usuário deve ser capaz de cadastrar |
-| RF02 | O usuário deve ser capaz de deixar suas receitas públicas |
-| RF03 | O usuário deve ser capaz de criar coleções de receitas |
-| RF04 | O usuário deve ser capaz de compartilhar suas receitas |
-| RF05 | O usuário deve ser capaz de compartilhar suas coleções de receitas |
+| RF04 | O usuário deve ser capaz de deixar suas receitas públicas |
+| RF05 | O usuário deve ser capaz de criar coleções de receitas |
+| RF06 | O usuário deve ser capaz de compartilhar suas receitas |
+| RF07 | O usuário deve ser capaz de compartilhar suas coleções de receitas |
 
 
 ## Referências
