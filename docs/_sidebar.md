@@ -29,6 +29,7 @@
             * [Storytelling](02-requisitos/elicitacao/storytelling.md)
             * [Introspecção](02-requisitos/elicitacao/introspeccao.md)
             * [Entrevista](02-requisitos/elicitacao/entrevista.md)
+            * [Personas](02-requisitos/elicitacao/personas.md)
     * Plano de Gerencia
         * [Plano Metodologico](03-plano-gerencia/plano-metodologico.md)
         * [Plano de Custos](03-plano-gerencia/plano-custos.md)

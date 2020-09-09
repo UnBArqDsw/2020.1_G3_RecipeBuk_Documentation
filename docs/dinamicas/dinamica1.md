@@ -6,6 +6,13 @@
 2. [Sprint 1](../00-sprints/planning/sprint1.md)
 3. [Sprint 2](../00-sprints/planning/sprint2.md)
 
+## Resultado das Sprints
+
+1. [Sprint 0](../00-sprints/planning/sprint0.md)
+2. [Sprint 1](../00-sprints/planning/sprint1.md)
+3. [Sprint 2](../00-sprints/planning/sprint2.md)
+
+
 
 ## Design Sprint
 
@@ -26,8 +33,12 @@
 
 1. [Diagrama de Ishkawa](../02-requisitos/elicitacao/diagrama_ishkawa.md)
 2. [Storytelling](../02-requisitos/elicitacao/storytelling.md)
+3. [Introspecção](../02-requisitos/elicitacao/introspeccao.md)
+4. [Personas](../02-requisitos/elicitacao/personas.md)
+5. [Entrevista](../02-requisitos/elicitacao/entrevista.md)
 
 ## Plano de Gerência
 
 1. [Plano Metodológico](../03-plano-gerencia/plano-metodologico.md)
-1. [Plano de Custos e Esforços](../03-plano-gerencia/plano-custos.md)
+2. [Plano de Custos e Esforços](../03-plano-gerencia/plano-custos.md)
+3. [Plano de Riscos](../03-plano-gerencia/plano-riscos.md)
