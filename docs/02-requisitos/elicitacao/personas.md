@@ -8,7 +8,7 @@
 | 2020/09/08 | 0.1 | Luís Henrique Pereira Taira | Spencer Shay |
 | 2020/09/08 | 0.2 | Luís Henrique Pereira Taira | Michael Scott |
 | 2020/09/08 | 0.3 | Luís Henrique Pereira Taira | Requisitos levantados do Michael e Spencer |
-| 2020/09/08 | 0.4 | Eduardo Vieira Lima | Alex Dunphy e seus requisitos |
+| 2020/09/08 | 1.0 | Eduardo Vieira Lima | Alex Dunphy e seus requisitos |
   
 
 ## Requisitos Elicitados
@@ -30,11 +30,11 @@
 
 ## Persona 1
 
-<img  src="../images/personas/spencer.png">
+<img  src="../../assets/02-requisitos/elicitacao/personas/spencer.png">
 
 ## Persona 2
 
-<img  src="../images/personas/michael.png">
+<img  src="../../assets/02-requisitos/elicitacao/personas/michael.png">
 
 ## Persona 3
-<img  src="../images/personas/alex.jpg">
+<img  src="../../assets/02-requisitos/elicitacao/personas/alex.jpg">
