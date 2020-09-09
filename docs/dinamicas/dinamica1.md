@@ -22,6 +22,12 @@
 3. [Introspecção](../02-requisitos/elicitacao/introspeccao.md)
 4. [Personas](../02-requisitos/elicitacao/personas.md)
 5. [Entrevista](../02-requisitos/elicitacao/entrevista.md)
+6. [Questionário](../02-requisitos/elicitacao/questionario.md)
+7. [Requisitos elicitados](../02-requisitos/elicitacao/tabela_requisitos.md)
+
+### Priorização
+
+1. [MoSCoW](../02-requisitos/priorizacao/moscow.md)
 
 ## Plano de Gerência
 

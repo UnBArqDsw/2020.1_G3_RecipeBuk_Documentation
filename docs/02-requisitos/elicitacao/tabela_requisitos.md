@@ -64,7 +64,6 @@
 | RNF11 | O sistema deve fornecer variações de uma mesma receita |[Questionário](02-requisitos/elicitacao/questionario.md)|
 | RNF12 | O sistema deve fornecer receitas em forma de lista |[Questionário](02-requisitos/elicitacao/questionario.md)|
 | RNF13 | O sistema deve fornecer um indicador de custo de preparo |[Questionário](02-requisitos/elicitacao/questionario.md)|
-| RNF14 | O sistema deve fornecer variações de ingredientes |[Questionário](02-requisitos/elicitacao/questionario.md)|
 
 ## Referências
 
