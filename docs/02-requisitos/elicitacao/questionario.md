@@ -3,6 +3,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/09 | 0.1 | Samuel| Adição do questionário a wiki |
+| 2020/09/09 | 0.2 | Samuel| Adição dos requisitos elicitados |
 
 ## Resultado
 <p> Data de realização: 2020/09/07 - 2020/09/08 </br>
@@ -86,6 +87,26 @@ Respostas obtidas: 102 respostas</p>
 
 <p align="justify"> A mesma questão a respeito das funcionalidades foi feita a este grupo, onde é possível observar uma frequência menor da avaliação das funcionalidades como necessárias. </p>
 
+### Requisitos elicitados
+
+| Código |Descrição|
+|-- | --- |
+| RF01 | O usuário deve poder cadastrar receitas |
+| RF02 | O usuário deve poder pesquisar por receitas |
+| RF03 | O usuário deve poder pesquisar a partir de categorias |
+| RF04 | O usuário deve poder categorizar receitas |
+| RF05 | O usuário deve poder compartilhar receitas |
+| RF06 | O usuário deve poder compartilhar seu livro de receitas |
+| RF07 | O usuário deve poder exportar receitas em formatos como PDF |
+| RNF01 | O sistema deve fornecer um indicador de dificuldade para o preparo |
+| RNF02 | O sistema deve fornecer um indicador de rendimento da receita |
+| RNF03 | O sistema deve fornecer um indicador de tempo estimado de preparo |
+| RF08 | O usuário deve receber sugestões de receitas |
+| RF09 | O usuário deve poder cadastrar receitas por voz |
+| RNF04 | O sistema deve fornecer variações de uma mesma receita |
+| RNF05 | O sistema deve fornecer receitas em forma de lista |
+| RNF06 | O sistema deve fornecer um indicador de custo de preparo |
+| RNF07 | O sistema deve fornecer variações de ingredientes |
 
 ## Referências
 
