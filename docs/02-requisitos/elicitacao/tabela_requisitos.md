@@ -3,6 +3,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/08 | 1.0 | Samuel | Criação da tabela a partir do Diagrama de Ishkawa, Storytelling e Introspecção |
+| 2020/09/08 | 1.1 | Samuel | Inserção de requisitos advindos de personas |
 
 ## Requisitos Funcionais
 
@@ -28,6 +29,13 @@
 | RF18 | O usuário deve poder remover receitas de seu livro |
 | RF19 | O usuário deve poder editar receitas em seu livro |
 | RF20 | O usuário deve poder logar através de redes sociais |
+| RF21 | O usuário deve poder adicionar alternativas para ingredientes em suas receitas |
+| RF22 | O usuário deve poder ver altertnativas para ingredientes em receitas |
+| RF23 | O usuário deve poder saber o quão saudável é uma receita |
+| RF24 | O usuário deve poder ver opiniões de outros usuários sobre receitas |
+| RF25 | O usuário deve poder deixar opinião em receitas |
+| RF26 | O usuário deve poder saber a dificuldade de uma receita |
+| RF27 | O usuário deve poder saber o tempo médio de preparo de uma receita |
 
 ## Requisitos Não Funcionais
 | Nome | Descrição |
@@ -37,6 +45,7 @@
 | RNF03 | O sistema deve ser acessível em dispositivos móveis |
 | RNF04 | O sistema deve fornecer filtros em sua pesquisas |
 | RNF05 | O sistema deve oferecer uma forma rápida de se adicionar receitas ao livro |
+| RNF06 | O sistema deve fornecer receitas relevantes para cada usuário |
 
 ## Referências
 
