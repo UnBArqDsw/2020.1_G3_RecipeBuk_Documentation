@@ -3,7 +3,8 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/08 | 0.1 | Samuel | Adição da introspecção |
-| 2020/09/09 | 1.0 | Samuel | Adequação à tabela de requisitos elicitados e formatação do versionamento |
+| 2020/09/09 | 0.2 | Samuel | Adequação à tabela de requisitos elicitados e formatação do versionamento |
+| 2020/09/09 | 1.0 | Samuel, Luis e Eduardo | Corrigindo requisitos mal classificados |
 
 <p> Tendo em mente o fluxo do usuário na plataforma, a introspecção foi feita com o objetivo de adquirir requisitos pela visão do usuário. </p>
 
@@ -29,8 +30,8 @@
 | RF20 | O usuário deve poder logar através de redes sociais |
 | RNF02 | O sistema de coletar informações de múltiplos sites |
 | RNF03 | O sistema deve ser acessível em dispositivos móveis |
-| RNF04 | O sistema deve fornecer filtros em sua pesquisas |
-| RNF05 | O sistema deve oferecer uma forma rápida de se adicionar receitas ao livro |
+| RF33 | O sistema deve fornecer filtros em sua pesquisas |
+| RNF04 | O sistema deve oferecer uma forma rápida de se adicionar receitas ao livro |
 
 ## Referências
 

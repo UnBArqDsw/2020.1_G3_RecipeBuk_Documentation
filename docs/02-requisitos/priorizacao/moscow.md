@@ -3,6 +3,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/09 | 0.1 | Dâmaso | Inicio da priorização utilizando o MoSCoW |
+| 2020/09/09 | 1.0 | Samuel, Luis e Eduardo | Adição de requisitos RF33 - RF39 |
 
 
 ## Requisitos Funcionais
@@ -32,15 +33,22 @@
 | RF21 | O usuário deve poder adicionar alternativas para ingredientes em suas receitas | **Could** |
 | RF22 | O usuário deve poder ver alternativas para ingredientes em receitas |**Could**|
 | RF23 | O usuário deve poder ver opiniões de outros usuários sobre receitas |**Would**|
-| RF24 | O usuário deve poder deixar opinião em receitas |**Would**|
+| RF24 | O usuário deve poder deixar opinião em receitas | **Would** |
 | RF25 | O usuário deve poder pesquisar por categorias |**Should**|
 | RF26 | O usuário deve poder pesquisar por dificuldade da receita |**Could**|
 | RF27 | O usuário deve poder converter medidas | **Should** |
 | RF28 | O usuário deve poder avaliar uma receita |**Could**|
-| RF29 | O usuário deve poder visualizar receitas |**Must**|
-| RF30 | O usuário deve poder exportar receitas em formatos como PDF |**Could**|
-| RF31 | O usuário deve receber sugestões de receitas |**Could**|
-| RF32 | O usuário deve poder cadastrar receitas por voz |**Would**|
+| RF29 | O usuário deve poder visualizar receitas | **Must** |
+| RF30 | O usuário deve poder exportar receitas em formatos como PDF | **Could** |
+| RF31 | O usuário deve receber sugestões de receitas | **Could** |
+| RF32 | O usuário deve poder cadastrar receitas por voz | **Could** |
+| RF33 | O sistema deve fornecer filtros em sua pesquisas | **Should** |
+| RF34 | O sistema deve fornecer o tempo médio de preparo de uma receita | **Could** |
+| RF35 | O sistema deve fornecer a dificuldade de uma receita | **Would** |
+| RF36 | O sistema deve fornecer o quão saudável é uma receita | **Would** |
+| RF37 | O sistema deve fornecer o rendimento em porções da receita | **Would** |
+| RF38 | O sistema deve fornecer receitas em forma de lista | **Must** |
+| RF39 | O sistema deve fornecer um indicador de custo de preparo | **Would** |
 
 
 ## Referências

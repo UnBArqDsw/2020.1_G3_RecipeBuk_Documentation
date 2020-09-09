@@ -7,7 +7,8 @@
 | 2020/09/08 | 0.3 | Samuel | Inserção de requisitos advindos de entrevistas e correção de requisitos funcionais |
 | 2020/09/09 | 0.4 | Dâmaso | Adição da origem dos requisitos |
 | 2020/09/09 | 0.5 | Samuel | Modificação do versionamento e inserção de requisitos advindos de questionário |
-| 2020/09/09 | 1.0 | Samuel | Corrigindo hiperlinks |
+| 2020/09/09 | 0.6 | Samuel | Corrigindo hiperlinks |
+| 2020/09/09 | 1.0 | Samuel, Luis e Eduardo | Corrigindo requisitos mal classificados |
 
 
 ## Requisitos Funcionais
@@ -46,7 +47,13 @@
 | RF30 | O usuário deve poder exportar receitas em formatos como PDF |[Questionário](02-requisitos/elicitacao/questionario.md)|
 | RF31 | O usuário deve receber sugestões de receitas |[Questionário](02-requisitos/elicitacao/questionario.md)|
 | RF32 | O usuário deve poder cadastrar receitas por voz |[Questionário](02-requisitos/elicitacao/questionario.md)|
-
+| RF33 | O sistema deve fornecer filtros em sua pesquisas |[Introspecção](02-requisitos/elicitacao/introspeccao.md)|
+| RF34 | O sistema deve fornecer o tempo médio de preparo de uma receita |[Personas](personas.md), [Entrevista](02-requisitos/elicitacao/entrevista.md), [Questionário](02-requisitos/elicitacao/questionario.md)|
+| RF35 | O sistema deve fornecer a dificuldade de uma receita |[Personas](personas.md), [Entrevista](02-requisitos/elicitacao/entrevista.md), [Questionário](02-requisitos/elicitacao/questionario.md)|
+| RF36 | O sistema deve fornecer o quão saudável é uma receita |[Personas](personas.md)|
+| RF37 | O sistema deve fornecer o rendimento em porções da receita |[Entrevista](02-requisitos/elicitacao/entrevista.md), [Questionário](02-requisitos/elicitacao/questionario.md)|
+| RF38 | O sistema deve fornecer receitas em forma de lista |[Questionário](02-requisitos/elicitacao/questionario.md)|
+| RF39 | O sistema deve fornecer um indicador de custo de preparo |[Questionário](02-requisitos/elicitacao/questionario.md)|
 
 ## Requisitos Não Funcionais
 | Nome | Descrição |Origem|
@@ -54,16 +61,8 @@
 | RNF01 | O sistema deve manter a segurança e privacidade do usuário |[Storytelling](02-requisitos/elicitacao/storytelling.md)|
 | RNF02 | O sistema deve fornecer resultados de múltiplas fontes |[Introspecção](02-requisitos/elicitacao/introspeccao.md), [Entrevista](02-requisitos/elicitacao/entrevista.md)|
 | RNF03 | O sistema deve ser acessível em dispositivos móveis |[Introspecção](02-requisitos/elicitacao/introspeccao.md)|
-| RNF04 | O sistema deve fornecer filtros em sua pesquisas |[Introspecção](02-requisitos/elicitacao/introspeccao.md)|
-| RNF05 | O sistema deve oferecer uma forma rápida de se adicionar receitas ao livro |[Introspecção](02-requisitos/elicitacao/introspeccao.md)|
-| RNF06 | O sistema deve fornecer receitas relevantes para cada usuário |[Personas](personas.md)|
-| RNF07 | O sistema deve fornecer o tempo médio de preparo de uma receita |[Personas](personas.md), [Entrevista](02-requisitos/elicitacao/entrevista.md), [Questionário](02-requisitos/elicitacao/questionario.md)|
-| RNF08 | O sistema deve fornecer a dificuldade de uma receita |[Personas](personas.md), [Entrevista](02-requisitos/elicitacao/entrevista.md), [Questionário](02-requisitos/elicitacao/questionario.md)|
-| RNF09 | O sistema deve fornecer o quão saudável é uma receita |[Personas](personas.md)|
-| RNF10 | O sistema deve fornecer o rendimento em porções da receita |[Entrevista](02-requisitos/elicitacao/entrevista.md), [Questionário](02-requisitos/elicitacao/questionario.md)|
-| RNF11 | O sistema deve fornecer variações de uma mesma receita |[Questionário](02-requisitos/elicitacao/questionario.md)|
-| RNF12 | O sistema deve fornecer receitas em forma de lista |[Questionário](02-requisitos/elicitacao/questionario.md)|
-| RNF13 | O sistema deve fornecer um indicador de custo de preparo |[Questionário](02-requisitos/elicitacao/questionario.md)|
+| RNF04 | O sistema deve oferecer uma forma rápida de se adicionar receitas ao livro |[Introspecção](02-requisitos/elicitacao/introspeccao.md)|
+| RNF05 | O sistema deve fornecer receitas relevantes para cada usuário |[Personas](personas.md)|
 
 ## Referências
 

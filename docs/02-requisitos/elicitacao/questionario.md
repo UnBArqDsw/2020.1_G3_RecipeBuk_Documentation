@@ -4,7 +4,8 @@
 | ---- | ---- | ----- | --------- |
 | 2020/09/09 | 0.1 | Samuel| Adição do questionário a wiki |
 | 2020/09/09 | 0.2 | Samuel| Adição dos requisitos elicitados |
-| 2020/09/09 | 1.0 | Samuel| Adequação à tabela de requisitos elicitados |
+| 2020/09/09 | 0.3 | Samuel| Adequação à tabela de requisitos elicitados |
+| 2020/09/09 | 1.0 | Samuel, Luis e Eduardo | Corrigindo requisitos mal classificados |
 
 ## Resultado
 <p> Data de realização: 2020/09/07 - 2020/09/08 </br>
@@ -99,15 +100,13 @@ Respostas obtidas: 102 respostas</p>
 | RF06 | O usuário deve poder compartilhar receitas |
 | RF07 | O usuário deve poder compartilhar seu livro de receitas |
 | RF30 | O usuário deve poder exportar receitas em formatos como PDF |
-| RNF08 | O sistema deve fornecer um indicador de dificuldade para o preparo |
-| RNF10 | O sistema deve fornecer um indicador de rendimento da receita |
+| RF35 | O sistema deve fornecer um indicador de dificuldade para o preparo |
+| RF37 | O sistema deve fornecer um indicador de rendimento da receita |
 | RNF07 | O sistema deve fornecer um indicador de tempo estimado de preparo |
 | RF31 | O usuário deve receber sugestões de receitas |
 | RF32 | O usuário deve poder cadastrar receitas por voz |
-| RNF11 | O sistema deve fornecer variações de uma mesma receita |
-| RNF12 | O sistema deve fornecer receitas em forma de lista |
-| RNF13 | O sistema deve fornecer um indicador de custo de preparo |
-| RNF14 | O sistema deve fornecer variações de ingredientes |
+| RF38 | O sistema deve fornecer receitas em forma de lista |
+| RF39 | O sistema deve fornecer um indicador de custo de preparo |]
 | RF27 | O usuário deve poder converter medidas |
 
 ## Referências
