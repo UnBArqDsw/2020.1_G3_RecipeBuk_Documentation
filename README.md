@@ -6,6 +6,8 @@
 
 Toda a nossa documentação está disponível para visualização em: http://www.recipebukdocs.tk/
 
+Este é o nosso repositório de documentação. Se você quiser conferir os códigos do nosso sistema, nós temos o repositório de [Frontend](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend) e o repositório de [Backend](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend).
+
 **Número da Lista**: 03<br>
 **Conteúdo da Disciplina**: FGA0208 - T01<br>
 
@@ -70,7 +72,6 @@ As _branchs_ são baseadas no modelo de GitFlow e são dividas em:
 
 - `master`: aplicação em sua versão estável;
 - `dev`: versão de desenvolvimento que servirá como base para as demais _branches_;
-- `docs`: documentação do projeto.
 
 Para a criação de uma nova _branch_, deve-se criá-la a partir da `dev` e manter o seguinte padrão:
 
