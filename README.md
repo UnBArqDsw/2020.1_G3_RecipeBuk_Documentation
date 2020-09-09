@@ -1,8 +1,10 @@
 <p align="center">
-    <img src="images/logo.jpg" alt="Logo RecipeBuk" width='50%'/>
+    <img src="docs/assets/assets/logo.svg" alt="Logo RecipeBuk" width='50%'/>
 </p>
 
 # RecipeBük
+
+Toda a nossa documentação está disponível para visualização em: http://www.recipebukdocs.tk/
 
 **Número da Lista**: 03<br>
 **Conteúdo da Disciplina**: FGA0208 - T01<br>
@@ -67,8 +69,8 @@ Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
 As _branchs_ são baseadas no modelo de GitFlow e são dividas em:
 
 - `master`: aplicação em sua versão estável;
-- `dev`: versão de desenvolvimento que servirá como base para as demais _branches_.
-
+- `dev`: versão de desenvolvimento que servirá como base para as demais _branches_;
+- `docs`: documentação do projeto.
 
 Para a criação de uma nova _branch_, deve-se criá-la a partir da `dev` e manter o seguinte padrão:
 
@@ -92,4 +94,4 @@ Para a criação de uma nova _branch_, deve-se criá-la a partir da `dev` e mant
 
 - O _merge_ das _branches_ criadas a partir da `dev` **nunca** deverá ser feito na `master`;
 
-- Após o _merge_, se a _branch_ não tiver mais uso, ela deverá ser **apagada**
+- Após o _merge_, se a _branch_ não tiver mais uso, ela deverá ser **apagada**.
