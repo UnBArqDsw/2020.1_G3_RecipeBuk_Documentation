@@ -2,8 +2,9 @@
 
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
-| 2020/09/08 | 1.0 | Samuel | Criação da tabela a partir do Diagrama de Ishkawa, Storytelling e Introspecção |
-| 2020/09/08 | 1.1 | Samuel | Inserção de requisitos advindos de personas |
+| 2020/09/08 | 0.1 | Samuel | Criação da tabela a partir do Diagrama de Ishkawa, Storytelling e Introspecção |
+| 2020/09/09 | 0.2 | Samuel | Inserção de requisitos advindos de personas |
+| 2020/09/09 | 1.0 | Samuel | Inserção de requisitos advindos de entrevistas e correção de requisitos funcionais |
 
 ## Requisitos Funcionais
 
@@ -30,12 +31,15 @@
 | RF19 | O usuário deve poder editar receitas em seu livro |
 | RF20 | O usuário deve poder logar através de redes sociais |
 | RF21 | O usuário deve poder adicionar alternativas para ingredientes em suas receitas |
-| RF22 | O usuário deve poder ver altertnativas para ingredientes em receitas |
-| RF23 | O usuário deve poder saber o quão saudável é uma receita |
-| RF24 | O usuário deve poder ver opiniões de outros usuários sobre receitas |
-| RF25 | O usuário deve poder deixar opinião em receitas |
-| RF26 | O usuário deve poder saber a dificuldade de uma receita |
-| RF27 | O usuário deve poder saber o tempo médio de preparo de uma receita |
+| RF22 | O usuário deve poder ver alternativas para ingredientes em receitas |
+| RF23 | O usuário deve poder ver opiniões de outros usuários sobre receitas |
+| RF24 | O usuário deve poder deixar opinião em receitas |
+| RF25 | O usuário deve poder pesquisar por categorias |
+| RF26 | O usuário deve poder pesquisar por dificuldade da receita |
+| RF27 | O usuário deve poder converter medidas |
+| RF28 | O usuário deve poder avaliar uma receita |
+| RF29 | O usuário deve poder visualizar receitas |
+
 
 ## Requisitos Não Funcionais
 | Nome | Descrição |
@@ -46,6 +50,10 @@
 | RNF04 | O sistema deve fornecer filtros em sua pesquisas |
 | RNF05 | O sistema deve oferecer uma forma rápida de se adicionar receitas ao livro |
 | RNF06 | O sistema deve fornecer receitas relevantes para cada usuário |
+| RNF07 | O sistema deve fornecer o tempo médio de preparo de uma receita |
+| RNF08 | O sistema deve fornecer a dificuldade de uma receita |
+| RNF09 | O sistema deve fornecer o quão saudável é uma receita |
+| RNF10 | O sistema deve fornecer o rendimento em porções da receita |
 
 ## Referências
 
