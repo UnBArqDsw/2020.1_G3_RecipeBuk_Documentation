@@ -18,7 +18,11 @@
             * [Diagrama de Ishkawa](02-requisitos/elicitacao/diagrama_ishkawa.md)
             * [Storytelling](02-requisitos/elicitacao/storytelling.md)
             * [Introspecção](02-requisitos/elicitacao/introspeccao.md)
+			* [Entrevista](02-requisitos/elicitacao/entrevista.md)
+			* [Personas](02-requisitos/elicitacao/personas.md)
             * [Requisitos Elicitados](02-requisitos/elicitacao/tabela_requisitos.md)
+
     * Plano de Gerencia
         * [Plano Metodologico](03-plano-gerencia/plano-metodologico.md)
         * [Plano de Custos](03-plano-gerencia/plano-custos.md)
+        * [Plano de Riscos](03-plano-gerencia/plano-riscos.md)
