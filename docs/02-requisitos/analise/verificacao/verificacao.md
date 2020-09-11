@@ -7,4 +7,4 @@
 
 ## [Verificação 01: Léxico](02-requisitos/analise/verificacao/lexico)
 
-## [Verificação 02: Léxico](02-requisitos/analise/verificacao/moscow)
+## [Verificação 02: MoSCoW](02-requisitos/analise/verificacao/moscow)
