@@ -5,3 +5,4 @@
 | 2020/09/10 | 0.1 | Samuel | Adição da verificação do léxico |
 
 ## [Verificação 01: Léxico](02-requisitos/analise/verificacao/lexico)
+## [Verificação 03: Personas](02-requisitos/analise/verificacao/personas)
