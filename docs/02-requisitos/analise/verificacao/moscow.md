@@ -27,7 +27,7 @@ Inspetor: Luis Taira
         <th>4</th>
         <th>5</th>
 	</tr>
-	<tr>a
+	<tr>
 		<td>RF01</td>
 		<td>OK</td>
         <td>OK</td>
