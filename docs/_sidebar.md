@@ -24,6 +24,8 @@
             * [Requisitos Elicitados](02-requisitos/elicitacao/tabela_requisitos.md)
         * Priorização
             * [MoSCoW](02-requisitos/priorizacao/moscow.md)
+        * Análise
+            * [Verificação](02-requisitos/analise/verificacao/verificacao.md)
     * Plano de Gerencia
         * [Plano Metodologico](03-plano-gerencia/plano-metodologico.md)
         * [Plano de Custos](03-plano-gerencia/plano-custos.md)
