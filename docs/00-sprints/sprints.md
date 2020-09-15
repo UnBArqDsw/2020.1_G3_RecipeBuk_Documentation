@@ -1,7 +1,7 @@
 ## Sprint 0
         
-- [Sprint 0](planning/sprint0.md)
-- [Resultados da Sprint 0](results/results0.md)
+- [Sprint 0](00-sprints/planning/sprint0.md)
+- [Resultados da Sprint 0](00-sprints/results/results0.md)
 
 ## Sprint 1
 

@@ -12,7 +12,7 @@
 
 ## Backlog v2
 
-|Épicos|Features| User Story|[Requisitos de origem](../elicitacao/tabela_requisitos.md)|
+|Épicos|Features| User Story|[Requisitos de origem](02-requisitos/elicitacao/tabela_requisitos.md)|
 |------|--------|-----------|--------|
 |**EP01 - Usuário**|**FE01 - Autenticação**|**US01:** Eu, como usuário, gostaria de realizar o cadastro / login no site para ter pleno acesso às funcionalidades.|RF01, RF09|
 | | |**US02:** Eu, como usuário, gostaria de deletar a minha conta no site para cancelar o meu uso no site.|RF13|
