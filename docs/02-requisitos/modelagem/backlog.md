@@ -48,3 +48,7 @@
 ||**FE12 - Compartilhamento**|**US32:** Eu, como usuário, gostaria de colocar um livro como público para tê-lo visível ao público.|RF07|
 |||**US33:** Eu, como usuário, gostaria de colocar um livro como privado para mantê-lo visível somente à minha conta ou contas autorizadas.|RF07|
 |||**US34:** Eu, como usuário, gostaria de exportar meu livros em formato PDF para poder compartilhá-los.|RF07, RF30|
+
+## Referências
+
+[1] YELLOW, Requisitos. **Ágil**, 2019. Disponível em: <<https://yellow.netlify.app/modelagem/agil_v2/>>. Acesso em: 15, Setembro, 2020.
