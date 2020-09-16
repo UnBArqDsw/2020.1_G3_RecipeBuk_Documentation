@@ -46,4 +46,4 @@
 
 ## Referências
 
-[1] YELLOW, Requisitos. **Storytelling**, 2018. Disponível em: <<https://yellow.netlify.app/elicitacao/requisitos/storytelling_v1/>>. Acesso em: 07, Setembro, 2020.
+[1] YELLOW, Requisitos. **Storytelling**, 2019. Disponível em: <<https://yellow.netlify.app/elicitacao/requisitos/storytelling_v1/>>. Acesso em: 07, Setembro, 2020.

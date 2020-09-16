@@ -25,6 +25,10 @@
 6. [Questionário](../02-requisitos/elicitacao/questionario.md)
 7. [Requisitos elicitados](../02-requisitos/elicitacao/tabela_requisitos.md)
 
+### Modelagem
+
+1. [Backlog do Produto](../02-requisitos/modelagem/backlog.md)
+
 ### Priorização
 
 1. [MoSCoW](../02-requisitos/priorizacao/moscow.md)

@@ -22,6 +22,8 @@
             * [Personas](02-requisitos/elicitacao/personas.md)
             * [Questionário](02-requisitos/elicitacao/questionario.md)
             * [Requisitos Elicitados](02-requisitos/elicitacao/tabela_requisitos.md)
+        * Modelagem
+            * [Backlog do Produto](02-requisitos/modelagem/backlog.md)
         * Priorização
             * [MoSCoW](02-requisitos/priorizacao/moscow.md)
         * Análise
