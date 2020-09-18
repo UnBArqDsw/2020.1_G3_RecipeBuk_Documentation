@@ -1,6 +1,6 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
-| 2020/09/15 | 0.1 | Eduardo Vieira e Luis Taira | Criação do Documento |
+| 2020/09/17 | 0.1 | Eduardo Vieira e Luis Taira | Criação do Documento |
 
 # Diagrama de Pacotes
 
