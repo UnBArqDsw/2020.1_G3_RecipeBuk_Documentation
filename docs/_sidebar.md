@@ -35,4 +35,5 @@
 * Dinâmica 2
     * Modelagem
         * [Diagrama de Componentes](04-modelagem/diagrama-componentes.md)
+        * [Diagrama de Pacotes](04-modelagem/diagrama-pacotes.md)
         * [Fluxo de Navegação](04-modelagem/fluxo-de-navegacao.md)
