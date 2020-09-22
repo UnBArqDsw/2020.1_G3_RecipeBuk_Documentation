@@ -10,4 +10,9 @@ assignees: ''
 ## Descrição
 
 ## Critérios de Aceitação
-- [ ] Critério
+- [ ] Funcionalidade implementada
+- [ ] Funcionalidade testada
+
+## Dependência 
+
+#issue <!-- que deverá ser finalizada antes do início dessa -->
