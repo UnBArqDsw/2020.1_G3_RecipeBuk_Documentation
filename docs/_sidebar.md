@@ -34,6 +34,7 @@
         * [Plano de Riscos](03-plano-gerencia/plano-riscos.md)
 * Dinâmica 2
     * Modelagem
+		* [Base de Dados](04-modelagem/base-dados.md)
         * [Diagrama de Componentes](04-modelagem/diagrama-componentes.md)
         * [Diagrama de Classes](04-modelagem/diagrama-classes.md)
         * [Diagrama de Pacotes](04-modelagem/diagrama-pacotes.md)
