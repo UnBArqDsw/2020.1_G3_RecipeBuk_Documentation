@@ -1,8 +1,9 @@
-# Banco de Dados
+# Base de Dados
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/22 | 0.1 | Samuel Pereira | Adição do ME-R |
 | 2020/09/23 | 0.2 | Samuel Pereira | Atualizações do ME-R e adição do DE-R |
+| 2020/09/23 | 1.0 | Samuel Pereira | Atualizações do DE-R, adição do Diagrama Lógico e mudança de título |
 
 ## ME-R
 
@@ -56,3 +57,6 @@
 
 ## DE-R
 ![](../assets/04-modelagem/20200923-der.png)
+
+## Diagrama Lógico
+![](../assets/04-modelagem/20200923-logico.png)
