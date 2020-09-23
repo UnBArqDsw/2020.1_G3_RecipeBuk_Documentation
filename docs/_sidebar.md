@@ -26,6 +26,7 @@
             * [Backlog do Produto](02-requisitos/modelagem/backlog.md)
         * Priorização
             * [MoSCoW](02-requisitos/priorizacao/moscow.md)
+            * [Backlog Priorizado](02-requisitos/priorizacao/backlog.md)
         * Análise
             * [Verificação](02-requisitos/analise/verificacao/verificacao.md)
     * Plano de Gerencia
