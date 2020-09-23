@@ -3,7 +3,8 @@
 | ---- | ---- | ----- | --------- |
 | 2020/09/22 | 0.1 | Samuel Pereira | Adição do ME-R |
 | 2020/09/23 | 0.2 | Samuel Pereira | Atualizações do ME-R e adição do DE-R |
-| 2020/09/23 | 1.0 | Samuel Pereira | Atualizações do DE-R, adição do Diagrama Lógico e mudança de título |
+| 2020/09/23 | 0.3 | Samuel Pereira | Atualizações do DE-R, adição do Diagrama Lógico e mudança de título |
+| 2020/09/23 | 1.0 | Samuel Pereira | Adição de visibility em RECIPE_BOOK |
 
 ## ME-R
 
@@ -20,7 +21,7 @@
 ### Atributos
 &emsp;USER(<u>email</u>, name, password_hash, birthdate)</br>
 &emsp;RECIPE(<u>recipeId</u>, userEmail, name, time, portions, visibility)</br>
-&emsp;RECIPE_BOOK(<u>bookId</u>, userEmail, title, description)</br>
+&emsp;RECIPE_BOOK(<u>bookId</u>, userEmail, title, description, visibility)</br>
 &emsp;USER_SESSION(userEmail, <u>sessionId</u>, expirationDate)</br>
 &emsp;CATEGORY(<u>idCategory</u>, name)</br>
 &emsp;STEP(recipeId, number, instruction)</br>
