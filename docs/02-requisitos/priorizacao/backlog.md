@@ -3,6 +3,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/23 | 0.1 | Dâmaso | Priorizando backlog |
+| 2020/09/23 | 0.2 | Dâmaso | Alterando priorização e alguns histórias em relação aos feedbacks dos membros do time |
 
 |Épicos|Features| User Story|Prioridade|
 |------|--------|-----------|--------|
@@ -25,21 +26,19 @@
 |||**US17:** Eu, como usuário, gostaria de deixar minha opinião em receitas e avaliá-las para que outros usuários possam ver a qualidade da receita.|**Could**|
 |||**US18:** Eu, como usuário, gostaria de conseguir ver opções de conversão de medidas para melhor executar as receitas.|**Could**|
 |||**US19:** Eu, como usuário, gostaria de poder ver alternativas para ingredientes para poder flexibilizar o preparo das receitas.|**Could**|
-||**FE07 - Compartilhamento**|**US20:** Eu, como usuário, gostaria de colocar uma receita como pública para tê-la visível ao público.|**Should**|
-|||**US21:** Eu, como usuário, gostaria de colocar uma receita como privada para mantê-la visível somente à minha conta ou contas autorizadas.|**Should**|
-|||**US22:** Eu, como usuário, gostaria de exportar minhas receitas em formato PDF para poder compartilhá-las.|**Could**|
-||**FE08 - Categorização**|**US23:** Eu, como usuário, gostaria de atribuir categorias à receitas para organizar as receitas em minha conta.|**Should**|
-|**EP03 - Livro de receitas**|**FE09 - Criação**|**US24:** Eu, como usuário, gostaria de adicionar receitas em meus livros de receitas para ter como organizar minhas receitas como eu bem quiser.|**Must**|
-|||**US25:** Eu, como usuário, gostaria de deletar meus livros de receitas da minha conta para poder retirá-los do site.|**Must**|
-|||**US26:** Eu, como usuário, gostaria de editar os meus livros para poder atualizar o conteúdo deles.|**Must**|
-|||**US27:** Eu, como usuário, gostaria de deletar as receitas do meu livro de receitas para poder atualizar o conteúdo deles.|**Should**|
-||**FE10 - Busca**|**US28:** Eu, como usuário, gostaria de buscar um livro de receitas no próprio site para obter receitas dentro de um mesmo domínio.|**Should**|
-|||**US29:** Eu, como usuário, gostaria de buscar receitas em meus livros para ter maior facilidade em achar as minhas receitas.|**Should**|
-||**FE11 - Visualização**|**US30:** Eu, como usuário, gostaria de visualizar livros de receitas para que eu possa ter acesso às informações deles|**Could**|
-|||**US31:** Eu, como usuário, gostaria de deixar minha opinião em livros de receitas e avaliá-los para que outros usuários possam ver o engajamento sobre o livro.|**Could**|
-||**FE12 - Compartilhamento**|**US32:** Eu, como usuário, gostaria de colocar um livro como público para tê-lo visível ao público.|**Should**|
-|||**US33:** Eu, como usuário, gostaria de colocar um livro como privado para mantê-lo visível somente à minha conta ou contas autorizadas.|**Should**|
-|||**US34:** Eu, como usuário, gostaria de exportar meu livros em formato PDF para poder compartilhá-los.|**Could**|
+||**FE07 - Compartilhamento**|**US20:** Eu, como usuário, gostaria de alterar as opções de visualização como sendo público ou privado para poder ter controle sobre a visualização de outras pessoas à minha receita|**Should**|
+|||**US21:** Eu, como usuário, gostaria de exportar minhas receitas em formato PDF para poder compartilhá-las.|**Could**|
+||**FE08 - Categorização**|**US22:** Eu, como usuário, gostaria de atribuir categorias à receitas para organizar as receitas em minha conta.|**Should**|
+|**EP03 - Livro de receitas**|**FE09 - Criação**|**US23:** Eu, como usuário, gostaria de adicionar receitas em meus livros de receitas para ter como organizar minhas receitas como eu bem quiser.|**Must**|
+|||**US24:** Eu, como usuário, gostaria de deletar meus livros de receitas da minha conta para poder retirá-los do site.|**Must**|
+|||**US25:** Eu, como usuário, gostaria de editar os meus livros para poder atualizar o conteúdo deles.|**Must**|
+|||**US26:** Eu, como usuário, gostaria de deletar as receitas do meu livro de receitas para poder atualizar o conteúdo deles.|**Should**|
+||**FE10 - Busca**|**US27:** Eu, como usuário, gostaria de buscar um livro de receitas no próprio site para obter receitas dentro de um mesmo domínio.|**Should**|
+|||**US28:** Eu, como usuário, gostaria de buscar receitas em meus livros para ter maior facilidade em achar as minhas receitas.|**Should**|
+||**FE11 - Visualização**|**US29:** Eu, como usuário, gostaria de visualizar livros de receitas para que eu possa ter acesso às informações deles|**Could**|
+|||**US30:** Eu, como usuário, gostaria de deixar minha opinião em livros de receitas e avaliá-los para que outros usuários possam ver o engajamento sobre o livro.|**Would**|
+||**FE12 - Compartilhamento**|**US31:** Eu, como usuário, gostaria de alterar as opções de visualização como sendo público ou privado dos meus livros para poder ter controle sobre a visualização de outras pessoas à eles|**Should**|
+|||**US32:** Eu, como usuário, gostaria de exportar meu livros em formato PDF para poder compartilhá-los.|**Could**|
 
 ## Referências
 
