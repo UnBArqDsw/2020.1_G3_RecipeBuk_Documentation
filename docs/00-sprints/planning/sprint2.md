@@ -1,6 +1,6 @@
-# Sprint 1
+# Sprint 2
 
-**Data de início:** 2020/08/07
+**Data de início:** 2020/09/07
 
 **Data de termíno:** 2020/09/14
 

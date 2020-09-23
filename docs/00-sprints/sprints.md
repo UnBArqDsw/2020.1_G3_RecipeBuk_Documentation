@@ -10,4 +10,4 @@
 ## Sprint 2
 
 - [Sprint 2](00-sprints/planning/sprint2.md)
-- [Resultados da Sprint 2](00-sprints/results/results2.md)   
+- [Resultados da Sprint 2](00-sprints/results/results2.md)  
