@@ -2,6 +2,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/22 | 0.1 | Samuel Pereira | Adição do ME-R |
+| 2020/09/23 | 0.2 | Samuel Pereira | Atualizações do ME-R e adição do DE-R |
 
 ## ME-R
 
@@ -17,10 +18,10 @@
 
 ### Atributos
 &emsp;USER(<u>email</u>, name, password_hash, birthdate)</br>
-&emsp;RECIPE(<u>recipeId</u>, userEmail, name, time, portions)</br>
+&emsp;RECIPE(<u>recipeId</u>, userEmail, name, time, portions, visibility)</br>
 &emsp;RECIPE_BOOK(<u>bookId</u>, userEmail, title, description)</br>
 &emsp;USER_SESSION(userEmail, <u>sessionId</u>, expirationDate)</br>
-&emsp;CATEGORY(<u>id</u>, name)</br>
+&emsp;CATEGORY(<u>idCategory</u>, name)</br>
 &emsp;STEP(recipeId, number, instruction)</br>
 &emsp;INGREDIENT(<u>ingredientId</u>, name)</br>
 
@@ -52,3 +53,6 @@
 &emsp;CATEGORY - categorizes - RECIPE</br>
 &emsp;&emsp;Uma CATEGORY pode categorizar vários RECIPES e um RECIPE pode ser categorizado por múltiplas CATEGORIES.</br>
 &emsp;&emsp;Cardinalidade: n:m.</br>
+
+## DE-R
+![](../assets/04-modelagem/20200923-der.png)
