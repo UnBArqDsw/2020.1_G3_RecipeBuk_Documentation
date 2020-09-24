@@ -4,15 +4,16 @@
 
 # Diagrama de Sequência
 
-## Manter Usuário
-### Cadastro de usuário
+## Cadastro de usuário
 
 ![](../assets/04-modelagem/20200923-larissa-diagrama-sequencia-cadastro.png)
 Autor: Larissa Sales
 
 
-### Login de usuário
+## Login de usuário
 
+![](../assets/04-modelagem/20200924-larissa-diagrama-sequencia-login.png)
+Autor: Larissa Sales
 
 # Referências
 
