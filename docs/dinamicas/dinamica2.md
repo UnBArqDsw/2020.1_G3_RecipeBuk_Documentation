@@ -8,3 +8,4 @@
 4. [Diagrama de Pacotes](../04-modelagem/diagrama-pacotes.md)
 5. [Fluxo de Navegação](../04-modelagem/fluxo-de-navegacao.md)
 6. [Diagrama de Sequencia](../04-modelagem/diagrama-sequencia.md)
+7. [Diagrama de Estados](../04-modelagem/diagrama-estados.md)

@@ -40,3 +40,4 @@
         * [Diagrama de Pacotes](04-modelagem/diagrama-pacotes.md)
         * [Fluxo de Navegação](04-modelagem/fluxo-de-navegacao.md)
         * [Diagrama de Sequencia](04-modelagem/diagrama-sequencia.md)
+        * [Diagrama de Sequencia](04-modelagem/diagrama-estados.md)
