@@ -13,6 +13,6 @@
 
 ## Distribuições de issues
 
-|Issue|Responsável|
-|-----|---------|
-|**#<numero_da_issue>**|<nome_do_membro>|
+|Issue|Responsável|Pontuação|
+|-----|---------|-----------|
+|**#<numero_da_issue>**|<nome_do_membro>|<numero_de_pontos>|

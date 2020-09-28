@@ -32,6 +32,7 @@
 ### Priorização
 
 1. [MoSCoW](../02-requisitos/priorizacao/moscow.md)
+2. [Backlog Priorizado](../02-requisitos/priorizacao/backlog.md)
 
 ## Plano de Gerência
 

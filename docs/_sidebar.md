@@ -26,6 +26,7 @@
             * [Backlog do Produto](02-requisitos/modelagem/backlog.md)
         * Priorização
             * [MoSCoW](02-requisitos/priorizacao/moscow.md)
+            * [Backlog Priorizado](02-requisitos/priorizacao/backlog.md)
         * Análise
             * [Verificação](02-requisitos/analise/verificacao/verificacao.md)
     * Plano de Gerencia
@@ -34,8 +35,11 @@
         * [Plano de Riscos](03-plano-gerencia/plano-riscos.md)
 * Dinâmica 2
     * Modelagem
+        * [Base de Dados](04-modelagem/base-dados.md)
         * [Diagrama de Componentes](04-modelagem/diagrama-componentes.md)
         * [Diagrama de Classes](04-modelagem/diagrama-classes.md)
         * [Diagrama de Pacotes](04-modelagem/diagrama-pacotes.md)
         * [Fluxo de Navegação](04-modelagem/fluxo-de-navegacao.md)
         * [Diagrama de Atividades](04-modelagem/diagrama-atividades.md)
+        * [Diagrama de Sequencia](04-modelagem/diagrama-sequencia.md)
+
