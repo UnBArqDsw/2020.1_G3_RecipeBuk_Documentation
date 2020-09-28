@@ -7,4 +7,6 @@
 3. [Diagrama de Classes](../04-modelagem/diagrama-classes.md)
 4. [Fluxo de Navegação](../04-modelagem/fluxo-de-navegacao.md)
 5. [Diagrama de Sequencia](../04-modelagem/diagrama-sequencia.md)
-6. [Diagrama de Atividades](../04-modelagem/diagrama-atividades.md)
+6. [Diagrama de Estados](../04-modelagem/diagrama-estados.md)
+7. [Diagrama de Atividades](../04-modelagem/diagrama-atividades.md)
+
