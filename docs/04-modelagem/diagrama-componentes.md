@@ -1,8 +1,13 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/15 | 0.1 | Larissa Sales e Letícia Araújo | Criação do Documento |
+| 2020/09/28 | 1.0 | Larissa Sales | Inclusão de descrição |
 
 # Diagrama de Componentes
+
+O Diagrama de Componentes nos auxilia no entendimento do relacionamento entre diferentes componentes (módulo de classes) de um sistema. Com ele é possível visualizar a estrutura física do sistema e dos componentes do sistema e como eles se relacionam.
+
+Seguindo por uma abordagem arquitetural e partindo da ideia central do nosso sistema, que é a busca de receitas, temos como resultado quais comunicações são feitas entre os subsistemas da aplicação.
 
 ![](../assets/04-modelagem/20200915-diagrama-componentes.png)
 Autor: Larissa Sales e Letícia Araújo
