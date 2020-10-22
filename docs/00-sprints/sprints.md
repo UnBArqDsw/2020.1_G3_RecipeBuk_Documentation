@@ -22,3 +22,8 @@
 
 - [Planejamento](00-sprints/planning/sprint4.md)
 - [Resultados](00-sprints/results/results4.md)
+
+## Sprint 5
+
+- [Planejamento](00-sprints/planning/sprint5.md)
+- [Resultados](00-sprints/results/results5.md)
