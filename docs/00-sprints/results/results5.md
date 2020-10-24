@@ -13,6 +13,7 @@
 |**#48**|US01 - Tela de Cadastro (Frontend)|
 |**#49**|US01 - Tela de Login (Frontend)|
 |**#73**|US08 - Cadastro de Receitas (Backend)|
+|**#74**|US08 - Cadastro de Receitas (Frontend)|
 |**#81**|US12 - Busca de Receitas (Frontend)|
 
 ## Dívida técnica
