@@ -1,3 +1,7 @@
+|Versão| Autor | Descrição |
+| ---- | ----- | --------- |
+| 1.0 | Dâmaso | Criação da documentação da sprint |
+
 # Sprint 4
 
 **Data de início:** 2020/09/21
