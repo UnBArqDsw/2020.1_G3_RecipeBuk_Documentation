@@ -44,3 +44,6 @@
         * [Diagrama de Sequencia](04-modelagem/diagrama-sequencia.md)
         * [Diagrama de Estados](04-modelagem/diagrama-estados.md)
 
+* Dinâmica 3
+    * Padrões de Projeto
+        * [GOFs Estrutural](05-padroes-de-projeto/GOFs/GOFs-estruturais.md)
