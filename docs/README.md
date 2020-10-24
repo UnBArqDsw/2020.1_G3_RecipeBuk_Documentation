@@ -46,6 +46,11 @@
 ## Sobre 
 O **RecipeBük** como o nome sugere é uma aplicação de armazenamento, busca e compartilhamento de receitas culinárias. A ideia é que seja possível a todos cadastrar as suas próprias receitas e mantê-las a salvo. 
 
+## Uso 
+Para rodar a wiki localmente, execure o comando
+```
+$ docsify serve
+```
 <!--
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
@@ -56,8 +61,6 @@ Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto final.

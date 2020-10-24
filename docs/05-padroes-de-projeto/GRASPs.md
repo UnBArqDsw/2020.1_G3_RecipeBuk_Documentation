@@ -12,8 +12,8 @@ Criador é outro GRASP parecido com o especialista que é responsável por criar
 
 Em nosso projeto possuímos diversos especialistas e criadores para melhor administrar as responsabilidades da aplicação, são eles:
 
-[GRASPs no Frontend](GRASPs-frontend.md)
+[GRASPs no Frontend](../05-padroes-de-projeto/GRASPs-frontend.md)
 
-[GRASPs no Backend](GRASPs-backend.md)
+[GRASPs no Backend](../05-padroes-de-projeto/GRASPs-backend.md)
 
 [1] GRASP (padrão orientado a objetos). Disponível em: <<https://pt.wikipedia.org/wiki/GRASP_(padr%C3%A3o_orientado_a_objetos)>>. Acesso em: 23 Out. 2020.
