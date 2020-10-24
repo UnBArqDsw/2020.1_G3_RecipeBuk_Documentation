@@ -8,20 +8,13 @@
 
 |Issue|Descrição|
 |-----|---------|
-|**#46**|US01 - Tela de Cadastro (Backend)|
-|**#47**|US01 - Tela de Login (Backend)|
-|**#48**|US01 - Tela de Cadastro (Frontend)|
-|**#49**|US01 - Tela de Login (Frontend)|
-|**#73**|US08 - Cadastro de Receitas (Backend)|
-|**#74**|US08 - Cadastro de Receitas (Frontend)|
-|**#81**|US12 - Busca de Receitas (Frontend)|
+|**#93**|Configurar ambiente de testes|
+|**#74**|US08 - Cadastro de Receitas (Backend)|
 
 ## Dívida técnica
 
 |Issue|Descrição|
 |-----|---------|
-|**#46**|US01 - Tela de Cadastro (Backend)|
-|**#47**|US01 - Tela de Login (Backend)|
 |**#48**|US01 - Tela de Cadastro (Frontend)|
 |**#49**|US01 - Tela de Login (Frontend)|
 |**#73**|US08 - Cadastro de Receitas (Backend)|

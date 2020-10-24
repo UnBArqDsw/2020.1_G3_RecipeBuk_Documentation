@@ -12,15 +12,13 @@
 |**#47**|US01 - Tela de Login (Backend)|
 |**#48**|US01 - Tela de Cadastro (Frontend)|
 |**#49**|US01 - Tela de Login (Frontend)|
-|**#73**|US08 - Cadastro de Receitas (Backend)|
-|**#80**|US12 - Busca de Receitas (Backend) - Testes|
-|**#81**|US12 - Busca de Receitas (Frontend)|
 
 ## Dívida técnica
 
 |Issue|Descrição|
 |-----|---------|
 |**#73**|US08 - Cadastro de Receitas (Backend)|
+|**#80**|US12 - Busca de Receitas (Backend) - Testes|
 |**#81**|US12 - Busca de Receitas (Frontend)|
 
 

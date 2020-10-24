@@ -8,15 +8,9 @@
 
 |Issue|Descrição|
 |-----|---------|
-|**#46**|US01 - Tela de Cadastro (Backend)|
-|**#47**|US01 - Tela de Login (Backend)|
-|**#48**|US01 - Tela de Cadastro (Frontend)|
-|**#49**|US01 - Tela de Login (Frontend)|
 |**#53**|Diagrama de Sequência|
 |**#54**|Diagrama de Estado|
 |**#55**|Diagrama de Atividades|
-|**#73**|US08 - Cadastro de Receitas (Backend)|
-|**#80**|US12 - Busca de Receitas (Backend)|
 
 ## Dívida técnica
 

@@ -11,8 +11,6 @@
 |**#6**|Plano de Riscos|
 |**#8**|Elicitação de Requisitos (Entrevistas, Questionários, Personas, Introspecção, Storyboard, Storytelling, Diagrama de Ishkawa)|
 |**#9**|Priorização (MoSCoW)|
-|**#10**|Modelagem (Metodologia Ágil)|
-|**#12**|Análise (Validação via protótipo)|
 
 ## Dívida técnica
 
