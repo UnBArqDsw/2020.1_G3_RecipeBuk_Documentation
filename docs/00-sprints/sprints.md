@@ -22,3 +22,23 @@
 
 - [Planejamento](00-sprints/planning/sprint4.md)
 - [Resultados](00-sprints/results/results4.md)
+
+## Sprint 5
+
+- [Planejamento](00-sprints/planning/sprint5.md)
+- [Resultados](00-sprints/results/results5.md)
+
+## Sprint 6
+
+- [Planejamento](00-sprints/planning/sprint6.md)
+- [Resultados](00-sprints/results/results6.md)
+
+## Sprint 7
+
+- [Planejamento](00-sprints/planning/sprint7.md)
+- [Resultados](00-sprints/results/results7.md)
+
+## Sprint 8
+
+- [Planejamento](00-sprints/planning/sprint8.md)
+- [Resultados](00-sprints/results/results8.md)

@@ -1,3 +1,7 @@
+|Versão| Autor | Descrição |
+| ---- | ----- | --------- |
+| 1.0 | Dâmaso | Criação da documentação da sprint |
+
 # Sprint 2 - Resultado
 
 **Data de início:** 2020/09/07
@@ -11,8 +15,6 @@
 |**#6**|Plano de Riscos|
 |**#8**|Elicitação de Requisitos (Entrevistas, Questionários, Personas, Introspecção, Storyboard, Storytelling, Diagrama de Ishkawa)|
 |**#9**|Priorização (MoSCoW)|
-|**#10**|Modelagem (Metodologia Ágil)|
-|**#12**|Análise (Validação via protótipo)|
 
 ## Dívida técnica
 
