@@ -12,10 +12,12 @@
 
 |Issue|Descrição|
 |-----|---------|
-|**#67**|Edição de perfil do usuário (Backend)|
-|**#68**|Edição de perfil do usuário (Frontend)|
-|**#75**|Exclusão de receitas (Backend)|
-|**#76**|Exclusão de receitas (Frontend)|
+|**#67**|US05 - Edição de perfil do usuário (Backend)|
+|**#68**|US05 - Edição de perfil do usuário (Frontend)|
+|**#73**|US08 - Cadastro de Receitas (Backend)|
+|**#74**|US08 - Cadastro de Receitas (Frontend)|
+|**#75**|US09 - Exclusão de receitas (Backend)|
+|**#76**|US09 - Exclusão de receitas (Frontend)|
 |**#98**|Documentar GRASPs|
 |**#99**|Documentar Padrões de Projeto|
 
@@ -26,6 +28,8 @@
 |-----|---------|-----------|
 |**#67**|Luís e Eduardo|5 pontos|
 |**#68**|Luís e Eduardo|5 pontos|
+|**#73**|Leticia e Larissa|5 pontos|
+|**#74**|Leticia e Larissa|5 pontos|
 |**#75**|Letícia e Larissa|5 pontos|
 |**#76**|Letícia e Larissa|5 pontos|
 |**#98**|Todos|5 pontos|
@@ -34,3 +38,4 @@
 ## Comentários
 
 <p align="justify">Foi definido para a dupla Dâmaso e Samuel ficarem de suporte para as outras duplas poderem fechar todas as issues, visto as possíveis dívidas técnicas que podem ocorrer por estar em momentos de provas.</p>
+
