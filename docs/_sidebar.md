@@ -43,4 +43,7 @@
         * [Diagrama de Atividades](04-modelagem/diagrama-atividades.md)
         * [Diagrama de Sequencia](04-modelagem/diagrama-sequencia.md)
         * [Diagrama de Estados](04-modelagem/diagrama-estados.md)
-
+* Dinâmica 3
+    * Padrões de Projeto
+        * [GRASPs](05-padroes-de-projeto/GRASPs.md)
+        * [GOFs Estrutural](05-padroes-de-projeto/GOFs/GOFs-estruturais.md)

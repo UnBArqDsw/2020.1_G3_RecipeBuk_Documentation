@@ -4,6 +4,8 @@
 
 # Fluxo de Navegação
 
+O Fluxo de Navegação é uma visão de baixo nível que nos permite mapear todo fluxo de telas da aplicação de forma rápida, ajudando a encontrar as direções para ir de um ponto a outro. Esta técnica serve também para analisar a eficiência de tarefas olhando pelo lado da experiência de usuário e é uma ótima base para a prototipagem do sistema.
+
 ![](../assets/04-modelagem/20200917-fluxo-de-navegacao.png)
 Autor: Larissa Sales e Letícia Araújo
 
