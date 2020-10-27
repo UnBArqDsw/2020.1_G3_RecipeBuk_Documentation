@@ -1,7 +1,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/10/23 | 1 | Luís Henrique e Eduardo Lima | Criação do Documento |
-| 2020/10/26 | 1.1 | Eduardo Lima | Adições de links |
+| 2020/10/26 | 1.1 | Eduardo Lima | Adição de links |
 
 # GRASPs Frontend
 
