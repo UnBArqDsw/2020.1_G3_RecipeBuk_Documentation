@@ -1,3 +1,7 @@
+|Versão| Autor | Descrição |
+| ---- | ----- | --------- |
+| 1.0 | Dâmaso | Criação da documentação da sprint |
+
 # Sprint <Número da Sprint> - Resultado
 
 **Data de início:** AAAA/MM/DD

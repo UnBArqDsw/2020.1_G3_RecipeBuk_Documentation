@@ -46,3 +46,4 @@ Responsável pelas operações que dizem respeito ao usuário.
 ![](../assets/05-padroes-de-projeto/GRASPs-front/especialista-account-service.png)
 
 [account.service.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/services/account.service.ts)
+
