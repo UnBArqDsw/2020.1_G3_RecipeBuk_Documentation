@@ -4,6 +4,7 @@
 | ---- | ---- | ----- | --------- |
 | 2020/09/09 | 1.0 | Luís, Eduardo e Samuel | Adicionando backlog |
 | 2020/09/15 | 2.0 | Dâmaso e Samuel |Atualizando backlog|
+| 2020/11/03 | 3.0 | Letícia Karla Araújo |Atualizando backlog|
 
 ## Backlog v1
 
@@ -48,6 +49,7 @@
 ||**FE12 - Compartilhamento**|**US32:** Eu, como usuário, gostaria de colocar um livro como público para tê-lo visível ao público.|RF07|
 |||**US33:** Eu, como usuário, gostaria de colocar um livro como privado para mantê-lo visível somente à minha conta ou contas autorizadas.|RF07|
 |||**US34:** Eu, como usuário, gostaria de exportar meu livros em formato PDF para poder compartilhá-los.|RF07, RF30|
+||**FE13 - Armazenamento**|**US35:** Eu, como usuário, gostaria de visualizar as minhas receitas favoritas.|RF07|
 
 ## Referências
 
