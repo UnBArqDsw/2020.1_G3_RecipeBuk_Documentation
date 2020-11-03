@@ -48,7 +48,7 @@
 - [Planejamento](00-sprints/planning/sprint9.md)
 - [Resultados](00-sprints/results/results9.md)
 
-## Sprint 9
+## Sprint 10
 
 - [Planejamento](00-sprints/planning/sprint10.md)
 - [Resultados](00-sprints/results/results10.md)
