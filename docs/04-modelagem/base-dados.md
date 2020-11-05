@@ -25,7 +25,7 @@
 &emsp;USER_ACCOUNT(<u>email</u>, name)</br>
 &emsp;RECIPE(<u>recipeId</u>, userEmail, name, time, portions, visibility, steps)</br>
 &emsp;RECIPE_BOOK(<u>bookId</u>, userEmail, title, description, visibility)</br>
-&emsp;USER_SESSION(userEmail, <u>sessionId</u>, expirationDate)</br>
+&emsp;USER_SESSION(userEmail, sessionId, expirationDate)</br>
 &emsp;CATEGORY(<u>idCategory</u>, name)</br>
 &emsp;FAVORITE(userEmail, recipeLink)</br>
 &emsp;INGREDIENT(<u>ingredientId</u>, name)</br>
