@@ -1,3 +1,4 @@
+
 # Base de Dados
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
@@ -6,6 +7,7 @@
 | 2020/09/23 | 0.3 | Samuel Pereira | Atualizações do DE-R, adição do Diagrama Lógico e mudança de título |
 | 2020/09/23 | 1.0 | Samuel Pereira | Adição de visibility em RECIPE_BOOK |
 | 2020/09/24 | 1.1 | Samuel Pereira | Modificação do nome de tabela USER |
+| 2020/11/05 | 1.2 | Samuel Pereira | Modificação na base de dados |
 
 ## ME-R
 
@@ -15,17 +17,17 @@
 &emsp;RECIPE_BOOK</br>
 &emsp;USER_SESSION</br>
 &emsp;CATEGORY</br>
-&emsp;STEP</br>
+&emsp;FAVORITE</br>
 &emsp;INGREDIENT</br>
 
 
 ### Atributos
-&emsp;USER_ACCOUNT(<u>email</u>, name, password_hash, birthdate)</br>
-&emsp;RECIPE(<u>recipeId</u>, userEmail, name, time, portions, visibility)</br>
+&emsp;USER_ACCOUNT(<u>email</u>, name)</br>
+&emsp;RECIPE(<u>recipeId</u>, userEmail, name, time, portions, visibility, steps)</br>
 &emsp;RECIPE_BOOK(<u>bookId</u>, userEmail, title, description, visibility)</br>
-&emsp;USER_SESSION(userEmail, <u>sessionId</u>, expirationDate)</br>
+&emsp;USER_SESSION(userEmail, sessionId, expirationDate)</br>
 &emsp;CATEGORY(<u>idCategory</u>, name)</br>
-&emsp;STEP(recipeId, number, instruction)</br>
+&emsp;FAVORITE(userEmail, recipeLink)</br>
 &emsp;INGREDIENT(<u>ingredientId</u>, name)</br>
 
 ### Relacionamentos
@@ -45,8 +47,8 @@
 &emsp;&emsp;Um RECIPE usa um ou mais INGREDIENTS e um INGREDIENT pode ser usado em várias RECIPES.</br>
 &emsp;&emsp;Cardinalidade: n:m.</br>
 </br>
-&emsp;RECIPE - follows - STEPS</br>
-&emsp;&emsp;Um RECIPE segue um ou mais STEPS e um STEP é seguido somente por um RECIPE.</br>
+&emsp;USER_ACCOUNT - adds - FAVORITE</br>
+&emsp;&emsp;Uma USER_ACCOUNT pode adicionar vários FAVORITES e um FAVORITE é adicionado somente por uma USER_ACCOUNT.</br>
 &emsp;&emsp;Cardinalidade: 1:n.</br>
 </br>
 &emsp;RECIPE_BOOK - contains - RECIPE</br>
@@ -58,7 +60,7 @@
 &emsp;&emsp;Cardinalidade: n:m.</br>
 
 ## DE-R
-![](../assets/04-modelagem/20200924-der.png)
+![](../assets/04-modelagem/20201105-der.png)
 
 ## Diagrama Lógico
-![](../assets/04-modelagem/20200924-logico.png)
+![](../assets/04-modelagem/20201105-logico.png)
