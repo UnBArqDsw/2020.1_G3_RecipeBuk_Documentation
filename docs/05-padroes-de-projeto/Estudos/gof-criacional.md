@@ -43,16 +43,36 @@ Para ser implementado em nosso projeto, o **Factory Method** deve ser estruturad
 ![](../../assets/05-padroes-de-projeto/GOFs/factory-method/referencia-diagrama-de-classe.png)
 
 
-## Abstract Method
+## Abstract Factory
+
+O **Abstract Factory** é uma versão "mais escalável" do Factory Method, nele é possível que se crie e instancie familias de objetos relacionados. 
+
+Exemplo: Suponhamos que temos uma fabrica de móveis e nelas são feitas cadeiras, mesas e sofás. Além disso são feitos estilos de móveis, Vitorianos, Modernos e Clássicos. Sendo assim diversas variações de móveis dentro de uma família de objetos diferentes. Nesse caso a aplicação do padrão **Abstract Factory** mostra de uma forma simples a aplicação escalável desse exemplo.
+
+1. São específicados interfaces para cada móvel específico, com seus respectivos métodos.
+2. São implementados interfaces abstratas para cada estilos de móvel utilizado pela fábrica.
+3. A fábrica implementa métodos que são sobrescritos pelas classes concretas de construção de estilo, e é chama pelo cliente do software que executa tudo.
+
+![](../../assets/05-padroes-de-projeto/GOFs/abstract-factory/abstract-factory.png)
 
 ### Pontos positivos
 
+- Certeza sobre compatibilidade entre os componentes.
+- Evitar vínculo forte entre produtos concretos e código cliente.
+- *Princípio de responsabilidade única*. Você pode realizar a manutenção do código sem afetar os outros componentes diretamente.
+- *Princípio aberto/fechado*. Você pode adicionar novos componentes ao código sem quebrar ou afetar os outros componentes já existentes.
+
 ### Pontos negativos
+
+- A complexidade do código pode aumentar devido a quantidade de classes e interfaces criadas no projeto.
 
 ### Viabilidade
 
+Assim como Factory Method, a aplicação contem um escopo muito pequeno fazendo com que seja um tanto quanto inviável para a aplicação deste padrão de projeto. Porém com uma certa escalabilidade sobre a aplicação pode ser que o padrão seja aplicado sobre a categorização das receitas culinárias presentes no projeto.
 
-## Singleton
+## Builder
+
+
 
 ### Pontos positivos
 
