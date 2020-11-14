@@ -22,7 +22,6 @@ Model – view – controller (MVC) é um padrão de arquitetura de software par
 
 ### Model
 Modelo é a ponte entre as camadas Visão (View) e Controle (Controller), consiste na parte lógica da aplicação, que gerencia o comportamento dos dados através de regras de negócios, lógica e funções. Esta fica apenas esperando a chamada das funções, que permite o acesso para os dados serem coletados, gravados e, exibidos.
-
 ![](../assets/06-padroes-de-arquitetura/padrao-arquitetural/mvc-model-padrao-arquitetural.PNG)
 [Ingredient.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/models/Ingredient.js)
 ### View
