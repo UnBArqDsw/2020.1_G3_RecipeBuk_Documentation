@@ -3,6 +3,7 @@
 | 2020/09/24 | 0.1 | Larissa Sales e Letícia Araújo | Criação do Documento |
 | 2020/09/24 | 1.0 | Larissa Sales | Inclusão dos diagramas de cadastro e busca de receita |
 | 2020/09/28 | 1.1 | Larissa Sales | Inclusão de descrição |
+| 2020/09/28 | 1.1 | Larissa Sales e Letícia Araújo | Correção de Autoria |
 
 
 # Diagrama de Sequência
@@ -16,22 +17,22 @@ Para este projeto, foi entendido pelo time que as sequências de maior importân
 ## Cadastro de usuário
 
 ![](../assets/04-modelagem/20200923-larissa-diagrama-sequencia-cadastro.png)
-Autor: Larissa Sales
+Autor: Larissa Sales e Letícia Araújo
 
 ## Login de usuário
 
 ![](../assets/04-modelagem/20200924-larissa-diagrama-sequencia-login.png)
-Autor: Larissa Sales
+Autor: Larissa Sales e Letícia Araújo
 
 ## Cadastro de receita
 
 ![](../assets/04-modelagem/20200924-larissa-diagrama-sequencia-cadastro-receita.png)
-Autor: Larissa Sales
+Autor: Larissa Sales e Letícia Araújo
 
 ## Busca de receita
 
 ![](../assets/04-modelagem/20200924-larissa-diagrama-sequencia-busca-receita.png)
-Autor: Larissa Sales
+Autor: Larissa Sales e Letícia Araújo
 
 # Referências
 
