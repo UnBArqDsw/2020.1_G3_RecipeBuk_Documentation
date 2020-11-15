@@ -178,5 +178,27 @@ Foi utilizado esse padrão de projeto dentro de uma das telas de criação do fr
 
 [cadastro-receitas.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cadastro-receitas/cadastro-receitas.component.ts)
 
+## Flyweight
+
+O **Flyweight** é um padrão de projeto que tem como objetivo dividir objetos muito pesados para o hardware. Fazendo com que sejam instanciados mais objetos quanto necessário dentro da memória RAM. Isso acontece pois toda a parte mais pesada no objeto é salvado em uma classe intrínseca que é instanciado uma vez.
+
+1. O cliente gera faz a chamada para uma classe de contexto que tme como objeto fazer a ligação entre os objetos `Flyweight`.
+2. É criado uma classe `FlyweightFactory` onde são armazenados os dados extrínsecos e portanto mais leves e saúdaveis para a execução do software.
+3. É criado a classe `Flyweight` onde é armazenado a parte intrínseca, mais pesada e complexa, do objeto em questão.
+
+![](../../assets/05-padroes-de-projeto/GOFs/flyweight/flyweight.png)
+
+### Pontos positivos
+
+- É possível economizar muita RAM desde que seu software tenha muitos objetos iguais.
+
+### Pontos negativos
+
+- Talvez a economia de RAM não se pague devido ao possível aumento em ciclos de CPU para recálculo dos dados do software.
+- O código pode ficar confuso para novos desenvolvedores que irão entrar no projeto.
+
+### Aplicação
+
+Devido ao escopo da nossa aplicação, não foi possível a aplicação do padrão de projeto.
 
 ## Referências
