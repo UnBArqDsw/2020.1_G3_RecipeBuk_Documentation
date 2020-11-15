@@ -154,4 +154,29 @@ Exemplo: Vamos supor que você tenha um sistema de notificações em que você p
 
 Não foi aplicado nenhum padrão `Decorator` em nosso projeto, pela falta de elementos que concorrem entre si sobre a execução de atividades parecidas. Sendo assim um padrão que ficasse fora do escopo do projeto como um todo.
 
+## Facade
+
+O **Facade** é um padrão de projeto que tem como objeto fornecer uma interface simples para acesso à biblioteca de terceiros ou bibliotecas dentro do sistema que sejam mais complexas. 
+
+Exemplo: Imagine que você precise acessar uma biblioteca super complexa para acessar apenas um dos seus métodos. Essa comunicação é feita através da **Facade**, transformando o acoplamento da aplicação e deixando o entendimento da arquitetura mais simples e arrojado.
+
+![](../../assets/05-padroes-de-projeto/GOFs/facade/facade.png)
+
+### Pontos positivos
+
+- É possível separar seu código da complexidade de um subsistema ou interface de terceiros.
+
+### Pontos negativos
+
+- Pode acontecer da **Facade** se tornar um objeto Deus que contém todo os objetos e classes da aplicação.
+
+### Aplicação
+
+Foi utilizado esse padrão de projeto dentro de uma das telas de criação do frontend. Onde se faz cadastro de receitas culinárias, para simplificar todo o tratamento de dados dentro da interface em questão, foi escolhido apenas algumas funções específicas de uma biblioteca de terceiros. 
+
+![](../../assets/05-padroes-de-projeto/GOFs/facade/facade-cadastro-receita.png)
+
+[cadastro-receitas.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cadastro-receitas/cadastro-receitas.component.ts)
+
+
 ## Referências
