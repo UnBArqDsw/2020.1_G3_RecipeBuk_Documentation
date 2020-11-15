@@ -58,5 +58,67 @@ Exemplo: Suponhamos que em um restaurante seja servido comida italiana e japones
 
 Esse padrão não foi aplicado ao projeto por falta de escopo para aplicação de tal padrão. Sendo algo que pode ser muito escalável e que não se aplica ao nosso projeto.
 
+## Composite
+
+O **Composite** é um padrão de projeto que estrutura objetos em formato de composição de um objeto principal. Como se fosse árvore, o objeto principal, e os galhos os objetos em formato de composição.
+
+Exemplo: Imagine que o Google tem um buscador apenas para os Estados Unidos, e ele quer organizar a estrutura de um projeto para adicionar novos países dentro do buscador dele de forma que cada país tenha o seu buscador. Isso pode ser feito através do **Composite** que define a estrutura do projeto de forma que seja possível adicionar mais componentes desse projeto maior. Imagine agora que cada estado de determinado país tenha um buscador específico para ele. Sendo assim, além do **Composite** para montar e adicionar novos países. Seria necessário a implementação de mais um **Composite** que adicionaria estados à classe País.
+
+1. É declarado uma interface componente que é uma classe que trata de instanciar e tratar de fazer a chamada dos componentes para que eles executem suas funções.
+2. É chamado então a classe `Leaf` que é o componente concreto que implementa de fato a função a ser executada.
+3. É implementado o `Composite` que é a classe responsável por tratar todo o relacionamento e ordem de execução dos componentes filhos sobre a interface. Essa classe se comunica apenas com a interface, não tendo acesso direto aos componentes. Ela também pode adicionar novos componentes à classe asbtrata.
+
+![](foto da implementação do composite)
+
+### Pontos positivos
+
+- É possível trabalhar com estruturas mais complexas de forma conveniente, utilizando a recursividade e polimorfismo ao seu favor.
+- *Princípio aberto/fechado*. Você pode adicionar novos componentes ao código sem quebrar ou afetar os componentes já existentes.
+
+### Pontos negativos
+
+- Pode ser complexa a implementação de classes que diferem muito o seu propósito. Fazendo com que seja necessário a implementação não trivial de certas funcionalidades. Fazendo com que seja difícil a compreensão do código.
+
+### Aplicação
+
+Dentro do nosso projeto, tivemos a implementação desse padrão dentro da classe `Searcher` que é o responsável de organizar todos os componentes e diferentes tipos de buscadores, o web-crawler e o buscador comum do site que faz buscas no nosso próprio banco de dados.
+
+Logo, a divisão foi feita da seguinte forma.
+
+A Classe `super` foi definida como `Seacher`.
+
+![](../../assets/05-padroes-de-projeto/GOFs/searcher-class.png)
+
+[Searcher.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/models/Searcher.js)
+
+Ela conta com um `CompoundSearcher`, que permite a adição e deleção de novos membros à classe principal.
+
+![](../../assets/05-padroes-de-projeto/GOFs/compound-class.png)
+
+[CompoundSearcher.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/models/CompoundSearcher.js)
+
+Foram adicionados também, dois membros para compor, por fim, esse conjunto de classes.
+
+O `Crawler` que realiza pesquisas em outros websites fora do nosso domínio.
+
+![](../../assets/05-padroes-de-projeto/GOFs/crawler-class.png)
+
+[Crawler.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/models/CompoundSearcher.js)
+
+O `Database Searcher` que realiza pesquisas dentro do banco de dados do RecipeBük.
+
+![](../../assets/05-padroes-de-projeto/GOFs/databasesearcher-class.png)
+
+[DatabaseSeacher.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/models/DatabaseSearcher.js)
+
+Com isso, foi atualizado o diagrama de classes para a nova realidade: [Diagrama de Classe v2](../../04-modelagem/diagrama-classes.md)
+
+## Decorator
+
+### Pontos positivos
+
+### Pontos negativos
+
+### Aplicação
 
 ## Referências
