@@ -111,12 +111,31 @@ Foi aplicado uma pequena implementação do padrão de projeto dentro da criaç�
 
 ## Prototype
 
+O **Prototype** tem como objetivo a criação de objetos, clonando de objetos já existentes. Dessa forma ao invés de criar objetos do zero, caso se necessite de um objeto igual à um objeto existente com configurações identicas, então é melhor clonar o objeto existente com mesmos valores e atribuições.
+
+Analogia: A copia dos objetos está mais parecido com a mitose das células onde cada uma delas se clonam dando vida a uma irmã identica à que já existe. 
+
+1. É declarado um método de clonagem dentro de uma interface.
+2. A classe concreta define o método de clonagem 
+
+![](../../assets/05-padroes-de-projeto/GOFs/prototype/prototype.png)
+
 ### Pontos positivos
+
+- É possivel clonar objetos sem acoplá-los a suas classes concretas
+- É possível se livrar de códigos desnecessários para inicialização de objetos repetidos.
+- É possível a construção de objetos complexos mais facilmente.
+- É possível interligar os objetos através de heranças quando os objetos forem complexos.
 
 ### Pontos negativos
 
+- Clonar objetos pode ser complexo devido a referências circulares.
+
 ### Viabilidade
 
+Os objetos criados dentro do nosso projeto não são parecidos em certo nível. Usuário devem ser diferentes, Receitas são diferentes, Livros de Receitas também alteram a sua complexidade. Logo não é possível a aplicação do projeto dentro do projeto.
 
+
+## Singleton
 
 # Referências
