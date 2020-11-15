@@ -72,13 +72,51 @@ Assim como Factory Method, a aplicação contem um escopo muito pequeno fazendo 
 
 ## Builder
 
+O **Builder** tem como objetivo realizar a construção de objetos complexos atráves de métodos que constroem partes do objeto e incrementam funcionalidades sobre o objeto.
 
+Exemplo: Imaginemos que existe uma classe que implementa a construção de uma casa. Porém os componentes de uma casa podem variar de acordo com o gosto do cliente, a casa pode ter piscina, garagem ou não. O **Builder** então define diversos métodos que constroem parte da casa, montando uma estrutura eficiente para personalizar o objeto Casa.
+
+1. É necessário declarar uma interface `Builder` com todas os métodos de construção das etapas do projeto.
+2. Definir também uma classe `Diretor` para liderar todos os `Builders`.
+3. Definir construtores concretos que irão interagir com a interface Builder principal e que irão gerar o produto final.
+
+![](../../assets/05-padroes-de-projeto/GOFs/builder/builder.png)
+
+### Pontos positivos
+
+- É possível construir objetos passo a passo, assim como adiar etapas de construção ou rodar etapas recursivamente.
+- É possível realizar a construção de diversos tipos de objetos com um único código
+- *Princípio de responsabilidade única*. Você pode realizar a manutenção do código sem afetar os outros componentes diretamente.
+
+### Pontos negativos
+
+- A complexidade do código aumenta visto que o padrão exige a criação de multiplas interfaces.
+
+### Viabilidade
+
+Foi aplicado uma pequena implementação do padrão de projeto dentro da criação de receitas culinárias, foi adicionado uma adaptação para que seja possível adicionar quantos ingredientes quanto queira dentro de uma única receita culinária.
+
+**Exemplo de aplicação Backend**: 
+
+![](../../assets/05-padroes-de-projeto/GOFs/builder/recipe-builder-backend.png)
+
+[RecipeRepository.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/Repository/RecipesRepository.js)
+
+**Exemplo de aplicação Frontend**:
+
+![](../../assets/05-padroes-de-projeto/GOFs/builder/recipe-builder-front.png)
+
+[cadastro-receitas.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cadastro-receitas/cadastro-receitas.component.ts)
+
+
+## Prototype
 
 ### Pontos positivos
 
 ### Pontos negativos
 
 ### Viabilidade
+
 
 
 # Referências
