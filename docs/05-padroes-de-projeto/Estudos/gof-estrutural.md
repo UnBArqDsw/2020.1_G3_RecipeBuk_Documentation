@@ -33,4 +33,30 @@ A forma da implementação aconteceu dentro da classe, onde precisavámos adapta
 
 ![](foto da classe de implementação do crawler)
 
+## Bridge
+
+O **Bridge** é um padrão que arquitetura que divide o desenvolvimento de uma grande classe em duas hierarquias, abstração e implementação fazendo com que elas funcionem uma independente da outra.
+
+Exemplo: Suponhamos que em um restaurante seja servido comida italiana e japonesa e são utilizamos pratos redondos e quadrados. Caso fossemos implementar classes concretas para cada prato do restaurante, teríamos 4 opções, Italiana em Prato Quadrado, Japonesa em Prato Redondo... e assim por diante. Caso queira adicionar um novo tipo de comida, vai ser necessário mais algumas classes para adequar tudo que é necessário e essa adição acontece exponencialmente. Com o **Bridge** temos podemos dividir esse problema em duas classes de Abstração e Implementação. No caso a abstração seria o Prato, e a implementação seria a Comida. Caso queira agora adicionar novos elementos é necessário apenas adicionar novas hierarquias dentro das duas classes de Prato e Comida.
+
+1. É criado uma classe de Abstração que define a lógica de controle de alto nível
+2. É criado uma classe de Implementação que define quais vão ser as implementações que pertencem à classe de Abstração.
+3. É criado então subclasses referentes à implementação e abstração, fazendo com que o código se divida de forma coesa.
+
+### Pontos positivos
+
+- È possível criar interfaces e plataformas independentes dos sistemas operacionais
+- O código não fica exposto à detalhes de implementação pois ele fica exposto apenas à abstrações de alto nível.
+- *Princípio de responsabilidade única*. Você pode realizar a manutenção do código sem afetar os outros adaptadores diretamente.
+- *Princípio aberto/fechado*. Você pode adicionar novos adaptadores ao código sem quebrar ou afetar os clientes ou adaptadores já existentes.
+
+### Pontos negativos
+
+- Ao aplicar o padrão de uma classe altamente coesa, o código tende a ficar cada vez mais complexo.
+
+### Aplicação
+
+Esse padrão não foi aplicado ao projeto por falta de escopo para aplicação de tal padrão. Sendo algo que pode ser muito escalável e que não se aplica ao nosso projeto.
+
+
 ## Referências
