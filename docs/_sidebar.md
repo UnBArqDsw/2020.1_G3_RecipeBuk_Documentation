@@ -46,4 +46,5 @@
 * Dinâmica 3
     * Padrões de Projeto
         * [GRASPs](05-padroes-de-projeto/GRASPs.md)
+        * [GOFs Criacionais](05-padroes-de-projeto/Estudos/gof-criacional.md)
         * [GOFs Estrutural](05-padroes-de-projeto/GOFs/GOFs-estruturais.md)

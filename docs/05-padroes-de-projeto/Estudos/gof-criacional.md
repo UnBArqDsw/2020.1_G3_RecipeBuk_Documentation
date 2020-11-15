@@ -135,7 +135,45 @@ Analogia: A copia dos objetos está mais parecido com a mitose das células onde
 
 Os objetos criados dentro do nosso projeto não são parecidos em certo nível. Usuário devem ser diferentes, Receitas são diferentes, Livros de Receitas também alteram a sua complexidade. Logo não é possível a aplicação do projeto dentro do projeto.
 
+## Singleton 
 
-## Singleton
+O **Singleton** é quando vários objetos são ligados a uma única classe para a criação e instancia desses mesmos objetos.
 
-# Referências
+1. Fazer o construtor padrão privado para que os demais objetos do projeto não usem a instanciação do operador `new`.
+2. Criar um método estático que age como um construtor global da aplicação.
+
+![](../../assets/05-padroes-de-projeto/GOFs/singleton/singleton.png)
+
+
+### Pontos positivas
+
+- É possível ter certeza que uma classe terá uma única instância.
+- É ganho um ponto de acesso global para aquela instância.
+- O objeto é instanciado aquela a primeira vez que é chamado.
+
+### Pontos negativos
+
+- Viola o *princípio de responsabilidade única*.
+- Esse padrão pode mascarar um design ruim.
+- É necessário um tratamento para que em um sistema multithreading não tenha instanciação multipla da classe principal.
+- É complexo de se fazer testes unitários.
+
+### Viabilidade
+
+O Singleton é utilizado em nosso projeto em dois momentos, durante a instancia de inicialização dos ambientes do frontend e backend. Devido à configuração dos próprios frameworks utilizados para execução e desenvolvimento do projeto. Angular(Frontend) e NodeJS (Backend).
+
+**Exemplo de utilização Backend**
+
+![](../../assets/05-padroes-de-projeto/GOFs/singleton/singleton-backend.png)
+
+[index.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/index.js)
+
+**Exemplo de utilização Frontend**
+
+![](../../assets/05-padroes-de-projeto/GOFs/singleton/singleton-frontend.png)
+
+[main.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/main.ts)
+
+## Referências
+
+[1] REFACTORING.GURU. Padrões de Projeto. Disponível em: <<https://refactoring.guru/pt-br/design-patterns>>. Acesso em: 14 nov. 2020.
