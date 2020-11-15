@@ -75,11 +75,28 @@ Tem aplicação.
 Não tem aplicação.
 
 ## State
-
+O padrão State permite que um objeto altere seu comportamento quando seu estado interno muda.
 ### Pontos positivos
-
+- *Princípio de responsabilidade única*. Você pode realizar a manutenção do código sem afetar os outros componentes diretamente.
+- *Princípio aberto/fechado*. Você pode adicionar novos componentes ao código sem quebrar ou afetar os outros componentes já existentes.
+- É possível simplificar o código de contexto ao eliminar condicionais de máquinas de estado pesadas.
 ### Pontos negativos
+- Aplicar o padrão pode ser um gasto execessivo se a máquina de estado só tem alguns estados ou raramente muda eles.
 
 ### Viabilidade
+Não tem aplicação.
+
+## Strategy
+É um padrão de projeto comportamental que permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
+### Pontos positivos
+- *Princípio aberto/fechado*. Você pode adicionar novos componentes ao código sem quebrar ou afetar os outros componentes já existentes.
+- É possível trocar algoritmos usados dentro de um objeto durante a execução.
+- É possível isolar os detalhes de implementação de um algoritmo do código que usa ele.
+- É possível substituir a herança por composição.
+### Pontos negativos
+- Se há, apenas, um par de algoritmos e eles raramente mudam, não há motivo real para deixar o programa mais complicado com novas classes e interfaces.
+
+### Viabilidade
+Não tem aplicação.
 ## Referências Bibliográficas
 [1] REFACTORING.GURU. Padrões de Projeto. Disponível em: <<https://refactoring.guru/pt-br/design-patterns>>. Acesso em: 14 nov. 2020.
