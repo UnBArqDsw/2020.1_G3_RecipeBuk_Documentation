@@ -2,7 +2,7 @@
 | ---- | ---- | ----- | --------- |
 | 2020/11/14 | 1.0 | Dâmaso e Letícia | Criação do Documento |
 
-# Estudo Digirido - GoFs Criacional
+# Estudo Dirigido - GoFs Criacional
 
 ## Factory Method 
 
