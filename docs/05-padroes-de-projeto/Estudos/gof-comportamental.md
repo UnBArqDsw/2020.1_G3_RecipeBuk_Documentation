@@ -95,7 +95,30 @@ Não tem aplicação.
 - É possível substituir a herança por composição.
 ### Pontos negativos
 - Se há, apenas, um par de algoritmos e eles raramente mudam, não há motivo real para deixar o programa mais complicado com novas classes e interfaces.
+### Viabilidade
+Não tem aplicação.
 
+## Template Method
+É um padrão de projeto comportamental que define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura.
+### Pontos positivos
+- É possível evoluir o código duplicado para uma superclasse.
+- É possível sobrescrever apenas certas partes de um algoritmo grande, tornando-os menos afetados por mudanças que acontece por outras partes do algoritmo.
+### Pontos negativos
+- Alguns clientes podem ser limitados ao fornecer o esqueleto de um algoritmo.
+- É possível violar o princípio de substituição de Liskov ao suprimir uma etapa padrão de implementação através da subclasse.
+- Nível da dificuldade de implementação.
+### Viabilidade
+Não tem aplicação.
+
+## Visitor
+Este é um padrão de design comportamental que permite separar algoritmos dos objetos nos quais operam.
+### Pontos positivos
+- *Princípio de responsabilidade única*. Você pode realizar a manutenção do código sem afetar os outros componentes diretamente.
+- *Princípio aberto/fechado*. Você pode adicionar novos componentes ao código sem quebrar ou afetar os outros componentes já existentes.
+- Um objeto visitante pode acumular algumas informações úteis enquanto trabalha com vários objetos. Isso pode ser interessante para percorrer um objeto de estrutura complexa, tais como um objeto árvore, e aplicar o visitante para cada objeto da estrutura.
+### Pontos negativos
+- É necessário atualizar todos os visitantes a cada vez que a classe é adicionada ou removida da hierarquia de elementos.
+- Objetos visitantes podem não ter seu acesso permitido para campos e métodos privados dos elementos que eles deveriam estar trabalhando.
 ### Viabilidade
 Não tem aplicação.
 ## Referências Bibliográficas
