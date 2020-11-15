@@ -20,13 +20,16 @@ Exemplo aplicável:
 
 ![](../assets/06-padroes-de-arquitetura/visao-arquitetural/uc-visao-processos-arquitetural.png)
 
-O software não tem escopo para aplicação da visão de processos.
+O software do grupo não tem escopo para aplicação da visão de processos.
 ## Visão de Dados
 Mapeiamento dos objetos para os dados presentes em uma visão de modelo de dados com diagramas de classe. Os quais são usados para descrever especificamente esse modelo de visão arquitetural.
 
 [Diagrama de Dados](../04-modelagem/base-dados.md)
 ## Visão de Implantação
+Contém a distribuição física do sistema em um conjunto de nós de processamento. A visão de implementação mostra a distribuição física do processamento no sistema. O software do grupo não tem escopo para aplicação da visão de implementação.
 
+Exemplo: 
+![](../assets/06-padroes-de-arquitetura/visao-arquitetural/uc-visao-implementacao-arquitetural.png)
 ## Referências Bibliográficas
 [1] PERNAMBUCO. UNIVERSIDADE FEDERAL DE PERNAMBUCO.Conceito: Visão Lógica. Dispo
 nível em: <<https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/concepts/logical_view_C135365E.html>>. Acesso em: 14 nov. 2020.
