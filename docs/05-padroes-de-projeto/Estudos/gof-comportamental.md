@@ -31,6 +31,8 @@ Dentro do nosso projeto, não foi feito muitas dependências sobre responsabilid
 
 É um padrão no qual os objetos são usados ​​para encapsular todas as informações necessárias para realizar ações ou disparar eventos no futuro.
 
+![](../../assets/05-padroes-de-projeto/GOFs/command/command.png)
+
 ### Pontos positivos
 
 - *Princípio de responsabilidade única*. Você pode realizar a manutenção do código sem afetar os outros componentes diretamente.
@@ -90,6 +92,8 @@ São utilizados a iterator através de uma diretriz do Angular, o "ngFor" que re
 
 Este é um padrão de projeto frequentemente utilizado quando é necessário encapsular como os objetos interagem, ou seja, estabelecer comunicação entre os objetos por meio de um mediador.
 
+![](../../assets/05-padroes-de-projeto/GOFs/mediator/mediator.png)
+
 ### Pontos positivos
 
 - *Princípio de responsabilidade única*. Você pode realizar a manutenção do código sem afetar os outros componentes diretamente.
@@ -104,6 +108,24 @@ Este é um padrão de projeto frequentemente utilizado quando é necessário enc
 ### Aplicação
 
 No frontend, cada tela conta com uma implementação de um `Mediator` que trata de pegar dados dos Serviços, que também são formas de implementação do Mediator e colocá-los nas telas. Nisso, não é feito o acesso direto do usuário ao banco de dados, sendo assim todos os dados passam pelo Mediator que trata os dados e exibe de forma segura e confiável.
+
+**Serviço de usuário**
+
+![](../../assets/05-padroes-de-projeto/GOFs/mediator/account-service-mediator.png)
+
+[account.service.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/services/account.service.ts)
+
+**Serviço de receitas**
+
+![](../../assets/05-padroes-de-projeto/GOFs/mediator/recipe-service-mediator.png)
+
+[recipe.service.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/services/recipe.service.ts)
+
+**Serviço de Buscador**
+
+![](../../assets/05-padroes-de-projeto/GOFs/mediator/searcher-mediator.png)
+
+[search.service.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/services/search.service.ts)
 
 ## Memento
 
