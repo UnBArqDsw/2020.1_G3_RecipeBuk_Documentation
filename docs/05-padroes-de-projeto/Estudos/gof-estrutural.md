@@ -1,7 +1,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/10/24 | 0.1 | Samuel | Implementação do GOF - Estrutural (Composite)|
-| 2020/11/14 | 1.0 | Dâmaso e Letícia | Criação do Documento |
+| 2020/11/15 | 1.0 | Dâmaso e Letícia | Criação do Documento |
 
 # Estudo Dirigido - GoFs Estrutural
 
@@ -201,4 +201,46 @@ O **Flyweight** é um padrão de projeto que tem como objetivo dividir objetos m
 
 Devido ao escopo da nossa aplicação, não foi possível a aplicação do padrão de projeto.
 
-## Referências
+## Proxy
+
+O **Proxy** é um padrão de projeto que tem como objetivo criar um substítuto ou espaço reservado para outro objeto. Ele trata os pedidos feitos à classe principal antes e depois de receber e retornar os dados. 
+
+Exemplo: Um exemplo comum para esse padrão de projeto, seria o acesso à base de dados de um sistema. Que nunca é feito de forma direta e sim através de uma componente que trata as requisições recebidas para o sistema e então trata também o retorno do banco de dados, para que tudo seja retornado como se espera.
+
+![](../../assets/05-padroes-de-projeto/GOFs/proxy/proxy.png)
+
+### Pontos positivos
+
+- É possível o controle do serviço, sem que os clientes saibam.
+- É possível gerenciar o ciclo de vida de um objeto que não são importantes para o cliente.
+- O Proxy trabalha sempre, mesmo quando o serviço não está disponível.
+- *Princípio aberto/fechado*. Você pode adicionar novos proxies ao código sem quebrar ou afetar os serviços já existentes.
+
+### Pontos negativos
+
+- A complexidade do código pode aumentar devido a quantidade de classes que tendem a ser criadas para fazer o tratamento dos serviços.
+- A resposta do serviço pode ter atrasos.
+
+### Aplicação
+
+A aplicação do **Proxy** no projeto foi feita de forma simples, através das Rotas do Backend, que servem como **Proxy** para acesso ao banco de dados. Fazendo as chamadas dos objetos e tratando dados para que eles possam ser passados de forma correta ao frontend.
+
+**User Routes**
+
+![](../../assets/05-padroes-de-projeto/GOFs/proxy/user-routes-proxy.png)
+
+**Recipe Routes**
+
+![](../../assets/05-padroes-de-projeto/GOFs/proxy/recipe-routes-proxy.png)
+
+**Home Routes**
+
+![](../../assets/05-padroes-de-projeto/GOFs/proxy/home-routes-proxy.png)
+
+**Seacher Routes**
+
+![](../../assets/05-padroes-de-projeto/GOFs/proxy/searcher-routes-proxy.png)
+
+## Referências Bibliográficas
+
+[1] REFACTORING.GURU. Padrões de Projeto. Disponível em: <<https://refactoring.guru/pt-br/design-patterns>>. Acesso em: 14 nov. 2020.
