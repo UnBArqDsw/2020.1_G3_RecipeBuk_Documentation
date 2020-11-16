@@ -47,11 +47,12 @@
     * Padrões de Projeto
         * [GRASPs](05-padroes-de-projeto/GRASPs.md)
         * [GOFs Criacionais](05-padroes-de-projeto/Estudos/gof-criacional.md)
-        * [GOFs Estrutural](05-padroes-de-projeto/GOFs/GOFs-estruturais.md)
+        * [GOFs Estrutural](05-padroes-de-projeto/Estudos/gof-estrutural.md)
+        * [GOFs Comportamentais](05-padroes-de-projeto/Estudos/gof-comportamental.md)
 * Dinâmica 4
     * Padrões de Arquitetura
-        * [Introdução](../06-padroes-de-arquitetura/index.md)
-        * [Visão Geral](../06-padroes-de-arquitetura/visao-geral.md)
-        * [Estilo Arquitetural](../06-padroes-de-arquitetura/estilo-arquitetural.md)
-        * [Padrão Arquitetural](../06-padroes-de-arquitetura/padrao-arquitetural.md)
-        * [Visão Arquitetural](../06-padroes-de-arquitetura/visao-arquitetural.md)
+        * [Introdução](06-padroes-de-arquitetura/index.md)
+        * [Visão Geral](06-padroes-de-arquitetura/visao-geral.md)
+        * [Estilo Arquitetural](06-padroes-de-arquitetura/estilo-arquitetural.md)
+        * [Padrão Arquitetural](06-padroes-de-arquitetura/padrao-arquitetural.md)
+        * [Visão Arquitetural](06-padroes-de-arquitetura/visao-arquitetural.md)

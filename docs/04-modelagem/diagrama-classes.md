@@ -2,7 +2,7 @@
 | ---- | ---- | ----- | --------- |
 | 2020/09/18 | 1.0 | Dâmaso e Samuel | Adição do documento à wiki |
 | 2020/09/28 | 1.1  | Dâmaso | Adição da descrição do diagrama de classes |
-| 2020/09/28 | 2.0  | Dâmaso | Alteração do diagrama de classes para adaptação ao padrão de projeto Composite. |
+| 2020/10/24 | 2.0  | Dâmaso | Alteração do diagrama de classes para adaptação ao padrão de projeto Composite. |
 
 # Diagrama de Classes
 
