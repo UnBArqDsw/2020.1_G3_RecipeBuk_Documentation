@@ -131,6 +131,8 @@ No frontend, cada tela conta com uma implementação de um `Mediator` que trata 
 
 É um padrão de projeto que permite armazenar o estado interno de um objeto em um determinando momento, para que seja possível retorná-lo a este estado, sem que isso cause problemas com o encapsulamento.
 
+![](../../assets/05-padroes-de-projeto/GOFs/memento/memento.png)
+
 ### Pontos positivos
 
 - O retrato do estado do objeto pode ser gerado sem violar seu encapsulamento.
@@ -146,9 +148,23 @@ No frontend, cada tela conta com uma implementação de um `Mediator` que trata 
 
 Esse padrão de projeto foi aplicado também no frontend do projeto, durante o armazenamento da "Sessão do Usuário", esse estado mostra para o sistema que o usuário está logado, portanto tem acesso às funcionalidades de usuário, como criar receitas, acessar suas próprias receitas, etc. A sessão de usuário é salva internamente no sistema, e resgatada em diversas telas para validação de tão condição.
 
+**Sessão de usuário no Account Service**
+
+![](../../assets/05-padroes-de-projeto/GOFs/memento/user-session-memento.png)
+
+[account.service.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/services/account.service.ts)
+
+**Construtor NavBar - User Session**
+
+![](../../assets/05-padroes-de-projeto/GOFs/memento/navbar-memento.png)
+
+[navbar.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/navbar/navbar.component.ts)
+
 ## Observer
 
  É um padrão de projeto de software que define uma dependência um-para-muitos entre objetos de modo que quando um objeto muda o estado, todos seus dependentes são notificados e atualizados automaticamente.
+
+![](../../assets/05-padroes-de-projeto/GOFs/observer/observer.png)
 
 ### Pontos positivos
 
@@ -161,11 +177,21 @@ Esse padrão de projeto foi aplicado também no frontend do projeto, durante o a
 
 ### Aplicação
 
-Não foi aplicado no projeto, o padrão Observer, pois não existem objetos com muitas depedências sobre outros.
+Foi aplicado o padrão **Observer** para a visualização e espera de dados para pesquisa. Atualizando os resultados da pesquisa de acordo com as requisições do usuário.
+
+![](../../assets/05-padroes-de-projeto/GOFs/observer/search-observer.png)
+
+[search.service.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/services/search.service.ts)
+
+![](../../assets/05-padroes-de-projeto/GOFs/observer/pesquisa-observer.png)
+
+[pesquisa.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/pesquisa/pesquisa.component.ts)
 
 ## State
 
 O padrão State permite que um objeto altere seu comportamento quando seu estado interno muda.
+
+![](../../assets/05-padroes-de-projeto/GOFs/state/state.png)
 
 ### Pontos positivos
 
@@ -182,6 +208,8 @@ O padrão State permite que um objeto altere seu comportamento quando seu estado
 Não foi aplicado o State devido à falta de implementação de objetos e estados pré-definidos para o projeto, visto que o mesmo não se trata de uma software tão complexo.
 
 ## Strategy
+
+![](../../assets/05-padroes-de-projeto/GOFs/strategy/strategy.png)
 
 É um padrão de projeto comportamental que permite que você defina uma família de algoritmos, coloque-os em classes separadas, e faça os objetos deles intercambiáveis.
 
@@ -204,6 +232,8 @@ Não foi aplicado no projeto, pelo tamanho do escopo do software.
 
 É um padrão de projeto comportamental que define o esqueleto de um algoritmo na superclasse mas deixa as subclasses sobrescreverem etapas específicas do algoritmo sem modificar sua estrutura.
 
+![](../../assets/05-padroes-de-projeto/GOFs/template-method/template-method.png)
+
 ### Pontos positivos
 
 - É possível evoluir o código duplicado para uma superclasse.
@@ -222,6 +252,8 @@ Não foi aplicado no projeto, devido à implementações e padrões anteriorment
 ## Visitor
 
 Este é um padrão de design comportamental que permite separar algoritmos dos objetos nos quais operam.
+
+![](../../assets/05-padroes-de-projeto/GOFs/visitor/visitor.png)
 
 ### Pontos positivos
 
