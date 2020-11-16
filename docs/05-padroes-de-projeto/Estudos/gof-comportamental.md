@@ -1,20 +1,31 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/11/14 | 1.0 | Dâmaso e Letícia | Criação do Documento |
+| 2020/11/15 | 1.1 | Dâmaso e Letícia | Adicionando diagramas |
 
 # Estudo Dirigido - GoFs Comportamental
-O modelo de comportamento se concentra no algoritmo e na atribuição de responsabilidades entre os objetos. Eles não apenas descrevem os padrões de objetos ou classes, mas também os padrões de comunicação entre os objetos. O modelo de comportamento de classe usa herança para distribuir comportamento entre classes, enquanto o modelo de comportamento de objeto usa composição de objeto como recompensa pela herança.
+
+O padrão de comportamento se concentra no algoritmo e na atribuição de responsabilidades entre os objetos. Eles não apenas descrevem os padrões de objetos ou classes, mas também os padrões de comunicação entre os objetos. O modelo de comportamento de classe usa herança para distribuir comportamento entre classes, enquanto o modelo de comportamento de objeto usa composição de objeto como recompensa pela herança.
+
 ## Chain of Responsibility
+
 A principal função é evitar a dependência entre um objeto receptor e um objeto solicitante. Consiste em uma série de objetos receptores e de objetos de solicitação, onde cada objetos de solicitação possui uma lógica interna que separa quais são tipos de objetos receptores que podem ser manipulados. O restante é passado para o próximo objetos de solicitação da cadeia.
+
+![](../../assets/05-padroes-de-projeto/GOFs/chain-of-responsability/chain-of-responsability.png)
+
 ### Pontos positivos
+
 - É possível controlar a ordem de tratamento dos objetos.
 - *Princípio de responsabilidade única*. Você pode realizar a manutenção do código sem afetar os outros componentes diretamente.
 - *Princípio aberto/fechado*. Você pode adicionar novos componentes ao código sem quebrar ou afetar os outros componentes já existentes.
 
 ### Pontos negativos
+
 - Alguns objetos podem acabar sem tratamento.
+
 ### Viabilidade
-Não tem aplicação.
+
+Dentro do nosso projeto, não foi feito muitas dependências sobre responsabilidade de um objeto sobre o outro, logo não foi utilizado o padrão **Chain Of Responsability**.
 
 ## Command
 É um padrão no qual os objetos são usados ​​para encapsular todas as informações necessárias para realizar ações ou disparar eventos no futuro.
