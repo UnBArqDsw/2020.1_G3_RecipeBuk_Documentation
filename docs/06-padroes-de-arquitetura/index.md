@@ -14,13 +14,13 @@ Descreve uma solução arquitetural para problemas recorrentes em sistemas softw
 
 ## Tópicos:
 
-* #### [Visão Geral](./visao-geral.md)
+* [Visão Geral](visao-geral.md)
 
-* #### [Estilo Arquitetural](./estilo-arquitetural.md)
+* [Estilo Arquitetural](estilo-arquitetural.md)
 
-* #### [Padrão Arquitetural](./padrao-arquitetural.md)
+* [Padrão Arquitetural](padrao-arquitetural.md)
 
-* #### [Visão Arquitetural](./visao-arquitetural.md)
+* [Visão Arquitetural](visao-arquitetural.md)
 
 ## Referências Bibliográficas:
 
