@@ -22,6 +22,8 @@ Descreve uma solução arquitetural para problemas recorrentes em sistemas softw
 
 * [Visão Arquitetural](06-padroes-de-arquitetura/visao-arquitetural.md)
 
+* [Reutilização de Software](06-padroes-de-arquitetura/reutilizacao-de-software.md)
+
 ## Referências Bibliográficas:
 
 [1] SERRANO, Milene. Arquitetura e Desenho de Software: estilos e padrões arquiteturais i. ESTILOS E PADRÕES ARQUITETURAIS I. Disponível em: <<https://aprender3.unb.br/pluginfile.php/26819/mod_label/intro/Arquitetura%20e%20Desenho%20de%20Software%20-%20Aula%20Estilos%20e%20Padr%C3%B5es%20Arquiteturais%20I%20-%20Profa.%20Milene.pdf>>. Acesso em: 14 nov. 2020.
