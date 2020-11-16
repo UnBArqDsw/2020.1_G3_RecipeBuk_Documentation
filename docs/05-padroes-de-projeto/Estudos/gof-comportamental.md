@@ -64,7 +64,27 @@ Iterator é um padrão de design comportamental que permite percorrer os element
 
 ### Aplicação
 
-Foi durante a composição das telas de `Pesquisas` e `Minhas Receitas`. Foram utilizados o padrão **Iterator**, sendo assim, o código passa por todo o Array de objetos referentes às receitas culinárias fazendo com que sejam todos exibidos dentro da tela. Porém com apenas uma única instanciação do objeto.
+Foi durante a composição das telas de `Pesquisas`, `Minhas Receitas` e `Cadastro de Receitas`. Foram utilizados o padrão **Iterator**, sendo assim, o código passa por todo o Array de objetos referentes às receitas culinárias fazendo com que sejam todos exibidos dentro da tela. Porém com apenas uma única instanciação do objeto.
+
+**Pesquisa de Receitas**
+
+São utilizados a iterator através de uma diretriz do Angular, o "ngFor" que realiza a iteração sobre os elementos de um vetor.
+
+![](../../assets/05-padroes-de-projeto/GOFs/iterator/pesquisa-iterator.png)
+
+[pesquisa-iterator.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/pesquisa/pesquisa.component.html)
+
+**Minhas Receitas**
+
+![](../../assets/05-padroes-de-projeto/GOFs/iterator/minhas-receitas-iterator.png)
+
+[minha-receita.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/minhas-receitas/minhas-receitas.component.html)
+
+**Cadastro de Receitas**
+
+![](../../assets/05-padroes-de-projeto/GOFs/iterator/cadastro-receita-iterator.png)
+
+[cadatro-receitas.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cadastro-receitas/cadastro-receitas.component.html)
 
 ## Mediator
 
