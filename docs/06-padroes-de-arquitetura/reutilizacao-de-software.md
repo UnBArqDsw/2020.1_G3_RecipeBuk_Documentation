@@ -1,6 +1,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
-| 2020/11/16 | 1.0 | Eduardo, Samuel e Luis | Criação do Documento |
+| 2020/11/16 | 0.1 | Eduardo, Samuel e Luis | Criação do Documento |
+| 2020/11/17 | 0.2 | Luis | Adição do documento de Docker |
 
 # Reutilização de Software
 
