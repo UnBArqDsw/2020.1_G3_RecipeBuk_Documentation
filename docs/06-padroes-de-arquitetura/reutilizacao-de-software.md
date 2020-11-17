@@ -5,6 +5,7 @@
 | 2020/11/17 | 0.3 | Luis | Adição do documento de Docker |
 | 2020/11/17 | 0.4 | Eduardo | Correção do tópico Backend e links |
 | 2020/11/17 | 0.5 | Samuel Pereira | Adição do documento Angular no frontend |
+| 2020/11/17 | 0.6 | Eduardo, Luís e Samuel | Correção de links |
 
 # Reutilização de Software
 
@@ -12,11 +13,11 @@ A reutilização de software é uma abordagem de desenvolvimento que visa maxima
 A reutilização de software é comumente aplicada através de frameworks, bibliotecas, plugins, serviços, componentes e Linhas de Produto.
 
 
-* [Frontend](frontend.md)
+* [Frontend](06-padroes-de-arquitetura/frontend.md)
 
-* [Backend](backend.md)
+* [Backend](06-padroes-de-arquitetura/backend.md)
 
-* [Docker](docker.md)
+* [Docker](06-padroes-de-arquitetura/docker.md)
 
 
 
