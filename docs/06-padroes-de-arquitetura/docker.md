@@ -1,6 +1,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
-| 2020/11/16 | 1.0 | Luis Henrique | Criação do Documento |
+| 2020/11/16 | 0.1 | Luis Henrique | Criação do Documento |
+| 2020/11/17 | 1.0 | Luis Henrique | Mudança do tamanho das imagens |
 
 # Docker
 
@@ -17,13 +18,13 @@ O docker é também  extremamente útil no momento de implementar a aplicação 
 
 Para facilitar ainda mais o desenvolvimento, usamos Makefile
 
-![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/Makefile-front.png)
+<img width="25%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/makefile-front.png"></img>
 
 O trabalho do docker acontece em duas etapas
 1. A construção do container, que é quando ele é criado e todas as dependências são instaladas.
 2. A execução do progama dentro do container.
 
-![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/dockerfile-front.png)
+<img width="25%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/dockerfile-front.png"></img>
 
 Usando o Makefile essas duas etapas podem ser condensadas em somente um comando, no nosso caso: `make dev`, ou se quisermos executar uma etapa de cada vez: `make build` para construir o container e `make run` para rodar a aplição.
 
@@ -31,11 +32,11 @@ Usando o Makefile essas duas etapas podem ser condensadas em somente um comando,
 
 No Backend, além de Docker e Makefile, usamos o docker-compose.
 
-![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/makefile-back.png)
+<img width="25%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/makefile-back.png"></img>
 
-![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/dockerfile-back.png)
+<img width="25%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/dockerfile-back.png"></img>
 
-![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/docker-compose.png)
+<img width="25%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/docker-compose.png"></img>
 
 Aqui, o uso de docker e docker-compose é especialmente útil pois além da aplicação que roda em Node.js, é preciso rodar o banco de dados PostgreSQL. Normalmente seria preciso rodar simultaneamente o banco e a aplicação, mas podemos construir os containers e rodar tudo somente com o comando `make up-build`.
 
