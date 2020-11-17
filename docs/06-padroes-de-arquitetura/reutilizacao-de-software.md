@@ -4,6 +4,7 @@
 | 2020/11/16 | 0.2 | Eduardo | Adição da introdução, referências bibliográficas e Backend |
 | 2020/11/17 | 0.3 | Luis | Adição do documento de Docker |
 | 2020/11/17 | 0.4 | Eduardo | Correção do tópico Backend e links |
+| 2020/11/17 | 0.5 | Samuel Pereira | Adição do documento Angular no frontend |
 
 # Reutilização de Software
 
