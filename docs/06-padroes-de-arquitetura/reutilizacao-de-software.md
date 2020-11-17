@@ -3,6 +3,7 @@
 | 2020/11/16 | 0.1 | Eduardo, Samuel e Luis | Criação do Documento |
 | 2020/11/16 | 0.2 | Eduardo | Adição da introdução, referências bibliográficas e Backend |
 | 2020/11/17 | 0.3 | Luis | Adição do documento de Docker |
+| 2020/11/17 | 0.4 | Eduardo | Correção do tópico Backend e links |
 
 # Reutilização de Software
 
@@ -10,19 +11,11 @@ A reutilização de software é uma abordagem de desenvolvimento que visa maxima
 A reutilização de software é comumente aplicada através de frameworks, bibliotecas, plugins, serviços, componentes e Linhas de Produto.
 
 
-* [Frontend](06-padroes-de-arquitetura/frontend.md)
+* [Frontend](frontend.md)
 
-* [Backend](06-padroes-de-arquitetura/backend.md)
+* [Backend](backend.md)
 
-Utilizamos a reutilzação de software através de frameworks e serviços em nosso backend. São eles:
-
-* Express: Framework de aplicação web para NodeJs, utilizado para criar API de maneira eficiente.
-    * Hot-spot: Possuímos implementado em nossa aplicação o método Router do express, que possibilita a criação dinâmica de rotas HTTP
-        ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/Router.png) 
-    * Frozen-spot: Inicializar uma aplicação web via Express
-        ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/Express.png)
-
-* [Docker](06-padroes-de-arquitetura/docker.md)
+* [Docker](docker.md)
 
 
 
