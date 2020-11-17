@@ -5,8 +5,8 @@
 
 # Reutilização de Software
 
-    A reutilização de software é uma abordagem de desenvolvimento que visa maximar o reúso de softwares existentes. O objetivo é alcançar menores custos de produção e manuntenção de software, entregas mais rápidas e maior qualidade.
-    A reutilização de software é comumente aplicada através de frameworks, bibliotecas, plugins, serviços, componentes e Linhas de Produto.
+A reutilização de software é uma abordagem de desenvolvimento que visa maximar o reúso de softwares existentes. O objetivo é alcançar menores custos de produção e manuntenção de software, entregas mais rápidas e maior qualidade.
+A reutilização de software é comumente aplicada através de frameworks, bibliotecas, plugins, serviços, componentes e Linhas de Produto.
 
 
 * [Frontend](06-padroes-de-arquitetura/frontend.md)
