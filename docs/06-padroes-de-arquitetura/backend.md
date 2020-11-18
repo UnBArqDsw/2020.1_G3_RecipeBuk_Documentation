@@ -3,6 +3,7 @@
 | 2020/11/17 | 0.1 | Eduardo Lima | Criação do Documento |
 | 2020/11/17 | 0.2 | Larissa Sales | Adição de descrição e Referências |
 | 2020/11/17 | 0.3 | Luis Taira | Adição de Mocha e Chai |
+| 2020/11/17 | 0.3 | Eduardo Lima | Adição de links para arquivos citados |
 
 # Reutilização de Software - Backend
 
@@ -14,9 +15,16 @@ Utilizamos a reutilização de software através de frameworks e serviços em no
 
 * Express: Framework de aplicação web para NodeJs, utilizado para criar API de maneira eficiente.
     * Hot-spot: Possuímos implementado em nossa aplicação o método Router do express, que possibilita a criação dinâmica de rotas HTTP
-        ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/Router.png) 
+        ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/Router.png)
+
+        [Router.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/routes/Router.js)
+        
     * Frozen-spot: Inicializar uma aplicação web via Express
+
+        
         ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/Express.png)
+
+        [index.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/index.js)
 
 * Mocha e Chai
 
@@ -28,7 +36,9 @@ Quando rodado o comando `npm test`, são rodados todos os testes específicados.
 Segue um exemplo da utilizalção no projeto
 
 ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/chai-mocha-back.png)
+
 [crawlerTest.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/tests/crawlerTest.js)
+
 
 # Referências
 
