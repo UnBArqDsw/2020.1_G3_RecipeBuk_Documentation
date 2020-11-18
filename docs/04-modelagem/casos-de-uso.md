@@ -4,7 +4,8 @@
 | 2020/11/18 | 0.2 | Samuel Pereira | Adição de Caso de Uso 02 |
 | 2020/11/18 | 0.3 | Samuel Pereira | Adição dos Casos de Uso 03 e 04  |
 | 2020/11/18 | 0.4 | Samuel Pereira | Adição dos Casos de Uso 05 e 06  |
-| 2020/11/18 | 0.4 | Samuel Pereira | Adição dos Casos de Uso 07 e 08  |
+| 2020/11/18 | 0.5 | Samuel Pereira | Adição dos Casos de Uso 07 e 08  |
+| 2020/11/18 | 0.6 | Samuel Pereira | Adição dos Casos de Uso 09 |
 
 # Visão geral
 O caso de uso corresponde a uma especificação do comportamento de uma funcionalidade do sistema, tendo a finalidade de descrever como será o uso desta funcionalidade do ponto de vista do usuário.
@@ -20,3 +21,4 @@ O caso de uso corresponde a uma especificação do comportamento de uma funciona
 [Caso de Uso 06: Criação de livro](04-modelagem/casos-de-uso/06.md)</br>
 [Caso de Uso 07: Adição de receita à livro](04-modelagem/casos-de-uso/07.md)</br>
 [Caso de Uso 08: Favoritar receita](04-modelagem/casos-de-uso/08.md)</br>
+[Caso de Uso 09: Pesquisa de receita](04-modelagem/casos-de-uso/08.md)</br>
