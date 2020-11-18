@@ -36,7 +36,7 @@ Sendo assim, o último ponto ser destacado é, como essa implementação acontec
 
 - O código pode ficar muito complexo pelo número de subclasses que podem ser necessárias para a implementação do código. O ideal é a implementação em uma estrutura com classes criadoras já existentes.
 
-### Viabilidade
+### Aplicação
 
 Para ser implementado em nosso projeto, o **Factory Method** deve ser estruturado para construir e criar objetos diferentes que pertencem a uma mesma categoria. Devido ao escopo do projeto, isso não é possível de ser implementado visto que temos apenas tipos bem definidos de objetos, sendo eles `Recipe` e `RecipeBook`.
 
@@ -66,7 +66,7 @@ Exemplo: Suponhamos que temos uma fabrica de móveis e nelas são feitas cadeira
 
 - A complexidade do código pode aumentar devido a quantidade de classes e interfaces criadas no projeto.
 
-### Viabilidade
+### Aplicação
 
 Assim como Factory Method, a aplicação contem um escopo muito pequeno fazendo com que seja um tanto quanto inviável para a aplicação deste padrão de projeto. Porém com uma certa escalabilidade sobre a aplicação pode ser que o padrão seja aplicado sobre a categorização das receitas culinárias presentes no projeto.
 
@@ -92,7 +92,7 @@ Exemplo: Imaginemos que existe uma classe que implementa a construção de uma c
 
 - A complexidade do código aumenta visto que o padrão exige a criação de multiplas interfaces.
 
-### Viabilidade
+### Aplicação
 
 Foi aplicado uma pequena implementação do padrão de projeto dentro da criação de receitas culinárias, foi adicionado uma adaptação para que seja possível adicionar quantos ingredientes quanto queira dentro de uma única receita culinária.
 
@@ -131,7 +131,7 @@ Analogia: A copia dos objetos está mais parecido com a mitose das células onde
 
 - Clonar objetos pode ser complexo devido a referências circulares.
 
-### Viabilidade
+### Aplicação
 
 Os objetos criados dentro do nosso projeto não são parecidos em certo nível. Usuário devem ser diferentes, Receitas são diferentes, Livros de Receitas também alteram a sua complexidade. Logo não é possível a aplicação do projeto dentro do projeto.
 
@@ -158,7 +158,7 @@ O **Singleton** é quando vários objetos são ligados a uma única classe para 
 - É necessário um tratamento para que em um sistema multithreading não tenha instanciação multipla da classe principal.
 - É complexo de se fazer testes unitários.
 
-### Viabilidade
+### Aplicação
 
 O Singleton é utilizado em nosso projeto em dois momentos, durante a instancia de inicialização dos ambientes do frontend e backend. Devido à configuração dos próprios frameworks utilizados para execução e desenvolvimento do projeto. Angular(Frontend) e NodeJS (Backend).
 
