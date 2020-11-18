@@ -7,6 +7,7 @@
 | 2020/11/17 | 0.5 | Samuel Pereira | Adição do documento Angular no frontend |
 | 2020/11/17 | 0.6 | Eduardo, Luís e Samuel | Correção de links |
 | 2020/11/18 | 0.7 | Samuel Pereira | Adição de Crawler no backend |
+| 2020/11/18 | 0.8 | Samuel Pereira | Adição de Bcrypt ao backend |
 
 # Reutilização de Software
 

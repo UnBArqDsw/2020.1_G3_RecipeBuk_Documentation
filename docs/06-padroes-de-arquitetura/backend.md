@@ -7,6 +7,7 @@
 | 2020/11/17 | 0.5 | Eduardo Lima | Adição do tópico getUser |
 | 2020/11/18 | 0.6 | Samuel Pereira | Adição do Crawler |
 | 2020/11/18 | 0.7 | Samuel Pereira | Atualização do Crawler |
+| 2020/11/18 | 0.8 | Samuel Pereira | Adição do Bcrypt |
 
 # Reutilização de Software - Backend
 
@@ -66,8 +67,28 @@ No ponto de vista de reutilização de software do Crawler no Recipebuk, a utili
 No projeto, o Crawler atua como uma reutilização de código de caixa-branca, pois utilizamos a funcionalidade de *scraping* para adquirir informações de outros sites, a qual temos de definir como será feita a filtragem de dados em cada um dos websites alvos. Exemplo da utilização segue abaixo:</br>
 
 - Hot spot: Implementação de tratamento de dados do website TudoGostoso
- ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/crawler_data_treatment.png)
- [Crawler.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/models/Crawler.js)
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/crawler_data_treatment.png)
+[Crawler.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/models/Crawler.js)
+ 
+## Bcrypt
+Bcrypt é um módulo para NodeJS que tem como funcionalidade a realização de criptografias do tipo hash através do algoritmo bcrypt. </br>
+
+No ponto de vista de reutilização de software do Bcrypt no Recipebuk, utilizar este módulo poupa os desenvolvedores de implementarem uma série de funcionalidades, sendo essas:
+- A implementação do algoritmo de hash bcrypt;
+- A implementação de funções auxiliares, como a de geração de sal;
+- A implementação de funções que utilizam o algoritmo bcrypt para gerar as hashes;
+- A implementação de funções para a validação de strings com alguma hash específica.
+
+No projeto, o Bcrypt atua como uma reutilização de código de caixa-preta, logo que consumimos uma programação pronta, sem fornecer qualquer código ao mesmo, com exceção de callbacks, e as informações que o mesmo deve utilizar. Segue abaixo, exemplos da utilização do Bcrypt no projeto:</br>
+
+- Frozen spot: Utilização do módulo Bcrypt para gerar hashes durante a realização de cadastros de usuário
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/addUser.png)
+[UserRepository.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/Repository/UserRepository.js)
+
+- Frozen spot: Utilização do módulo Bcrypt para validar strings de senha
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/validateUser.png)
+[UserRepository.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/Repository/UserRepository.js)
+ 
  
 # Referências
 
