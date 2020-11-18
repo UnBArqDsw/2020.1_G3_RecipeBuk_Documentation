@@ -40,4 +40,6 @@ No Backend, além de Docker e Makefile, usamos o docker-compose.
 
 Aqui, o uso de docker e docker-compose é especialmente útil pois além da aplicação que roda em Node.js, é preciso rodar o banco de dados PostgreSQL. Normalmente seria preciso rodar simultaneamente o banco e a aplicação, mas podemos construir os containers e rodar tudo somente com o comando `make up-build`.
 
+# Referências
+
 [1]  ANDERSON, Charles. Docker [Software engineering]. 2015. Disponível em: <<https://ieeexplore.ieee.org/abstract/document/7093032>>. Acesso em: 16 nov. 2020.
