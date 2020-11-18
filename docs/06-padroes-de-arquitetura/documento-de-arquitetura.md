@@ -61,20 +61,6 @@ processos pesados;</li>
 #### 2.2.2 Backend
 <p align="justify">&emsp;&emsp; O Backend do RecipeBuk é o responsável pela funcionalidade das principais características do sistema. Através de requisições feitas pelo Frontend, o Backend irá realizar as pesquisas feitas pelo usuário, armazenar e editar contas de usuários, receitas, lista de favoritos e livros e realizar a autenticação de usuários.</p>
 
-### 2.3 Padrões
-
-#### 2.3.1 Padrão 
-
-#### 2.3.2 Padrão
-
-## 2.4 Tecnologias
-
-#### 2.4.1 Angular
-
-#### 2.4.2 NodeJS
-
-#### 2.4.3 PostgreSQL
-
 ## 3. Metas e Restrições de Arquitetura
 
 ### 3.1 Restrições Tecnológicas
@@ -92,3 +78,11 @@ processos pesados;</li>
 #### 4.2.2 Diagrama de classe
 
 ##### 4.2.2.1 Diagrama de Classe do 
+
+## 5. Visão da Implantação
+
+## 6. Visão da Implementação
+
+## 7. Tamanho e Desempenho
+
+## 8. Qualidade
