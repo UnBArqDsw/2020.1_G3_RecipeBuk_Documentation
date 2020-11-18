@@ -1,12 +1,15 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/11/17 | 0.1 | Samuel Pereira | Criação do documento e inclusão do Angular |
+| 2020/11/17 | 0.2 | Larissa Sales | Adição de descrição e Referências |
 
 # Reutilização de Software - Frontend
 
 ## Angular
-&emsp;&emsp;&emsp;&emsp;Angular é um framework de código-aberto para desenvolvimento de aplicações web baseado em Typescript, utilizando-se de uma arquitetura de hierarquia de componentes. </br>
-&emsp;&emsp;&emsp;&emsp;No ponto de vista de reutilização de software do Angular no Recipebuk, a utilização do Angular nos poupa da implementação de funcionalidades como também simplifica a utilização das mesmas, esses sendo:
+
+&emsp;&emsp;&emsp;&emsp;Angular é um framework de código-aberto para desenvolvimento de aplicações web baseado em Typescript, utilizando-se de uma arquitetura de hierarquia de componentes.
+
+&emsp;&emsp;&emsp;&emsp;No ponto de vista de reutilização de software do Angular no RecipeBük, a utilização do Angular nos poupa da implementação de funcionalidades como também simplifica a utilização das mesmas, esses sendo:
  - Implementação e facilitação da criação de elementos e páginas dinâmicas;
  - Implementação da sincronização de mudanças dos dados apresentados na view do cliente com a camada de dados do cliente e vice-versa;
  - Implementação de uma série de funcionalidades fornecidas como serviços.
@@ -19,3 +22,6 @@
  ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/HttpClient.png)
   [homepage.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/homepage/homepage.component.ts)
  
+ # Referências
+
+[1] Frameworks e Padrões de Projeto. Disponível em: <<https://www.devmedia.com.br/frameworks-e-padroes-de-projeto/1111>>. Acesso em: 17 nov. 2020.
