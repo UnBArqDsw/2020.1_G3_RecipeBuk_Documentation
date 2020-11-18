@@ -1,7 +1,8 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/11/16 | 0.1 | Luis Henrique | Criação do Documento |
-| 2020/11/17 | 1.0 | Luis Henrique | Mudança do tamanho das imagens |
+| 2020/11/17 | 0.2 | Luis Henrique | Mudança do tamanho das imagens |
+| 2020/11/17 | 1.0 | Luis Henrique | Adição de links para arquivos |
 
 # Docker
 
@@ -19,12 +20,14 @@ O docker é também  extremamente útil no momento de implementar a aplicação 
 Para facilitar ainda mais o desenvolvimento, usamos Makefile
 
 <img width="50%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/makefile-front.png"></img>
+[Makefile](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/Makefile)
 
 O trabalho do docker acontece em duas etapas
 1. A construção do container, que é quando ele é criado e todas as dependências são instaladas.
 2. A execução do progama dentro do container.
 
 <img width="50%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/dockerfile-front.png"></img>
+[Dockerfile](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/Dockerfile)
 
 Usando o Makefile essas duas etapas podem ser condensadas em somente um comando, no nosso caso: `make dev`, ou se quisermos executar uma etapa de cada vez: `make build` para construir o container e `make run` para rodar a aplição.
 
@@ -33,10 +36,13 @@ Usando o Makefile essas duas etapas podem ser condensadas em somente um comando,
 No Backend, além de Docker e Makefile, usamos o docker-compose.
 
 <img width="50%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/makefile-back.png"></img>
+[Makefile](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/Makefile)
 
 <img width="50%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/dockerfile-back.png"></img>
+[Dockerfile](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/Dockerfile)
 
 <img width="50%"  src="../assets/06-padroes-de-arquitetura/reutilizacao-de-software/docker-compose.png"></img>
+[docker-compose.yaml](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/docker-compose.yaml)
 
 Aqui, o uso de docker e docker-compose é especialmente útil pois além da aplicação que roda em Node.js, é preciso rodar o banco de dados PostgreSQL. Normalmente seria preciso rodar simultaneamente o banco e a aplicação, mas podemos construir os containers e rodar tudo somente com o comando `make up-build`.
 

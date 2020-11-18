@@ -2,6 +2,7 @@
 | ---- | ---- | ----- | --------- |
 | 2020/11/17 | 0.1 | Eduardo Lima | Criação do Documento |
 | 2020/11/17 | 0.2 | Larissa Sales | Adição de descrição e Referências |
+| 2020/11/17 | 0.3 | Luis Taira | Adição de Mocha e Chai |
 
 # Reutilização de Software - Backend
 
@@ -16,6 +17,18 @@ Utilizamos a reutilização de software através de frameworks e serviços em no
         ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/Router.png) 
     * Frozen-spot: Inicializar uma aplicação web via Express
         ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/Express.png)
+
+* Mocha e Chai
+
+São duas bibliotecas que tranalham em conjunto e permitem a criação de testes unitários da aplicação.
+Quando rodado o comando `npm test`, são rodados todos os testes específicados.
+
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/testes-back.png)
+
+Segue um exemplo da utilizalção no projeto
+
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/chai-mocha-back.png)
+[crawlerTest.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/tests/crawlerTest.js)
 
 # Referências
 
