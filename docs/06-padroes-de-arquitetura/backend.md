@@ -6,6 +6,7 @@
 | 2020/11/17 | 0.4 | Luis Taira | Adição de Mocha e Chai |
 | 2020/11/17 | 0.5 | Eduardo Lima | Adição do tópico getUser |
 | 2020/11/18 | 0.6 | Samuel Pereira | Adição do Crawler |
+| 2020/11/18 | 0.7 | Samuel Pereira | Atualização do Crawler |
 
 # Reutilização de Software - Backend
 
@@ -62,14 +63,10 @@ No ponto de vista de reutilização de software do Crawler no Recipebuk, a utili
 - *Parsing* das informações adquiridas, a qual é resolvido pelo Crawler através da disponibilização do Cheerio, uma implementação simplificada do JQuery para servidores;
 - Agendamento e sincronização de todas as requisições para o fornecimento da resposta do servidor, onde o Crawler soluciona através do fornecimento de uma fila de requisições a qual possui um callback quando todas as requisições são finalizadas e processadas. </br>
 
-No projeto, o Crawler atua como uma reutilização de código de caixa-branca, pois utilizamos a funcionalidade de *scraping* para adquirir informações de outros sites - a qual temos de definir como será feita a filtragem de dados em cada um dos websites alvos - e a funcionalidade de callback de fila esvaziada - também definindo o comportamento quando a mesma é esvaziada - ambos se caracterizando como hot spots. Exemplos da utilização seguem abaixo:</br>
+No projeto, o Crawler atua como uma reutilização de código de caixa-branca, pois utilizamos a funcionalidade de *scraping* para adquirir informações de outros sites, a qual temos de definir como será feita a filtragem de dados em cada um dos websites alvos. Exemplo da utilização segue abaixo:</br>
 
 - Hot spot: Implementação de tratamento de dados do website TudoGostoso
  ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/crawler_data_treatment.png)
- [Crawler.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/models/Crawler.js)
- 
- - Hot spot: Implementação de callback para retorno de resultado
- ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/getResults.png)
  [Crawler.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/models/Crawler.js)
  
 # Referências
