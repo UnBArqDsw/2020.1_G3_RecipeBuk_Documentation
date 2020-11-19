@@ -1,6 +1,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/11/18 | 0.1 | Luís Taira | Criação do modelo do documento, adição da introdução e representação arquitetural sem diagrana de relações. |
+| 2020/11/19 | 0.2 | Samuel Pereira | Adição da Visão de Caso de Uso |
 
 # RecipeBuk
 ## Arquitetura
@@ -67,22 +68,41 @@ processos pesados;</li>
 
 ### 3.2 Requisitos Não Funcionais
 
-## 4. Visão Lógica
+## 4. Visão de Casos de Uso
+<p align="justify">&emsp;&emsp;A documentação de caso de uso busca especificar o comportamento do sistema do ponto de vista do usuário. Todos os casos de uso produzidos se encontram disponíveis na <a href="#/04-modelagem/casos-de-uso.md">seção de modelagem da documentação</a>, sendo os que representam as funcionalidades centrais os que seguem:</p>
 
-### 4.1 Visão Geral
+- [Caso de Uso 05: Criação de receita](04-modelagem/casos-de-uso/05.md)
+- [Caso de Uso 06: Criação de livro](04-modelagem/casos-de-uso/06.md)
+- [Caso de Uso 07: Adição de receita à livro](04-modelagem/casos-de-uso/07.md)
+- [Caso de Uso 08: Favoritar receita](04-modelagem/casos-de-uso/08.md)
+- [Caso de Uso 09: Pesquisa de receita](04-modelagem/casos-de-uso/09.md)
 
-### 4.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
-#### 4.2.1 Diagrama de pacotes
+### 4.1 Realização de Casos de Uso
+<p align="justify">&emsp;&emsp;Enquanto um caso de uso descreve o comportamento de uma funcionalidade do ponto de vista do usuário, ainda existe o ponto de vista da máquina, ou seja, do sistema. Ao incluir o ponto de vista da máquina no caso de uso, estamos criando uma realização de caso de uso, sendo uma documentação útil para guiar a construção de um sistema o qual consegue alcançar o comportamento desejado. Dessa forma, foram produzidos realizações de caso de uso para os casos de uso considerados representantes das funcionalidades centrais do RecipeBuk, os quais já foram mencionados anteriormente. Com o intuito de não poluir o documento de arquitetura, segue abaixo os hiperlinks para cada um das realizações de caso de uso:</p>
 
-#### 4.2.2 Diagrama de classe
+- [Realização de Caso de Uso 05: Criação de receita](06-padroes-de-arquitetura/realizacoes-caso-de-uso/05.md)
+- [Realização de Caso de Uso 06: Criação de livro](06-padroes-de-arquitetura/realizacoes-caso-de-uso/06.md)
+- [Realização de Caso de Uso 07: Adição de receita à livro](06-padroes-de-arquitetura/realizacoes-caso-de-uso/07.md)
+- [Realização de Caso de Uso 08: Favoritar receita](06-padroes-de-arquitetura/realizacoes-caso-de-uso/08.md)
+- [Realização de Caso de Uso 09: Pesquisa de receita](06-padroes-de-arquitetura/realizacoes-caso-de-uso/09.md)
 
-##### 4.2.2.1 Diagrama de Classe do 
+## 5. Visão Lógica
 
-## 5. Visão da Implantação
+### 5.1 Visão Geral
 
-## 6. Visão da Implementação
+### 5.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
-## 7. Tamanho e Desempenho
+#### 5.2.1 Diagrama de pacotes
 
-## 8. Qualidade
+#### 5.2.2 Diagrama de classe
+
+##### 5.2.2.1 Diagrama de Classe do 
+
+## 6. Visão da Implantação
+
+## 7. Visão da Implementação
+
+## 8. Tamanho e Desempenho
+
+## 9. Qualidade
