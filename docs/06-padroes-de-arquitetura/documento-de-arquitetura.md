@@ -3,6 +3,7 @@
 | 2020/11/18 | 0.1 | Luís Taira | Criação do modelo do documento, adição da introdução e representação arquitetural sem diagrana de relações. |
 | 2020/11/19 | 0.2 | Samuel Pereira | Adição da Visão de Caso de Uso |
 | 2020/11/19 | 0.3 | Samuel Pereira | Correção de links na Visão de Caso de Uso e adição de referências |
+| 2020/11/19 | 0.4 | Luís Taira | Adição da Visão Geral da Visão lógica |
 
 # RecipeBuk
 ## Arquitetura
@@ -89,8 +90,8 @@ processos pesados;</li>
 - [Realização de Caso de Uso 09: Pesquisa de receita](06-padroes-de-arquitetura/realizacao-caso-de-uso/09.md)
 
 ## 5. Visão Lógica
-
 ### 5.1 Visão Geral
+<p align="justify">&emsp;&emsp;A interface do RecipeBuk com o usuáro é feita usando o framework Angular, que permite o uso de HTML e CSS para desenvolvimento gráfico e typescript para sua lógica e efeito para ser executado no lado do cliente. A plataforma Node.js é um ambiente de tempo de execução que executa código e javascript para realizar o processamento do RecipeBuk enquanto também é usado o framework Express.js para a exposição de rotas.</p>
 
 ### 5.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
@@ -100,13 +101,13 @@ processos pesados;</li>
 
 ##### 5.2.2.1 Diagrama de Classe do 
 
-## 6. Visão da Implantação
+### 5.4 Visão da Implantação
 
-## 7. Visão da Implementação
+### 5.5 Visão da Implementação
 
-## 8. Tamanho e Desempenho
+## 6. Tamanho e Desempenho
 
-## 9. Qualidade
+## 7. Qualidade
 
 ## Referências
 [1] SCHMIDT, David. Lecture 7: Use cases and diagrammatic realizations. Disponível em: <http://people.cs.ksu.edu/~schmidt/501s13/Lectures/Lecture07S.html>. Acesso em: 19, Novembro, 2020.</br>
