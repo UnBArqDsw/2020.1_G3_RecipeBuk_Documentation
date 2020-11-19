@@ -2,6 +2,7 @@
 | ---- | ---- | ----- | --------- |
 | 2020/11/18 | 0.1 | Luís Taira | Criação do modelo do documento, adição da introdução e representação arquitetural sem diagrana de relações. |
 | 2020/11/19 | 0.2 | Samuel Pereira | Adição da Visão de Caso de Uso |
+| 2020/11/19 | 0.3 | Samuel Pereira | Correção de links na Visão de Caso de Uso e adição de referências |
 
 # RecipeBuk
 ## Arquitetura
@@ -81,11 +82,11 @@ processos pesados;</li>
 ### 4.1 Realização de Casos de Uso
 <p align="justify">&emsp;&emsp;Enquanto um caso de uso descreve o comportamento de uma funcionalidade do ponto de vista do usuário, ainda existe o ponto de vista da máquina, ou seja, do sistema. Ao incluir o ponto de vista da máquina no caso de uso, estamos criando uma realização de caso de uso, sendo uma documentação útil para guiar a construção de um sistema o qual consegue alcançar o comportamento desejado. Dessa forma, foram produzidos realizações de caso de uso para os casos de uso considerados representantes das funcionalidades centrais do RecipeBuk, os quais já foram mencionados anteriormente. Com o intuito de não poluir o documento de arquitetura, segue abaixo os hiperlinks para cada um das realizações de caso de uso:</p>
 
-- [Realização de Caso de Uso 05: Criação de receita](06-padroes-de-arquitetura/realizacoes-caso-de-uso/05.md)
-- [Realização de Caso de Uso 06: Criação de livro](06-padroes-de-arquitetura/realizacoes-caso-de-uso/06.md)
-- [Realização de Caso de Uso 07: Adição de receita à livro](06-padroes-de-arquitetura/realizacoes-caso-de-uso/07.md)
-- [Realização de Caso de Uso 08: Favoritar receita](06-padroes-de-arquitetura/realizacoes-caso-de-uso/08.md)
-- [Realização de Caso de Uso 09: Pesquisa de receita](06-padroes-de-arquitetura/realizacoes-caso-de-uso/09.md)
+- [Realização de Caso de Uso 05: Criação de receita](06-padroes-de-arquitetura/realizacao-caso-de-uso/05.md)
+- [Realização de Caso de Uso 06: Criação de livro](06-padroes-de-arquitetura/realizacao-caso-de-uso/06.md)
+- [Realização de Caso de Uso 07: Adição de receita à livro](06-padroes-de-arquitetura/realizacao-caso-de-uso/07.md)
+- [Realização de Caso de Uso 08: Favoritar receita](06-padroes-de-arquitetura/realizacao-caso-de-uso/08.md)
+- [Realização de Caso de Uso 09: Pesquisa de receita](06-padroes-de-arquitetura/realizacao-caso-de-uso/09.md)
 
 ## 5. Visão Lógica
 
@@ -106,3 +107,8 @@ processos pesados;</li>
 ## 8. Tamanho e Desempenho
 
 ## 9. Qualidade
+
+## Referências
+[1] SCHMIDT, David. Lecture 7: Use cases and diagrammatic realizations. Disponível em: <http://people.cs.ksu.edu/~schmidt/501s13/Lectures/Lecture07S.html>. Acesso em: 19, Novembro, 2020.</br>
+[2] IBM Corp. Diretriz: Realização de Casos de Uso. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/use-case_realization_C690D81F.html>. Acesso em: 19, Novembro, 2020.</br>
+[3] IBM Corp. Artefato: Realização de Casos de Uso. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_use_case_realization_E4F713BD.html>. Acesso em: 19, Novembro, 2020.
