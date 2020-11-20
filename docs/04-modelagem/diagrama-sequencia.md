@@ -1,8 +1,8 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/24 | 0.1 | Larissa Sales e Letícia Araújo | Criação do Documento |
-| 2020/09/24 | 1.0 | Larissa Sales | Inclusão dos diagramas de cadastro e busca de receita |
-| 2020/09/28 | 1.1 | Larissa Sales | Inclusão de descrição |
+| 2020/09/24 | 1.0 | Larissa Sales e Letícia Araújo  | Inclusão dos diagramas de cadastro e busca de receita |
+| 2020/09/28 | 1.1 | Larissa Sales e Letícia Araújo | Inclusão de descrição |
 | 2020/09/28 | 1.1 | Larissa Sales e Letícia Araújo | Correção de Autoria |
 
 
