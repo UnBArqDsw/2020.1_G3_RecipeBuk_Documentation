@@ -8,6 +8,10 @@
 | 2020/11/19 | 0.6 | Larissa Sales | Adição do Diagrama de Relações |
 | 2020/11/19 | 0.7 | Larissa Sales | Adição de Tecnologias e Metas e Restrições de Arquitetura |
 | 2020/11/20 | 0.8 | Letícia Araújo e Dâmaso | Adição de tópicos de qualidade, diagrama de classes e tamanho e desempenho |
+| 2020/11/20 | 0.9 | Eduardo Lima | Adição do tópico Frontend para visão de implantação |
+| 2020/11/20 | 0.10 | Eduardo Lima | Adição do tópico Backend para visão de implantação |
+| 2020/11/20 | 0.11 | Eduardo Lima | Adição do tópico Cloud para visão de implantação e diagrama |
+
 
 # RecipeBuk
 ## Arquitetura
@@ -77,9 +81,7 @@ Autor: Larissa Sales
 
 Angular é um framework de desenvolvimento frontend, _open-source_ para aplicações para web, mobile ou desktop. Com ele é possível a construção de uma SPA (_Sigle Page Applications_) de forma dinâmica e escalável.
 
-#### 2.3.2 Node.js
-
-O Node.js é um ambiente _open-source_ de execução JavaScript server-side. Com ele é possível criar aplicações _standalone_, sem a dependência de um browser para a execução.
+#### 2.3.2 Node.js| 2020/11/20 | 0.9 | Eduardo Lima | Adição do tópico Backend para visão de implantação |
 
 Sua arquitetura permite ainda uma maior facilidade de implementação de Microsserviços e componentes de arquitetura _Serveless_. 
 
@@ -155,18 +157,44 @@ Para o desenvolvimento do RecipeBük serão utitilizados as seguintes tecnologia
 ### 5.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
 #### 5.2.1 Diagrama de pacotes
-Os diagramas de pacotes encontram-se na parte de modelagem da documentação através do link a seguir
-[Diagramas de pacotes versão 2](/04-modelagem/diagramas-pacotes-v2.md)
+Os diagramas de pacotes encontram-se na parte de modelagem da documentação através do link a seguir:
+[Diagramas de pacotes versão 2](../04-modelagem/diagramas-pacotes-v2.md)
 
 #### 5.2.2 Diagrama de classe
 
-##### 5.2.2.1 Diagrama de Classe do 
+Os diagramas de classe encontram-se na parte de modelagem da documentação e pode ser conferido a seguir:
+
+![](../assets/04-modelagem/20201024-diagrama-classes.png)
+[Diagramas de Classes](../04-modelagem/diagrama-classes.md)
 
 ### 5.4 Visão da Implantação
+Para a implantação do projeto utilizamos a engine de container Docker, juntamente com o orquestrador Docker-compose para entregar maior flexibilidade e desempenho independente da plataforma. O ambiente foi dividido entre Desenvolvimento e Produção, possuindo suas próprias configurações de infraestrutura.
+
+#### Frontend
+Para implantar o frontend executado no framework Angular, utilizamos um container docker de duas etapas:
+- Primeira etapa é responsável por compilar o projeto para as configurações de produção, visando segurança e estabilidade. Gerando um código fonte otimizado para a segunda etapa.
+- Segunda etapa implementa o [Nginx](https://www.nginx.com/), um servidor leve e de alta performance para lidar com requisições http. O Nginx executa o código fonte da primeira etapa e é responsável por organizar suas requisições
+
+#### Backend
+O backend do projeto é composto pela API implementada em Nodejs e o banco de dados implementado em Postgres. Para sua implantação utilizamos a seguinte estrutura:
+- Container docker para executar o ambiente Nodejs com nossa API, compilando e expondo seus endpoints para consumo do frontend
+- Container docker para hospedar o banco de dados Postgres. Apesar de containers docker serem stateless por natureza (não mantém o estado das aplicações após o fim de sua execução), utilizando o recurso de volumes é possível preservar os dados do banco e ainda assim utilizar de uma infraestrutura compacta e flexível.
+- Orquestração dos containers via Docker compose. Para organizar os dois containers é necessário a estrtutura do compose, realizando sua subida e network de comunicação entre containers.
+
+#### Implantação em cloud
+Para implantar nosso projeto com alta disponibilidade e escalabilidade utilizamos o serviço de cloud [AWS](https://aws.amazon.com/pt/). Para isto utilizamos:
+- EC2 (Elastic Compute Cloud). É um serviço da AWS que oferece uma máquina para computação em cloud, executando uma imagem de sistema operacional de sua escolha. Utilizamos uma máquina t2.micro (1 CPU, 2.5 GHz,1 GiB memória) com o sistema operacional Ubuntu 20.04 64bits.
+- Security Groups e VPC. Para configurar o acesso ao nosso projeto é necessário utilizar dos serviços de Security Group(Grupo de segurança) e VPC(Virtual Private Cloud). Ambos são responsáveis por lidar com o trafégo de entrada e saída da máquina EC2. Assim, criamos um Security group e VPC com regras de trafégo TCP aberto de entrada e saída para possibilitar a comunicação do projeto com o usuário e sites externos consumidos.
+
+![](../assets/06-padroes-de-arquitetura/visao-arquitetural/deployment.png)
 
 ### 5.5 Visão da Implementação
 
 ## 6. Tamanho e Desempenho
+
+O tamanho do software assim como seu desempenho podem ser medidos através de métricas de resultados e qualidade. Sobre o tamanho do software pode se dizer em número de linhas gerais que ele conta com cerca de 20 mil linhas de códigos contando com bibliotecas de terceiros que influenciam bastante nessa contagem e também no desempenho do software como um todo. 
+Tivemos o cuidado também de pegar bibliotecas que não estavam depreciadas pelos desenvolvedores e sendo constantemente atualizadas justamente para manter o padrão e qualidade dentro do software. Além de que são bibliotecas testadas e de confiança, mostrando um desempenho satisfatório para o software durante sua execução.
+Sendo uma aplicação web, não conta com a instalação do usuário sendo assim diminuindo a dependência para um bom desempenho, e conta também com deploy contínuo no frontend e backend aumentando assim o desempenho também das atualizações e manutenção do software.
 
 ## 7. Qualidade
 A qualidade de software pode ser vista como uma metodologia gerencial, a qual a partir de procedimentos técnicos e documentais, sejam garantidos fatores de qualidade de alto nível, que garantem a satisfação do usuário e o atendimento aos requisitos elicitados. 
@@ -179,6 +207,24 @@ A confiabilidade de um software pode ser definida como a menor probabilidade de 
 
 ### 7.3 Eficiência
 A eficiência de um software é medida realizando a análise de que os recursos envolvidos são compatíveis com o nível de desempenho do software. Para diminuir a utilização de recursos físicos, o grupo decidiu pela utilização de virtualização em docker e de automatização de pipeline, dessa forma o processo de entrega de software é mais rápida, estável e eficiente. 
+
+### 7.4 Integridade
+A integridade de um software é a garantia da segurança do software, tanto para ataques externos, quanto para proteção de dados. Para garantir a integridade do nosso código, está sendo utilizado o Security Group da AWS, que atua como um firewall virtual que controla o tráfego de entrada e de saída de instâncias EC2. Foi decidido, também, utilizar bcrypt que é um método de criptografia do tipo hash para senhas baseado no Blowfish e, por fim, o UUID ou Identificador único universal está sendo utilizado para realizar a identificação única de uma informação. 
+
+### 7.5 Usabilidade
+A usabilidade é a capacidade de um software ser considerado utilizável pelos usuários Os usuários colocam muita ênfase na interface do usuário dos sistemas de software. Sem uma boa interface de usuário, um sistema de software pode falhar. Para garantir a usabilidade do software, o grupo utilizou da técnica de inteligibilidade, a qual possibilita ao usuário compreender se o software pode ser usado para tarefas e condições de uso específicas e da técnica de estética/atratividade que garante ao RecipeBuk a capacidade de atrair um potencial usuário para o sistema.
+
+### 7.6 Manutenibilidade
+A manutenibilidade é a capacidade de um software ser modificado, incluindo tanto as melhorias ou extensões de funcionalidade quanto as correções de defeitos, falhas ou erros. Para garantir a manutenibilidade do RecipeBuk, o grupo utilizou da técnica de Conformidade a qual garante que o sistema está de acordo com normas, convenções, guias de estilo ou regulamentações relacionadas à manutenibilidade de código.
+
+### 7.7 Testabilidade
+A testabilidade é usar de estratégias e estruturas de testes adequadas para procurar os possíveis erros de forma automatizada. Reduzindo possíveis retrabalhos e gasto de tempo com procura de bugs. Para garantir a testabilidade do RecipeBuk foi utilizada a técnica de Teste unitários, que garante que cada unidade do sistema será testada individualmente. 
+
+### 7.8 Flexibilidade
+A flexibilidade é a capacidade adaptação às mudanças nos requisitos de ambiente e usabilidade, sem abranger mudanças estruturais. No RecipeBuk, foram utilizadas, durante as sprints, adaptações nos contextos de requisitos e de código, para garantir a flexibilidade do sistema.
+
+### 7.9 Portabilidade
+A capacidade do sistema ser transferido de um ambiente para outro. Para garantir a portabilidade, o grupo utilizou das técnicas de adaptabilidade e Coexistência, em que o  software é adaptável e existível a diferentes ambientes sem a necessidade de ações adicionais, no caso desse projeto foram utilizados ambientes Windows e Linux.  
 ## Referências
 [1] SCHMIDT, David. Lecture 7: Use cases and diagrammatic realizations. Disponível em: <http://people.cs.ksu.edu/~schmidt/501s13/Lectures/Lecture07S.html>. Acesso em: 19, Novembro, 2020.</br>
 
