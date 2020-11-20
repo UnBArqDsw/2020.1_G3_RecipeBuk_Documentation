@@ -5,6 +5,7 @@
 | 2020/11/19 | 0.3 | Samuel Pereira | Correção de links na Visão de Caso de Uso e adição de referências |
 | 2020/11/19 | 0.4 | Luís Taira | Adição da Visão Geral da Visão lógica |
 | 2020/11/19 | 0.5 | Luís Taira | Adição dos diagramas de pacotes |
+| 2020/11/19 | 0.6 | Larissa Sales | Adição dos diagrama de relações |
 
 # RecipeBuk
 ## Arquitetura
@@ -43,6 +44,10 @@ processos pesados;</li>
 
 ## 2. Representação Arquitetural
 ### 2.1 Diagrama de Relações
+
+![](../assets/06-padroes-de-arquitetura/diagrama-relacoes-v1.png)
+
+Autor: Larissa Sales
 
 <p align="justify">&emsp;&emsp;O estilo arquitetural cliente-servidor visa implementar uma aplicação dividindo-a em dois serviços, um cuja implantação distribui um módulo para os clientes, que se tornam responsáveis por sua execução e outro que tem seus processos executados em um servidor e se comunica com os clientes, geralmente por requisições HTTP.</p>
 
