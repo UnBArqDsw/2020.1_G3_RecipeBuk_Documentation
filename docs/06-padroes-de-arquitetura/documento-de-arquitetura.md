@@ -4,8 +4,9 @@
 | 2020/11/19 | 0.2 | Samuel Pereira | Adição da Visão de Caso de Uso |
 | 2020/11/19 | 0.3 | Samuel Pereira | Correção de links na Visão de Caso de Uso e adição de referências |
 | 2020/11/19 | 0.4 | Luís Taira | Adição da Visão Geral da Visão lógica |
-| 2020/11/19 | 0.5 | Luís Taira | Adição dos diagramas de pacotes |
-| 2020/11/19 | 0.6 | Larissa Sales | Adição dos diagrama de relações |
+| 2020/11/19 | 0.5 | Luís Taira | Adição dos Diagramas de Pacotes |
+| 2020/11/19 | 0.6 | Larissa Sales | Adição do Diagrama de Relações |
+| 2020/11/19 | 0.7 | Larissa Sales | Adição de Tecnologias e Metas e Restrições de Arquitetura |
 
 # RecipeBuk
 ## Arquitetura
@@ -27,13 +28,13 @@ Este documento tem como finalidade fornecer uma visão geral da arquitetura do R
 <p align="justify">&emsp;&emsp;Este documento apresenta, de forma detalhada, a arquitetura, os requisitos e as decisões tomadas a respeito do RecipeBuk.</p>
 <p align="justify">&emsp;&emsp;O documento está estruturado da seguinte maneira:</p>
 <ul>
-	<li>Histórico da Revisão: Responsável por deixar explícito cada alteração feita no documento e as informações a respeito do mesmo;</li>
-	<li>Introdução: Fornece uma visão geral do documento inteiro;</li>
-	<li>Representação arquitetural: Descreve qual é a arquitetura de software do sistema atual e como ela é representada;</li>
-	<li>Metas e restrições da arquitetura: Descreve os requisitos e objetivos do software que têm algum impacto sobre a arquitetura;</li>
-    <li>Visão de Caso de Uso: Descreve os casos de uso do sistema representando suas funcionalidades centrais; </li>
-	<li>Visão Lógica: Descreve as partes significativas do ponto de vista da arquitetura do modelo de design;</li>
-	<li>Visão de Processos: Descreve a decomposição do sistema em processos leves e
+<li>Histórico da Revisão: Responsável por deixar explícito cada alteração feita no documento e as informações a respeito do mesmo;</li>
+<li>Introdução: Fornece uma visão geral do documento inteiro;</li>
+<li>Representação arquitetural: Descreve qual é a arquitetura de software do sistema atual e como ela é representada;</li>
+<li>Metas e restrições da arquitetura: Descreve os requisitos e objetivos do software que têm algum impacto sobre a arquitetura;</li>
+<li>Visão de Caso de Uso: Descreve os casos de uso do sistema representando suas funcionalidades centrais; </li>
+<li>Visão Lógica: Descreve as partes significativas do ponto de vista da arquitetura do modelo de design;</li>
+<li>Visão de Processos: Descreve a decomposição do sistema em processos leves e
 processos pesados;</li>
 <li>Visão de Implantação: descreve uma ou mais configurações da rede física na qual o software é implantado e executado;</li>
 <li>Visão de Implementação: descreve a estrutura geral do modelo de implementação, a divisão do software em camadas e os subsistemas no modelo de implementação e todos os componentes significativos do ponto de vista da arquitetura;</li>
@@ -66,15 +67,66 @@ Autor: Larissa Sales
 
 <p align="justify">&emsp;&emsp; Interagindo com o Frontend o usuário terá acesso ao núcleo das funcionalidades do RecipeBuk, sendo elas principalmente: fazer pesquisas por receitas e adicionar os resultados aos favoritos, criar uma conta e fazer login, criar livros de receitas, adicionar, editar e remover receitas e visualizar os livros, receitas e receitas favorias.</p>
 
-
 #### 2.2.2 Backend
 <p align="justify">&emsp;&emsp; O Backend do RecipeBuk é o responsável pela funcionalidade das principais características do sistema. Através de requisições feitas pelo Frontend, o Backend irá realizar as pesquisas feitas pelo usuário, armazenar e editar contas de usuários, receitas, lista de favoritos e livros e realizar a autenticação de usuários.</p>
+
+### 2.3 Tecnologias
+
+#### 2.3.1 Angular
+
+Angular é um framework de desenvolvimento frontend, _open-source_ para aplicações para web, mobile ou desktop. Com ele é possível a construção de uma SPA (_Sigle Page Applications_) de forma dinâmica e escalável.
+
+#### 2.3.2 Node.js
+
+O Node.js é um ambiente _open-source_ de execução JavaScript server-side. Com ele é possível criar aplicações _standalone_, sem a dependência de um browser para a execução.
+
+Sua arquitetura permite ainda uma maior facilidade de implementação de Microsserviços e componentes de arquitetura _Serveless_. 
+
+#### 2.3.3 PostgreSQL
+
+O PostgreSQL é um gerenciador de banco de dados relacionais que proporciona forte confiabilidade, robustez de recursos e desempenho.
+
+#### 2.3.4 Docker
+
+Docker é uma plataforma, _open-source_ para criação, execução e _deploy_ de contêineres. Esses contêineres são pacotes da aplicação contendo suas dependências, bibliotecas e arquivos de configuração.
+
+#### 2.3.5 Docker Compose
+
+Docker Compose é um orquestrador de contêineres Docker. Com ele é possível gerenciar vários contêineres de uma única vez, definindo o comportamente de cada um deles.
 
 ## 3. Metas e Restrições de Arquitetura
 
 ### 3.1 Restrições Tecnológicas
 
+Para o desenvolvimento do RecipeBük serão utitilizados as seguintes tecnologias:
+
+- Angular: Framework de frontend para a criação de webpages;
+
+- TypeScript: Linguagem para desenvolvimento com Angular;
+
+- Node.js: Ambiente de execução server side;
+
+- JavaScript: Linguagem utilizada em conjunto com o Node.js;
+
+- PostgreSQL: Sistema de gerenciamento de banco de dados relacional;
+
+- Docker: Ambiente de empacotamento da aplicação;
+
+- Docker Compose: Orquestrador de contêineres Docker.
+
 ### 3.2 Requisitos Não Funcionais
+
+- O sistema deve ser capaz de ser executado em qualquer navegador;
+
+- O sistema deve ser capaz de buscar receitas em outros sites de receitas da internet;
+
+- O sistema deve ser intuitivo para o usuário;
+
+- O sistema deve persistir os dados de login do usuário;
+
+- O sistema deve ser desenvolvido em Angular (_frontend_), Node.js (_backend_) e com banco de dados em PostgreSQL;
+
+- O sistema deve ser desenvolvido seguindo as metodologias ágeis.
 
 ## 4. Visão de Casos de Uso
 <p align="justify">&emsp;&emsp;A documentação de caso de uso busca especificar o comportamento do sistema do ponto de vista do usuário. Todos os casos de uso produzidos se encontram disponíveis na <a href="#/04-modelagem/casos-de-uso.md">seção de modelagem da documentação</a>, sendo os que representam as funcionalidades centrais os que seguem:</p>
@@ -119,5 +171,21 @@ Os diagramas de pacotes encontram-se na parte de modelagem da documentação atr
 
 ## Referências
 [1] SCHMIDT, David. Lecture 7: Use cases and diagrammatic realizations. Disponível em: <http://people.cs.ksu.edu/~schmidt/501s13/Lectures/Lecture07S.html>. Acesso em: 19, Novembro, 2020.</br>
+
 [2] IBM Corp. Diretriz: Realização de Casos de Uso. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/use-case_realization_C690D81F.html>. Acesso em: 19, Novembro, 2020.</br>
-[3] IBM Corp. Artefato: Realização de Casos de Uso. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_use_case_realization_E4F713BD.html>. Acesso em: 19, Novembro, 2020.
+
+[3] IBM Corp. Artefato: Realização de Casos de Uso. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_use_case_realization_E4F713BD.html>. Acesso em: 19, Novembro, 2020. </br>
+
+[4] PAVÓN, Judith. Engenharia de Requisitos. 2012. 51 slides. Disponível <<https://pt.slideshare.net/computacaodepressao/aula3-engenharia-requisitos-15925876>> Acesso em: 19 de nov de 2020.
+
+[5] GUEDES, Marylene. Treinaweb. O que é o Angular e para que serve? Disponível em: <<https://www.treinaweb.com.br/blog/o-que-e-o-angular-e-para-que-serve/>> Acesso em: 20 de nov de 2020.
+
+[6] LENONS. Opus Software. Node.js - O que é, como funciona e quais as vantagens. Disponível em: <<https://www.opus-software.com.br/node-js/>>. Acesso em: 20 de nov de 2020.
+
+[7] PostgreSql. Disponível em: <<https://www.postgresql.org/>>. Acesso em: 20 de nov de 2020.
+
+[8] SOUZA, Ivan de. Rock Content. PostgreSQL: saiba o que é, para que serve e como instalar. Disponível em: <<https://rockcontent.com/br/blog/postgresql/>>. Acesso em: 20 de nov de 2020.
+
+[9] geekhunter. Como construir uma aplicação com Docker? Disponível em: <<https://blog.geekhunter.com.br/docker-na-pratica-como-construir-uma-aplicacao/>>. Acesso em: 20 de nov de 2020.
+
+[10] TRUCCO, Cristian. iMasters. Docker Compose: O que é? Pra que serve? O que come? Disponível em: <<https://imasters.com.br/banco-de-dados/docker-compose-o-que-e-para-que-serve-o-que-come>>. Acesso em: 20 de nov de 2020.
