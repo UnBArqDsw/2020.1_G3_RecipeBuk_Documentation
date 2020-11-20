@@ -7,6 +7,8 @@
 | 2020/11/19 | 0.5 | Luís Taira | Adição dos Diagramas de Pacotes |
 | 2020/11/19 | 0.6 | Larissa Sales | Adição do Diagrama de Relações |
 | 2020/11/19 | 0.7 | Larissa Sales | Adição de Tecnologias e Metas e Restrições de Arquitetura |
+| 2020/11/20 | 0.8 | Eduardo Lima | Adição do tópico Frontend para visão de implantação |
+| 2020/11/20 | 0.9 | Eduardo Lima | Adição do tópico Backend para visão de implantação |
 
 # RecipeBuk
 ## Arquitetura
@@ -168,6 +170,12 @@ Para a implantação do projeto utilizamos a engine de container Docker, juntame
 Para implantar o frontend executado no framework Angular, utilizamos um container docker de duas etapas:
 - Primeira etapa é responsável por compilar o projeto para as configurações de produção, visando segurança e estabilidade. Gerando um código fonte otimizado para a segunda etapa.
 - Segunda etapa implementa o [Nginx](https://www.nginx.com/), um servidor leve e de alta performance para lidar com requisições http. O Nginx executa o código fonte da primeira etapa e é responsável por organizar suas requisições
+
+* Backend
+O backend do projeto é composto pela API implementada em Nodejs e o banco de dados implementado em Postgres. Para sua implantação utilizamos a seguinte estrutura:
+- Container docker para executar o ambiente Nodejs com nossa API, compilando e expondo seus endpoints para consumo do frontend
+- Container docker para hospedar o banco de dados Postgres. Apesar de containers docker serem stateless por natureza (não mantém o estado das aplicações após o fim de sua execução), utilizando o recurso de volumes é possível preservar os dados do banco e ainda assim utilizar de uma infraestrutura compacta e flexível.
+- Orquestração dos containers via Docker compose. Para organizar os dois containers é necessário a estrtutura do compose, realizando sua subida e network de comunicação entre containers.
 
 ### 5.5 Visão da Implementação
 
