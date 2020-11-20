@@ -5,6 +5,7 @@
 | 2020/11/20 | 0.3 | Larissa Sales | Adição de especificações do Jasmine |
 | 2020/11/20 | 0.4 | Samuel Pereira | Adição de candidatos de reutilização |
 | 2020/11/20 | 0.5 | Samuel Pereira | Adição de candidato de reutilização card de livro e atualização de imagens |
+| 2020/11/20 | 0.5 | Samuel Pereira | Adição de imagem faltante de favorite card na documentação |
 
 # Reutilização de Software - Frontend
 
@@ -42,7 +43,10 @@
 
 ### Card de favorito
 &emsp;&emsp;&emsp;&emsp;Semelhante aos cards já mencionados, o mesmo processo foi realizado com o card de favoritos, podendo ser utilizado em regiões do projeto onde opções de favoritar estão disponíveis. </br>
-&emsp;&emsp;&emsp;&emsp;No RecipeBuk, todavia, não houve a necessidade de reutilizar esse componente, embora este ainda seja um candidato. Segue abaixo onde esse componente foi utilizado:
+&emsp;&emsp;&emsp;&emsp;No RecipeBuk, todavia, não houve a necessidade de reutilizar esse componente, embora este ainda seja um candidato. Segue abaixo a sua implementação e onde o mesmo foi utilizado:
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/favorite-card.png)
+[cards.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cards/cards.component.ts)
+
 ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/my-recipes.png)
 [minhas-receitas.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/minhas-receitas/minhas-receitas.component.html)
 
