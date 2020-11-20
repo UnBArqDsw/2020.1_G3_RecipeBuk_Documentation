@@ -4,12 +4,13 @@
 | 2020/11/17 | 0.2 | Larissa Sales | Adição de descrição e Referências |
 | 2020/11/20 | 0.3 | Larissa Sales | Adição de especificações do Jasmine |
 | 2020/11/20 | 0.4 | Samuel Pereira | Adição de candidatos de reutilização |
+| 2020/11/20 | 0.5 | Samuel Pereira | Adição de candidato de reutilização card de livro e atualização de imagens |
 
 # Reutilização de Software - Frontend
 
 ## Candidatos à reutilização
 ### Card de receita
-&emsp;&emsp;&emsp;&emsp;Tendo em vista que visualização e acesso a receitas é uma funcionalidade básica presente no RecipeBuk, como também em outros projetos, ter uma forma padrão e reutilizável para renderizar essas informações se torna algo de alta utilidade. </br>
+&emsp;&emsp;&emsp;&emsp;Tendo em vista que visualização e acesso a receitas é uma funcionalidade básica presente no RecipeBuk, como também em outros projetos com outro contexto diferente de receitas, ter uma forma padrão e reutilizável para renderizar essas informações se torna algo de alta utilidade. </br>
 &emsp;&emsp;&emsp;&emsp;Dessa forma, o card de receita foi transformado em um componente, como segue abaixo:
 ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/recipe-card.png)
 [cards.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cards/cards.component.ts)
@@ -23,8 +24,24 @@
 
 &emsp;&emsp;&emsp;&emsp;Esse componente já está sendo reutilizável no RecipeBuk da forma em que se apresenta, todavia é possível torná-lo ainda mais reutilizável ao adicionar mais parâmetros para a sua utilização, como os parâmetros de largura, altura, tamanho de fonte, entre outros, embora estes não se aplicam ao nosso contexto.
 
+### Card de livro
+&emsp;&emsp;&emsp;&emsp;Semelhante ao card de receita, o mesmo processo foi realizado com o card de livro, presente em regiões do projeto onde a visualização e acesso a livros é necessária. </br>
+&emsp;&emsp;&emsp;&emsp;Segue abaixo como o componente de card de livro está implementado no projeto:
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/book-card.png)
+[cards.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cards/cards.component.ts)
+
+&emsp;&emsp;&emsp;&emsp;Segue abaixo regiões do código em que o componente do card de livro foi utilizado:
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/private-books.png)
+[homepage.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/homepage/homepage.component.ts)
+
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/public-books.png)
+[homepage.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/homepage/homepage.component.ts)
+
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/add-recipe-modal.png)
+[visualizar-receitas.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/visualizar-receitas/visualizar-receitas.component.html)
+
 ### Card de favorito
-&emsp;&emsp;&emsp;&emsp;Semelhante ao card de receita, o mesmo processo foi realizado com o card de favoritos, podendo ser utilizado em regiões do projeto onde opções de favoritar estão disponíveis. </br>
+&emsp;&emsp;&emsp;&emsp;Semelhante aos cards já mencionados, o mesmo processo foi realizado com o card de favoritos, podendo ser utilizado em regiões do projeto onde opções de favoritar estão disponíveis. </br>
 &emsp;&emsp;&emsp;&emsp;No RecipeBuk, todavia, não houve a necessidade de reutilizar esse componente, embora este ainda seja um candidato. Segue abaixo onde esse componente foi utilizado:
 ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/my-recipes.png)
 [minhas-receitas.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/minhas-receitas/minhas-receitas.component.html)
