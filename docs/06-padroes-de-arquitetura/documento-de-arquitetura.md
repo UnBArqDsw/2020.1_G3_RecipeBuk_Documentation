@@ -162,6 +162,12 @@ Os diagramas de pacotes encontram-se na parte de modelagem da documentação atr
 ##### 5.2.2.1 Diagrama de Classe do 
 
 ### 5.4 Visão da Implantação
+Para a implantação do projeto utilizamos a engine de container Docker, juntamente com o orquestrador Docker-compose para entregar maior flexibilidade e desempenho independente da plataforma. O ambiente foi dividido entre Desenvolvimento e Produção, possuindo suas próprias configurações de infraestrutura.
+
+* Frontend
+Para implantar o frontend executado no framework Angular, utilizamos um container docker de duas etapas:
+- Primeira etapa é responsável por compilar o projeto para as configurações de produção, visando segurança e estabilidade. Gerando um código fonte otimizado para a segunda etapa.
+- Segunda etapa implementa o [Nginx](https://www.nginx.com/), um servidor leve e de alta performance para lidar com requisições http. O Nginx executa o código fonte da primeira etapa e é responsável por organizar suas requisições
 
 ### 5.5 Visão da Implementação
 
