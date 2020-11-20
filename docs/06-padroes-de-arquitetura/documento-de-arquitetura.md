@@ -4,6 +4,7 @@
 | 2020/11/19 | 0.2 | Samuel Pereira | Adição da Visão de Caso de Uso |
 | 2020/11/19 | 0.3 | Samuel Pereira | Correção de links na Visão de Caso de Uso e adição de referências |
 | 2020/11/19 | 0.4 | Luís Taira | Adição da Visão Geral da Visão lógica |
+| 2020/11/19 | 0.5 | Luís Taira | Adição dos diagramas de pacotes |
 
 # RecipeBuk
 ## Arquitetura
@@ -96,6 +97,8 @@ processos pesados;</li>
 ### 5.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
 #### 5.2.1 Diagrama de pacotes
+Os diagramas de pacotes encontram-se na parte de modelagem da documentação através do link a seguir
+[Diagramas de pacotes versão 2](/04-modelagem/diagramas-pacotes-v2.md)
 
 #### 5.2.2 Diagrama de classe
 
