@@ -155,12 +155,15 @@ Para o desenvolvimento do RecipeBük serão utitilizados as seguintes tecnologia
 ### 5.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
 #### 5.2.1 Diagrama de pacotes
-Os diagramas de pacotes encontram-se na parte de modelagem da documentação através do link a seguir
-[Diagramas de pacotes versão 2](/04-modelagem/diagramas-pacotes-v2.md)
+Os diagramas de pacotes encontram-se na parte de modelagem da documentação através do link a seguir:
+[Diagramas de pacotes versão 2](../04-modelagem/diagramas-pacotes-v2.md)
 
 #### 5.2.2 Diagrama de classe
 
-##### 5.2.2.1 Diagrama de Classe do 
+Os diagramas de classe encontram-se na parte de modelagem da documentação e pode ser conferido a seguir:
+
+![](../assets/04-modelagem/20201024-diagrama-classes.png)
+[Diagramas de Classes](../04-modelagem/diagrama-classes.md)
 
 ### 5.4 Visão da Implantação
 Para a implantação do projeto utilizamos a engine de container Docker, juntamente com o orquestrador Docker-compose para entregar maior flexibilidade e desempenho independente da plataforma. O ambiente foi dividido entre Desenvolvimento e Produção, possuindo suas próprias configurações de infraestrutura.
@@ -186,6 +189,10 @@ Para implantar nosso projeto com alta disponibilidade e escalabilidade utilizamo
 ### 5.5 Visão da Implementação
 
 ## 6. Tamanho e Desempenho
+
+O tamanho do software assim como seu desempenho podem ser medidos através de métricas de resultados e qualidade. Sobre o tamanho do software pode se dizer em número de linhas gerais que ele conta com cerca de 20 mil linhas de códigos contando com bibliotecas de terceiros que influenciam bastante nessa contagem e também no desempenho do software como um todo. 
+Tivemos o cuidado também de pegar bibliotecas que não estavam depreciadas pelos desenvolvedores e sendo constantemente atualizadas justamente para manter o padrão e qualidade dentro do software. Além de que são bibliotecas testadas e de confiança, mostrando um desempenho satisfatório para o software durante sua execução.
+Sendo uma aplicação web, não conta com a instalação do usuário sendo assim diminuindo a dependência para um bom desempenho, e conta também com deploy contínuo no frontend e backend aumentando assim o desempenho também das atualizações e manutenção do software.
 
 ## 7. Qualidade
 
