@@ -1,7 +1,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/15 | 0.1 | Larissa Sales e Letícia Araújo | Criação do Documento |
-| 2020/09/28 | 1.0 | Larissa Sales | Inclusão de descrição |
+| 2020/09/28 | 1.0 | Larissa Sales e Letícia Araújo | Inclusão de descrição |
 
 # Diagrama de Componentes
 
