@@ -38,6 +38,7 @@
         * [Base de Dados](04-modelagem/base-dados.md)
         * [Diagrama de Componentes](04-modelagem/diagrama-componentes.md)
         * [Diagrama de Classes](04-modelagem/diagrama-classes.md)
+        * [Diagrama de Pacotes v2](04-modelagem/diagramas-pacotes-v2.md)
         * [Diagrama de Pacotes](04-modelagem/diagrama-pacotes.md)
         * [Fluxo de Navegação](04-modelagem/fluxo-de-navegacao.md)
         * [Diagrama de Atividades](04-modelagem/diagrama-atividades.md)
@@ -52,6 +53,7 @@
         * [GOFs Comportamentais](05-padroes-de-projeto/Estudos/gof-comportamental.md)
 * Dinâmica 4
     * Padrões de Arquitetura
+        * [Documento de Arquitetura](06-padroes-de-arquitetura/documento-de-arquitetura.md)
         * [Introdução](06-padroes-de-arquitetura/index.md)
         * [Visão Geral](06-padroes-de-arquitetura/visao-geral.md)
         * [Estilo Arquitetural](06-padroes-de-arquitetura/estilo-arquitetural.md)
