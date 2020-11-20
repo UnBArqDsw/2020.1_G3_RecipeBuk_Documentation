@@ -7,6 +7,7 @@
 | 2020/11/19 | 0.5 | Luís Taira | Adição dos Diagramas de Pacotes |
 | 2020/11/19 | 0.6 | Larissa Sales | Adição do Diagrama de Relações |
 | 2020/11/19 | 0.7 | Larissa Sales | Adição de Tecnologias e Metas e Restrições de Arquitetura |
+| 2020/11/20 | 0.8 | Letícia Araújo e Dâmaso | Adição de tópicos de qualidade, diagrama de classes e tamanho e desempenho |
 
 # RecipeBuk
 ## Arquitetura
@@ -168,7 +169,16 @@ Os diagramas de pacotes encontram-se na parte de modelagem da documentação atr
 ## 6. Tamanho e Desempenho
 
 ## 7. Qualidade
+A qualidade de software pode ser vista como uma metodologia gerencial, a qual a partir de procedimentos técnicos e documentais, sejam garantidos fatores de qualidade de alto nível, que garantem a satisfação do usuário e o atendimento aos requisitos elicitados. 
 
+### 7.1 Precisão 
+Um sistema de software deve atender aos requisitos funcionais explicitamente especificados e aos requisitos não funcionais implicitamente esperados. Se um software atende a todos os requisitos elicitados, ele é considerado preciso. O RecipeBuk foi desenvolvido com base na documentação de requisitos realizada, para a criação das issues das sprints o backlog priorizado era sempre consultado, de forma do código sempre estava alinhado com os requisitos levantados. 
+
+### 7.2 Confiabilidade
+A confiabilidade de um software pode ser definida como a menor probabilidade de falha do sistema. Para alcançar esse fator, utilizamos o Istanbul Code Coverage, onde o  seu principal objetivo é encontrar códigos não testados, dessa forma se o nosso software apresenta métricas altas, significa que foi exaustivamente testado e tem uma menor chance de falhar, tornando-se mais confiável.
+
+### 7.3 Eficiência
+A eficiência de um software é medida realizando a análise de que os recursos envolvidos são compatíveis com o nível de desempenho do software. Para diminuir a utilização de recursos físicos, o grupo decidiu pela utilização de virtualização em docker e de automatização de pipeline, dessa forma o processo de entrega de software é mais rápida, estável e eficiente. 
 ## Referências
 [1] SCHMIDT, David. Lecture 7: Use cases and diagrammatic realizations. Disponível em: <http://people.cs.ksu.edu/~schmidt/501s13/Lectures/Lecture07S.html>. Acesso em: 19, Novembro, 2020.</br>
 
@@ -189,3 +199,7 @@ Os diagramas de pacotes encontram-se na parte de modelagem da documentação atr
 [9] geekhunter. Como construir uma aplicação com Docker? Disponível em: <<https://blog.geekhunter.com.br/docker-na-pratica-como-construir-uma-aplicacao/>>. Acesso em: 20 de nov de 2020.
 
 [10] TRUCCO, Cristian. iMasters. Docker Compose: O que é? Pra que serve? O que come? Disponível em: <<https://imasters.com.br/banco-de-dados/docker-compose-o-que-e-para-que-serve-o-que-come>>. Acesso em: 20 de nov de 2020.
+
+[11] INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. Systems and Software Engineering: Systems and software Quality Requirements and Evaluation (SQuaRE). Disponível em: <<https://www.iso.org/obp/ui/#iso:std:iso-iec:25000:ed-2:v1:en>>. Acesso em: 20 nov. 2020.
+
+[12] NAIK, Kshirasagar et al. Software Quality. In: NAIK, Kshirasagar; TRIPATHY, Priyadarshi. Software Testing and Quality Assurance: theory and practice. New Jersey: John Wiley & Sons, 2008. p. 1-648.
