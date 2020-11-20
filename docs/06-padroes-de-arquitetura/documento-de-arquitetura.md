@@ -154,12 +154,15 @@ Para o desenvolvimento do RecipeBük serão utitilizados as seguintes tecnologia
 ### 5.2 Pacotes de Design Significativos do Ponto de Vista da Arquitetura
 
 #### 5.2.1 Diagrama de pacotes
-Os diagramas de pacotes encontram-se na parte de modelagem da documentação através do link a seguir
-[Diagramas de pacotes versão 2](/04-modelagem/diagramas-pacotes-v2.md)
+Os diagramas de pacotes encontram-se na parte de modelagem da documentação através do link a seguir:
+[Diagramas de pacotes versão 2](../04-modelagem/diagramas-pacotes-v2.md)
 
 #### 5.2.2 Diagrama de classe
 
-##### 5.2.2.1 Diagrama de Classe do 
+Os diagramas de classe encontram-se na parte de modelagem da documentação e pode ser conferido a seguir:
+
+![](../assets/04-modelagem/20201024-diagrama-classes.png)
+[Diagramas de Classes](../04-modelagem/diagrama-classes.md)
 
 ### 5.4 Visão da Implantação
 
