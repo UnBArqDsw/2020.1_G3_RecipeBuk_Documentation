@@ -3,10 +3,35 @@
 | 2020/11/17 | 0.1 | Samuel Pereira | Criação do documento e inclusão do Angular |
 | 2020/11/17 | 0.2 | Larissa Sales | Adição de descrição e Referências |
 | 2020/11/20 | 0.3 | Larissa Sales | Adição de especificações do Jasmine |
+| 2020/11/20 | 0.4 | Samuel Pereira | Adição de candidatos de reutilização |
 
 # Reutilização de Software - Frontend
 
-## Angular
+## Candidatos à reutilização
+### Card de receita
+&emsp;&emsp;&emsp;&emsp;Tendo em vista que visualização e acesso a receitas é uma funcionalidade básica presente no RecipeBuk, como também em outros projetos, ter uma forma padrão e reutilizável para renderizar essas informações se torna algo de alta utilidade. </br>
+&emsp;&emsp;&emsp;&emsp;Dessa forma, o card de receita foi transformado em um componente, como segue abaixo:
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/recipe-card.png)
+[cards.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cards/cards.component.ts)
+ 
+ &emsp;&emsp;&emsp;&emsp;Este componente está sendo utilizado nas seguintes partes do projeto:
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/book-recipes.png)
+[livro.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/livro/livro.component.html)
+ 
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/my-recipes.png)
+[minhas-receitas.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/minhas-receitas/minhas-receitas.component.html)
+
+&emsp;&emsp;&emsp;&emsp;Esse componente já está sendo reutilizável no RecipeBuk da forma em que se apresenta, todavia é possível torná-lo ainda mais reutilizável ao adicionar mais parâmetros para a sua utilização, como os parâmetros de largura, altura, tamanho de fonte, entre outros, embora estes não se aplicam ao nosso contexto.
+
+### Card de favorito
+&emsp;&emsp;&emsp;&emsp;Semelhante ao card de receita, o mesmo processo foi realizado com o card de favoritos, podendo ser utilizado em regiões do projeto onde opções de favoritar estão disponíveis. </br>
+&emsp;&emsp;&emsp;&emsp;No RecipeBuk, todavia, não houve a necessidade de reutilizar esse componente, embora este ainda seja um candidato. Segue abaixo onde esse componente foi utilizado:
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/my-recipes.png)
+[minhas-receitas.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/minhas-receitas/minhas-receitas.component.html)
+
+## Reutilizações utilizadas
+
+### Angular
 
 &emsp;&emsp;&emsp;&emsp;Angular é um framework de código-aberto para desenvolvimento de aplicações web baseado em Typescript, utilizando-se de uma arquitetura de hierarquia de componentes.
 
@@ -25,7 +50,7 @@
  ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/HttpClient.png)
 [homepage.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/homepage/homepage.component.ts)
  
- ## Jasmine
+ ### Jasmine
 
  O Jasmine é um framework de testes unitários para código JavaScript, com suporte para a prática BDD (_Behaviour-Driven Development_).
 
