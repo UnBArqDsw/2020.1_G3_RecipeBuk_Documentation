@@ -170,6 +170,10 @@ Os diagramas de classe encontram-se na parte de modelagem da documentação e po
 
 ## 6. Tamanho e Desempenho
 
+O tamanho do software assim como seu desempenho podem ser medidos através de métricas de resultados e qualidade. Sobre o tamanho do software pode se dizer em número de linhas gerais que ele conta com cerca de 20 mil linhas de códigos contando com bibliotecas de terceiros que influenciam bastante nessa contagem e também no desempenho do software como um todo. 
+Tivemos o cuidado também de pegar bibliotecas que não estavam depreciadas pelos desenvolvedores e sendo constantemente atualizadas justamente para manter o padrão e qualidade dentro do software. Além de que são bibliotecas testadas e de confiança, mostrando um desempenho satisfatório para o software durante sua execução.
+Sendo uma aplicação web, não conta com a instalação do usuário sendo assim diminuindo a dependência para um bom desempenho, e conta também com deploy contínuo no frontend e backend aumentando assim o desempenho também das atualizações e manutenção do software.
+
 ## 7. Qualidade
 
 ## Referências
