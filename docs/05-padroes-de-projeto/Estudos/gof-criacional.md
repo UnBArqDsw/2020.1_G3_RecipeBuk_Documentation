@@ -2,7 +2,7 @@
 | ---- | ---- | ----- | --------- |
 | 2020/11/14 | 1.0 | Dâmaso e Letícia | Criação do Documento |
 
-# Estudo Digirido - GoFs Criacional
+# Estudo Dirigido - GoFs Criacional
 
 ## Factory Method 
 
@@ -36,7 +36,7 @@ Sendo assim, o último ponto ser destacado é, como essa implementação acontec
 
 - O código pode ficar muito complexo pelo número de subclasses que podem ser necessárias para a implementação do código. O ideal é a implementação em uma estrutura com classes criadoras já existentes.
 
-### Viabilidade
+### Aplicação
 
 Para ser implementado em nosso projeto, o **Factory Method** deve ser estruturado para construir e criar objetos diferentes que pertencem a uma mesma categoria. Devido ao escopo do projeto, isso não é possível de ser implementado visto que temos apenas tipos bem definidos de objetos, sendo eles `Recipe` e `RecipeBook`.
 
@@ -66,7 +66,7 @@ Exemplo: Suponhamos que temos uma fabrica de móveis e nelas são feitas cadeira
 
 - A complexidade do código pode aumentar devido a quantidade de classes e interfaces criadas no projeto.
 
-### Viabilidade
+### Aplicação
 
 Assim como Factory Method, a aplicação contem um escopo muito pequeno fazendo com que seja um tanto quanto inviável para a aplicação deste padrão de projeto. Porém com uma certa escalabilidade sobre a aplicação pode ser que o padrão seja aplicado sobre a categorização das receitas culinárias presentes no projeto.
 
@@ -92,7 +92,7 @@ Exemplo: Imaginemos que existe uma classe que implementa a construção de uma c
 
 - A complexidade do código aumenta visto que o padrão exige a criação de multiplas interfaces.
 
-### Viabilidade
+### Aplicação
 
 Foi aplicado uma pequena implementação do padrão de projeto dentro da criação de receitas culinárias, foi adicionado uma adaptação para que seja possível adicionar quantos ingredientes quanto queira dentro de uma única receita culinária.
 
@@ -111,12 +111,69 @@ Foi aplicado uma pequena implementação do padrão de projeto dentro da criaç�
 
 ## Prototype
 
+O **Prototype** tem como objetivo a criação de objetos, clonando de objetos já existentes. Dessa forma ao invés de criar objetos do zero, caso se necessite de um objeto igual à um objeto existente com configurações identicas, então é melhor clonar o objeto existente com mesmos valores e atribuições.
+
+Analogia: A copia dos objetos está mais parecido com a mitose das células onde cada uma delas se clonam dando vida a uma irmã identica à que já existe. 
+
+1. É declarado um método de clonagem dentro de uma interface.
+2. A classe concreta define o método de clonagem 
+
+![](../../assets/05-padroes-de-projeto/GOFs/prototype/prototype.png)
+
 ### Pontos positivos
+
+- É possivel clonar objetos sem acoplá-los a suas classes concretas
+- É possível se livrar de códigos desnecessários para inicialização de objetos repetidos.
+- É possível a construção de objetos complexos mais facilmente.
+- É possível interligar os objetos através de heranças quando os objetos forem complexos.
 
 ### Pontos negativos
 
-### Viabilidade
+- Clonar objetos pode ser complexo devido a referências circulares.
+
+### Aplicação
+
+Os objetos criados dentro do nosso projeto não são parecidos em certo nível. Usuário devem ser diferentes, Receitas são diferentes, Livros de Receitas também alteram a sua complexidade. Logo não é possível a aplicação do projeto dentro do projeto.
+
+## Singleton 
+
+O **Singleton** é quando vários objetos são ligados a uma única classe para a criação e instancia desses mesmos objetos.
+
+1. Fazer o construtor padrão privado para que os demais objetos do projeto não usem a instanciação do operador `new`.
+2. Criar um método estático que age como um construtor global da aplicação.
+
+![](../../assets/05-padroes-de-projeto/GOFs/singleton/singleton.png)
 
 
+### Pontos positivas
 
-# Referências
+- É possível ter certeza que uma classe terá uma única instância.
+- É ganho um ponto de acesso global para aquela instância.
+- O objeto é instanciado aquela a primeira vez que é chamado.
+
+### Pontos negativos
+
+- Viola o *princípio de responsabilidade única*.
+- Esse padrão pode mascarar um design ruim.
+- É necessário um tratamento para que em um sistema multithreading não tenha instanciação multipla da classe principal.
+- É complexo de se fazer testes unitários.
+
+### Aplicação
+
+O Singleton é utilizado em nosso projeto em dois momentos, durante a instancia de inicialização dos ambientes do frontend e backend. Devido à configuração dos próprios frameworks utilizados para execução e desenvolvimento do projeto. Angular(Frontend) e NodeJS (Backend).
+
+**Exemplo de utilização Backend**
+
+![](../../assets/05-padroes-de-projeto/GOFs/singleton/singleton-backend.png)
+
+[index.js](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/index.js)
+
+**Exemplo de utilização Frontend**
+
+![](../../assets/05-padroes-de-projeto/GOFs/singleton/singleton-frontend.png)
+
+[main.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/main.ts)
+
+## Referências
+
+[1] REFACTORING.GURU. Padrões de Projeto. Disponível em: <<https://refactoring.guru/pt-br/design-patterns>>. Acesso em: 14 nov. 2020.

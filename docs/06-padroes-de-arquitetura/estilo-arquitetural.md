@@ -31,12 +31,11 @@ Arquitetura cliente-servidor ou modelo cliente-servidor é uma arquitetura na qu
 ## Exemplos no Projeto
 
 * Aplicação de Servidor no Backend
-![](../assets/06-padroes-de-arquitetura/estilo-arquitetural/backend-estilo-arquitetural.jpg)
+![](../assets/06-padroes-de-arquitetura/estilo-arquitetural/backend-estilo-arquitetural.png)
 [UserRoutes.js ](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Backend/blob/dev/src/routes/UserRoutes.js)
 
 * Aplicação de Client no Frontend
-![](../assets/06-padroes-de-arquitetura/estilo-arquitetural/frontend-estilo-arquitetural-1.png)
-![](../assets/06-padroes-de-arquitetura/estilo-arquitetural/frontend-estilo-arquitetural-2.png)
+![](../assets/06-padroes-de-arquitetura/estilo-arquitetural/frontend-estilo-arquitetural.png)
 [account.service.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/services/account.service.ts)
 
 ## Referências Blibliográficas:
