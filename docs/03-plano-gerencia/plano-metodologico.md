@@ -3,7 +3,7 @@
 | 2020/08/30 | 0.1 | Larissa Sales | Criação do Documento |
 | 2020/09/01 | 0.2 | Letícia Araújo | Adição de Informações |
 | 2020/09/01 | 0.3 | Larissa Sales | Adição de Informações |
-| 2020/09/05 | 0.4 | Larissa Sales | Refinamento do Documento e inclusão da Modelagem BPMN |
+| 2020/09/05 | 0.4 | Larissa Sales e Letícia Araújo | Refinamento do Documento e inclusão da Modelagem BPMN |
 
 # Modelagem BPMN
 

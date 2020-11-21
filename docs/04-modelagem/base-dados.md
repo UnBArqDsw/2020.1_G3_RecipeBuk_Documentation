@@ -8,6 +8,7 @@
 | 2020/09/23 | 1.0 | Samuel Pereira | Adição de visibility em RECIPE_BOOK |
 | 2020/09/24 | 1.1 | Samuel Pereira | Modificação do nome de tabela USER |
 | 2020/11/05 | 1.2 | Samuel Pereira | Modificação na base de dados |
+| 2020/11/20 | 2.0 | Samuel Pereira | Modificação na base de dados |
 
 ## ME-R
 
@@ -22,12 +23,12 @@
 
 
 ### Atributos
-&emsp;USER_ACCOUNT(<u>email</u>, name)</br>
+&emsp;USER_ACCOUNT(<u>email</u>, name, password)</br>
 &emsp;RECIPE(<u>recipeId</u>, userEmail, name, time, portions, visibility, steps)</br>
 &emsp;RECIPE_BOOK(<u>bookId</u>, userEmail, title, description, visibility)</br>
 &emsp;USER_SESSION(userEmail, sessionId, expirationDate)</br>
 &emsp;CATEGORY(<u>idCategory</u>, name)</br>
-&emsp;FAVORITE(userEmail, recipeLink)</br>
+&emsp;FAVORITE(userEmail, recipeLink, recipeImage, recipeTitle)</br>
 &emsp;INGREDIENT(<u>ingredientId</u>, name)</br>
 
 ### Relacionamentos
@@ -60,7 +61,7 @@
 &emsp;&emsp;Cardinalidade: n:m.</br>
 
 ## DE-R
-![](../assets/04-modelagem/20201105-der.png)
+![](../assets/04-modelagem/20201120-der.png)
 
 ## Diagrama Lógico
-![](../assets/04-modelagem/20201105-logico.png)
+![](../assets/04-modelagem/20201120-logico.png)

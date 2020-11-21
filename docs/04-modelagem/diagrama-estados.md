@@ -1,7 +1,7 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
 | 2020/09/25 | 1.0 | Eduardo, Luis | Inclusão do diagrama de estados |
-| 2020/09/28 | 1.1 | Larissa Sales | Inclusão de descrição |
+| 2020/09/28 | 1.1 | Larissa Sales e Letícia Araújo | Inclusão de descrição |
 
 # Diagrama de Estados
 
