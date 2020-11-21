@@ -1,6 +1,6 @@
 | Data |Versão| Autor | Descrição |
 | ---- | ---- | ----- | --------- |
-| 2020/11/17 | 0.1 | Dâmaso | Adição de documento |
+| 2020/11/21 | 0.1 | Dâmaso | Adição de documento |
 
 
 # Apresentação Final
