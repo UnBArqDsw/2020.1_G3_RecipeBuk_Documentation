@@ -7,4 +7,4 @@
 
 O vídeo para a apresentação final, está disponível no link: [Apresentação Final](https://vimeo.com/481940811)
 
-<embed src="https://vimeo.com/481940811" width="640" height="480" />
+<iframe src="https://player.vimeo.com/video/481940811" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
