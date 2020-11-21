@@ -4,7 +4,7 @@
 | 2020/11/16 | 0.2 | Eduardo | Adição da introdução, referências bibliográficas e Backend |
 | 2020/11/17 | 0.3 | Luis | Adição do documento de Docker |
 | 2020/11/17 | 0.4 | Eduardo | Correção do tópico Backend e links |
-| 2020/11/17 | 0.5 | Eduardo, Luís e Samuel | Correção de links |
+| 2020/11/17 | 1.0 | Eduardo, Luís e Samuel | Correção de links |
 
 # Reutilização de Software
 

@@ -53,6 +53,7 @@
     * Padrões de Arquitetura
         * [Introdução](06-padroes-de-arquitetura/index.md)
         * [Visão Geral](06-padroes-de-arquitetura/visao-geral.md)
+        * [Reutilização de Software](../06-padroes-de-arquitetura/reutilizacao-de-software.md)
         * [Estilo Arquitetural](06-padroes-de-arquitetura/estilo-arquitetural.md)
         * [Padrão Arquitetural](06-padroes-de-arquitetura/padrao-arquitetural.md)
         * [Visão Arquitetural](06-padroes-de-arquitetura/visao-arquitetural.md)

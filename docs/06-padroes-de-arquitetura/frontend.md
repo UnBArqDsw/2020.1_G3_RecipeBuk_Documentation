@@ -6,6 +6,7 @@
 | 2020/11/20 | 0.4 | Samuel Pereira | Adição de candidatos de reutilização |
 | 2020/11/20 | 0.5 | Samuel Pereira | Adição de candidato de reutilização card de livro e atualização de imagens |
 | 2020/11/20 | 0.5 | Samuel Pereira | Adição de imagem faltante de favorite card na documentação |
+| 2020/11/20 | 1.0 | Luís Taira | Tela de cadastro/edição de receitas |
 
 # Reutilização de Software - Frontend
 
@@ -40,6 +41,19 @@
 
 ![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/add-recipe-modal.png)
 [visualizar-receitas.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/visualizar-receitas/visualizar-receitas.component.html)
+
+### Tela de cadastro/edição de receitas
+&emsp;&emsp;&emsp;&emsp; A tela de cadastro de receitas foi reutilizada para fazer também a edição de receitas
+
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/cadastrohtml.png)
+[cadastro-receitas.component.html](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cadastro-receitas/cadastro-receitas.component.html)
+
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/cadastrots.png)
+[cadastro-receitas.component.ts](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cadastro-receitas/cadastro-receitas.component.ts)
+
+![](../assets/06-padroes-de-arquitetura/reutilizacao-de-software/cadastrocss.png)
+[cadastro-receitas.component.css](https://github.com/UnBArqDsw/2020.1_G3_RecipeBuk_Frontend/blob/dev/src/app/cadastro-receitas/cadastro-receitas.component.css)
+
 
 ### Card de favorito
 &emsp;&emsp;&emsp;&emsp;Semelhante aos cards já mencionados, o mesmo processo foi realizado com o card de favoritos, podendo ser utilizado em regiões do projeto onde opções de favoritar estão disponíveis. </br>

@@ -13,3 +13,4 @@
 3. [Estilo Arquitetural](../06-padroes-de-arquitetura/estilo-arquitetural.md)
 4. [Padrão Arquitetural](../06-padroes-de-arquitetura/padrao-arquitetural.md)
 5. [Visão Arquitetural](../06-padroes-de-arquitetura/visao-arquitetural.md)
+7. [Reutilização de Software](../06-padroes-de-arquitetura/reutilizacao-de-software.md)
