@@ -15,3 +15,7 @@
 5. [Estilo Arquitetural](../06-padroes-de-arquitetura/estilo-arquitetural.md)
 6. [Padrão Arquitetural](../06-padroes-de-arquitetura/padrao-arquitetural.md)
 7. [Visão Arquitetural](../06-padroes-de-arquitetura/visao-arquitetural.md)
+
+## Apresentação Final
+
+1. [Vídeo de Apresentação](../apresentacao-final.md)
