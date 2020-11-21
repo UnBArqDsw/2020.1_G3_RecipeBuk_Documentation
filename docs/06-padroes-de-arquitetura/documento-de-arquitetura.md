@@ -11,13 +11,54 @@
 | 2020/11/20 | 0.9 | Eduardo Lima | Adição do tópico Frontend para visão de implantação |
 | 2020/11/20 | 0.10 | Eduardo Lima | Adição do tópico Backend para visão de implantação |
 | 2020/11/20 | 0.11 | Eduardo Lima | Adição do tópico Cloud para visão de implantação e diagrama |
+| 2020/11/20 | 0.12 | Luís Taira | Adição do sumário, referência e formatação |
 
 
 # RecipeBuk
-## Arquitetura
-### Versão 1.7
+## Documento de Arquitetura
+### Versão 1.0
 
 ## Sumário
+[1. Introdução](#_1-introdução) <br>
+&emsp; [1.1 Finalidade](#_11-finalidade) <br>
+&emsp; [1.2 Escopo](#_12-escopo) <br>
+&emsp; [1.3 Definições, Acrônimos e Abreviações](#_13-definições-acrônimos-e-abreviações) <br>
+&emsp; [1.4 Referências](#_14-referências) <br>
+&emsp; [1.5 Visão Geral](#_15-visão-geral) <br>
+[2. Representação Arquitetural](#_2-representação-arquitetural) <br>
+&emsp; [2.1 Diagrama de Relações](#_21-diagrama-de-relações) <br>
+&emsp; [2.2 Representação dos Serviços](#_22-representação-dos-serviços) <br>
+&emsp; &emsp; [2.2.1 Frontend](#_221-frontend) <br>
+&emsp; &emsp; [2.2.2 Backend](#_222-backend) <br>
+&emsp; [2.3 Tecnologias](#_23-tecnologias) <br>
+&emsp; &emsp; [2.3.1 Angular](#_231-angular) <br>
+&emsp; &emsp; [2.3.2 Node.js](#_232-nodejs) <br>
+&emsp; &emsp; [2.3.3 PostgreSQL](#_233-postgresql) <br>
+&emsp; &emsp; [2.3.4 Docker](#_234-docker) <br>
+&emsp; &emsp; [2.3.5 Docker Compose](#_235-docker-compose) <br>
+[3. Metas e Restrições da Arquiteura](#_3-metas-e-restrições-de-arquitetura) <br>
+&emsp; [3.1 Restrições Tecnológicas](#_31-restrições-tecnológicas) <br>
+&emsp; [3.2 Requisitos Não Funcionais](#_32-requisitos-não-funcionais) <br>
+[4. Visão de Casos de Uso](#_4-visão-de-casos-de-uso) <br>
+&emsp; [4.1. Realização de Casos de Uso](#_41-realização-de-casos-de-uso) <br>
+[5. Visão Lógica](#_5-visão-lógica) <br>
+&emsp; [5.1. Visão Geral](#_51-visão-geral) <br>
+&emsp; [5.2. Pacotes de Design Significativos do Ponto de Vista da Arquitetura](#_52-pacotes-de-design-significativos-do-ponto-de-vista-da-arquitetura) <br>
+&emsp; [5.3. Visão da Implantação](#_53-visão-da-implantação) <br>
+&emsp; [5.3.1 Frontend](#_531-frontend) <br>
+&emsp; [5.3.2 Backend](#_532-backend) <br>
+&emsp; [6. Tamanho e Desempenho](#_6-tamanho-e-desempenho) <br>
+&emsp; [7. Qualidade](#_7-qualidade) <br>
+&emsp; [7.1 Precisão](#_71-precisão) <br>
+&emsp; [7.2 Confiabilidade](#_72-confiabilidade) <br>
+&emsp; [7.3 Eficiência](#_73-eficiência) <br>
+&emsp; [7.4 Integridade](#_74-integridade) <br>
+&emsp; [7.5 Usabilidade](#_75-usabilidade) <br>
+&emsp; [7.6 Manutenibilidade](#_76-manutenibilidade) <br>
+&emsp; [7.7 Testabilidade](#_77-testabilidade) <br>
+&emsp; [7.8 Flexibilidade](#_78-flexibilidade) <br>
+&emsp; [7.9 Portabilidade](#_79-portabilidade) <br>
+
 ## 1. Introdução
 ### 1.1 Finalidade
 Este documento tem como finalidade fornecer uma visão geral da arquitetura do RecipeBuk, utilizando-se de diversas visões arquiteturais a fim de facilitar o entendimento dos processos e funcionamento de todo o sistema. Tem também como objetivo transmitir as decisões arquiteturais significativas tomadas em relação ao mesmo.
@@ -28,6 +69,31 @@ Este documento tem como finalidade fornecer uma visão geral da arquitetura do R
 
 ### 1.3 Definições, Acrônimos e Abreviações
 ### 1.4 Referências
+[1] SCHMIDT, David. Lecture 7: Use cases and diagrammatic realizations. Disponível em: <http://people.cs.ksu.edu/~schmidt/501s13/Lectures/Lecture07S.html>. Acesso em: 19, Novembro, 2020.</br>
+
+[2] IBM Corp. Diretriz: Realização de Casos de Uso. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/use-case_realization_C690D81F.html>. Acesso em: 19, Novembro, 2020.</br>
+
+[3] IBM Corp. Artefato: Realização de Casos de Uso. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_use_case_realization_E4F713BD.html>. Acesso em: 19, Novembro, 2020. </br>
+
+[4] PAVÓN, Judith. Engenharia de Requisitos. 2012. 51 slides. Disponível <<https://pt.slideshare.net/computacaodepressao/aula3-engenharia-requisitos-15925876>> Acesso em: 19 de nov de 2020.
+
+[5] GUEDES, Marylene. Treinaweb. O que é o Angular e para que serve? Disponível em: <<https://www.treinaweb.com.br/blog/o-que-e-o-angular-e-para-que-serve/>> Acesso em: 20 de nov de 2020.
+
+[6] LENONS. Opus Software. Node.js - O que é, como funciona e quais as vantagens. Disponível em: <<https://www.opus-software.com.br/node-js/>>. Acesso em: 20 de nov de 2020.
+
+[7] PostgreSql. Disponível em: <<https://www.postgresql.org/>>. Acesso em: 20 de nov de 2020.
+
+[8] SOUZA, Ivan de. Rock Content. PostgreSQL: saiba o que é, para que serve e como instalar. Disponível em: <<https://rockcontent.com/br/blog/postgresql/>>. Acesso em: 20 de nov de 2020.
+
+[9] geekhunter. Como construir uma aplicação com Docker? Disponível em: <<https://blog.geekhunter.com.br/docker-na-pratica-como-construir-uma-aplicacao/>>. Acesso em: 20 de nov de 2020.
+
+[10] TRUCCO, Cristian. iMasters. Docker Compose: O que é? Pra que serve? O que come? Disponível em: <<https://imasters.com.br/banco-de-dados/docker-compose-o-que-e-para-que-serve-o-que-come>>. Acesso em: 20 de nov de 2020.
+
+[11] INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. Systems and Software Engineering: Systems and software Quality Requirements and Evaluation (SQuaRE). Disponível em: <<https://www.iso.org/obp/ui/#iso:std:iso-iec:25000:ed-2:v1:en>>. Acesso em: 20 nov. 2020.
+
+[12] NAIK, Kshirasagar et al. Software Quality. In: NAIK, Kshirasagar; TRIPATHY, Priyadarshi. Software Testing and Quality Assurance: theory and practice. New Jersey: John Wiley & Sons, 2008. p. 1-648.
+
+[13] Gaia - Documento de arquitetura. Disponível em: <<https://fga-eps-mds.github.io/2019.1-Gaia/#/projeto/DocArquitetura>>. Acesso em: 20 set. 2020.
 
 ### 1.5 Visão Geral
 <p align="justify">&emsp;&emsp;Este documento apresenta, de forma detalhada, a arquitetura, os requisitos e as decisões tomadas a respeito do RecipeBuk.</p>
@@ -61,7 +127,7 @@ Autor: Larissa Sales
 
 <p align="justify">&emsp;&emsp;Os serviços que serão implementados no RecipeBuk foram pensados para distribuir as responsabilidades e interesses entre o cliente e o servidor. São os serviços:</p>
 <ul>
-<li>Frontend;</li>
+<li>Frontend;</li>contêineres
 <li>Backend.</li>
 </ul>
 
@@ -81,7 +147,7 @@ Autor: Larissa Sales
 
 Angular é um framework de desenvolvimento frontend, _open-source_ para aplicações para web, mobile ou desktop. Com ele é possível a construção de uma SPA (_Sigle Page Applications_) de forma dinâmica e escalável.
 
-#### 2.3.2 Node.js| 2020/11/20 | 0.9 | Eduardo Lima | Adição do tópico Backend para visão de implantação |
+#### 2.3.2 Node.js
 
 Sua arquitetura permite ainda uma maior facilidade de implementação de Microsserviços e componentes de arquitetura _Serveless_. 
 
@@ -167,28 +233,26 @@ Os diagramas de classe encontram-se na parte de modelagem da documentação e po
 ![](../assets/04-modelagem/20201024-diagrama-classes.png)
 [Diagramas de Classes](../04-modelagem/diagrama-classes.md)
 
-### 5.4 Visão da Implantação
+### 5.3 Visão da Implantação
 Para a implantação do projeto utilizamos a engine de container Docker, juntamente com o orquestrador Docker-compose para entregar maior flexibilidade e desempenho independente da plataforma. O ambiente foi dividido entre Desenvolvimento e Produção, possuindo suas próprias configurações de infraestrutura.
 
-#### Frontend
+#### 5.3.1 Frontend
 Para implantar o frontend executado no framework Angular, utilizamos um container docker de duas etapas:
 - Primeira etapa é responsável por compilar o projeto para as configurações de produção, visando segurança e estabilidade. Gerando um código fonte otimizado para a segunda etapa.
 - Segunda etapa implementa o [Nginx](https://www.nginx.com/), um servidor leve e de alta performance para lidar com requisições http. O Nginx executa o código fonte da primeira etapa e é responsável por organizar suas requisições
 
-#### Backend
+#### 5.3.2 Backend
 O backend do projeto é composto pela API implementada em Nodejs e o banco de dados implementado em Postgres. Para sua implantação utilizamos a seguinte estrutura:
 - Container docker para executar o ambiente Nodejs com nossa API, compilando e expondo seus endpoints para consumo do frontend
 - Container docker para hospedar o banco de dados Postgres. Apesar de containers docker serem stateless por natureza (não mantém o estado das aplicações após o fim de sua execução), utilizando o recurso de volumes é possível preservar os dados do banco e ainda assim utilizar de uma infraestrutura compacta e flexível.
 - Orquestração dos containers via Docker compose. Para organizar os dois containers é necessário a estrtutura do compose, realizando sua subida e network de comunicação entre containers.
 
-#### Implantação em cloud
+#### 5.3.2 Implantação em cloud
 Para implantar nosso projeto com alta disponibilidade e escalabilidade utilizamos o serviço de cloud [AWS](https://aws.amazon.com/pt/). Para isto utilizamos:
 - EC2 (Elastic Compute Cloud). É um serviço da AWS que oferece uma máquina para computação em cloud, executando uma imagem de sistema operacional de sua escolha. Utilizamos uma máquina t2.micro (1 CPU, 2.5 GHz,1 GiB memória) com o sistema operacional Ubuntu 20.04 64bits.
 - Security Groups e VPC. Para configurar o acesso ao nosso projeto é necessário utilizar dos serviços de Security Group(Grupo de segurança) e VPC(Virtual Private Cloud). Ambos são responsáveis por lidar com o trafégo de entrada e saída da máquina EC2. Assim, criamos um Security group e VPC com regras de trafégo TCP aberto de entrada e saída para possibilitar a comunicação do projeto com o usuário e sites externos consumidos.
 
 ![](../assets/06-padroes-de-arquitetura/visao-arquitetural/deployment.png)
-
-### 5.5 Visão da Implementação
 
 ## 6. Tamanho e Desempenho
 
@@ -224,28 +288,4 @@ A testabilidade é usar de estratégias e estruturas de testes adequadas para pr
 A flexibilidade é a capacidade adaptação às mudanças nos requisitos de ambiente e usabilidade, sem abranger mudanças estruturais. No RecipeBuk, foram utilizadas, durante as sprints, adaptações nos contextos de requisitos e de código, para garantir a flexibilidade do sistema.
 
 ### 7.9 Portabilidade
-A capacidade do sistema ser transferido de um ambiente para outro. Para garantir a portabilidade, o grupo utilizou das técnicas de adaptabilidade e Coexistência, em que o  software é adaptável e existível a diferentes ambientes sem a necessidade de ações adicionais, no caso desse projeto foram utilizados ambientes Windows e Linux.  
-## Referências
-[1] SCHMIDT, David. Lecture 7: Use cases and diagrammatic realizations. Disponível em: <http://people.cs.ksu.edu/~schmidt/501s13/Lectures/Lecture07S.html>. Acesso em: 19, Novembro, 2020.</br>
-
-[2] IBM Corp. Diretriz: Realização de Casos de Uso. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/use-case_realization_C690D81F.html>. Acesso em: 19, Novembro, 2020.</br>
-
-[3] IBM Corp. Artefato: Realização de Casos de Uso. Disponível em: <https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/workproducts/rup_use_case_realization_E4F713BD.html>. Acesso em: 19, Novembro, 2020. </br>
-
-[4] PAVÓN, Judith. Engenharia de Requisitos. 2012. 51 slides. Disponível <<https://pt.slideshare.net/computacaodepressao/aula3-engenharia-requisitos-15925876>> Acesso em: 19 de nov de 2020.
-
-[5] GUEDES, Marylene. Treinaweb. O que é o Angular e para que serve? Disponível em: <<https://www.treinaweb.com.br/blog/o-que-e-o-angular-e-para-que-serve/>> Acesso em: 20 de nov de 2020.
-
-[6] LENONS. Opus Software. Node.js - O que é, como funciona e quais as vantagens. Disponível em: <<https://www.opus-software.com.br/node-js/>>. Acesso em: 20 de nov de 2020.
-
-[7] PostgreSql. Disponível em: <<https://www.postgresql.org/>>. Acesso em: 20 de nov de 2020.
-
-[8] SOUZA, Ivan de. Rock Content. PostgreSQL: saiba o que é, para que serve e como instalar. Disponível em: <<https://rockcontent.com/br/blog/postgresql/>>. Acesso em: 20 de nov de 2020.
-
-[9] geekhunter. Como construir uma aplicação com Docker? Disponível em: <<https://blog.geekhunter.com.br/docker-na-pratica-como-construir-uma-aplicacao/>>. Acesso em: 20 de nov de 2020.
-
-[10] TRUCCO, Cristian. iMasters. Docker Compose: O que é? Pra que serve? O que come? Disponível em: <<https://imasters.com.br/banco-de-dados/docker-compose-o-que-e-para-que-serve-o-que-come>>. Acesso em: 20 de nov de 2020.
-
-[11] INTERNATIONAL ORGANIZATION FOR STANDARDIZATION. Systems and Software Engineering: Systems and software Quality Requirements and Evaluation (SQuaRE). Disponível em: <<https://www.iso.org/obp/ui/#iso:std:iso-iec:25000:ed-2:v1:en>>. Acesso em: 20 nov. 2020.
-
-[12] NAIK, Kshirasagar et al. Software Quality. In: NAIK, Kshirasagar; TRIPATHY, Priyadarshi. Software Testing and Quality Assurance: theory and practice. New Jersey: John Wiley & Sons, 2008. p. 1-648.
+A capacidade do sistema ser transferido de um ambiente para outro. Para garantir a portabilidade, o grupo utilizou das técnicas de adaptabilidade e Coexistência, em que o  software é adaptável e existível a diferentes ambientes sem a necessidade de ações adicionais, no caso desse projeto foram utilizados ambientes Windows e Linux.
