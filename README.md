@@ -24,25 +24,34 @@ Este é o nosso repositório de documentação. Se você quiser conferir os cód
 ## Sobre 
 O **RecipeBük** é uma aplicação de armazenamento, busca e compartilhamento de receitas culinárias. A ideia é que seja possível a todos cadastrar as suas próprias receitas e mantê-las a salvo. 
 
-<!---
+
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em termos de interface e funcionamento.
+![](https://i.imgur.com/F0bQZNf.png)
+![](https://i.imgur.com/BY6b1uF.png)
+![](https://i.imgur.com/OgmJBLp.png)
+![](https://i.imgur.com/XYAA1el.png)
+
+
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
+**Linguagens**: Typescript, Javascript, yaml<br>
+**Tecnologias**: Angular, Nodejs, Docker<br>
+Possuir Docker e Docker-compose instalados, assim como make(build-essencials)
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+Para exceutar o projeto realize o clone do repositório de Backend e Frontend.
+
+Comando para executar Frontend: `make dev`
+
+Comando para executar Backend: `make up-build`
+
+O projeto estará disponível no enedereço localhost:4200
 
 ## Vídeo
 Adicione 1 ou mais vídeos com a execução do projeto final.
 
 ## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
--->
+Link para utilizar o software: http://ec2-18-228-7-121.sa-east-1.compute.amazonaws.com:4200/
 
 ## Políticas de Contribuição
 
