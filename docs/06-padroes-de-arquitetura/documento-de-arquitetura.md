@@ -11,7 +11,7 @@
 | 2020/11/20 | 0.9 | Eduardo Lima | Adição do tópico Frontend para visão de implantação |
 | 2020/11/20 | 0.10 | Eduardo Lima | Adição do tópico Backend para visão de implantação |
 | 2020/11/20 | 0.11 | Eduardo Lima | Adição do tópico Cloud para visão de implantação e diagrama |
-| 2020/11/20 | 0.12 | Luís Taira | Adição do sumário, referência e formatação |
+| 2020/11/20 | 1.0 | Luís Taira | Adição do sumário, referência e formatação |
 
 
 # RecipeBuk
