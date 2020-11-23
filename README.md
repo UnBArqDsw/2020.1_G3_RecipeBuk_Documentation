@@ -48,7 +48,7 @@ Comando para executar Backend: `make up-build`
 O projeto estará disponível no enedereço localhost:4200
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto final.
+O vídeo para a apresentação final, está disponível no link: [Apresentação Final](https://vimeo.com/481940811)
 
 ## Outros 
 Link para utilizar o software: http://ec2-18-228-7-121.sa-east-1.compute.amazonaws.com:4200/
